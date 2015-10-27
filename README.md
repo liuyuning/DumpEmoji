@@ -1,5 +1,5 @@
 # DumpEmoji
-Dump Emoji from iOS 
+😀Dump Emoji from iOS😀
 
 All the Emoji Categories and Code. Also unicode hex string.
 
