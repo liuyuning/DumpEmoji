@@ -4,11 +4,9 @@ Dump Emoji from iOS
 All the Emoji Categories and Code. Also unicode hex string.
 
 * By Using Simulator save the file in User's roor dir.
+* By Using iOS device save the file in documents,and using iTunes sharing doc to export.
 
-*By Using iOS device save the file in documents,and using iTunes sharing doc to export.
-
-
-## Exported emojis in dir Emojis/:
+### Exported emojis in dir Emojis/:
 
 * Emoji_iOS8.4_iPhone_7Categories.plist
 * Emoji_iOS8.4_iPhone_55Skined.plist
