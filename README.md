@@ -17,3 +17,4 @@ Emoji_iOS9.1_iPhone_9Categories.plist
 Emoji_iOS9.1_iPhone_62Skined.plist
 Emoji_iOS9.1_iPhone_1463Emojis.plist
 Emoji_iOS9.1_iPhone_1582Unicode.plist
+
