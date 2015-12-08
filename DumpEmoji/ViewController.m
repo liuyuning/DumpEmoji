@@ -31,8 +31,12 @@
 
 -(IBAction)actionDump:(UIButton *)sender{
     
+    NSLog(@"Dump start!");
+    
     self.textLabel.text = nil;
     [self getEmojiListFromSysKeyboard];
+    
+    NSLog(@"Dump finish!");
     
 #if TARGET_IPHONE_SIMULATOR
     NSString *hostHome = [[NSProcessInfo processInfo].environment objectForKey:@"SIMULATOR_HOST_HOME"];
@@ -59,7 +63,6 @@
         [unicodeString deleteCharactersInRange:NSMakeRange(unicodeString.length-1, 1)];
     }
     
-    NSLog(@"%@:%@",emoji,unicodeString);
     return unicodeString;
 }
 
@@ -107,6 +110,7 @@
         //UIKeyboardEmoji
         NSMutableArray *emojisInCate = [NSMutableArray array];
         NSArray *emojis = [UIKeyboardEmojiCategory_inst performSelector:@selector(emoji)];
+        
         NSLog(@"cate:%@ count:%lu",name, (unsigned long)[emojis count]);
         
         //iOS9 Emoji Flags didn't loaded for a all new simulator or device.
@@ -129,18 +133,19 @@
                 
                 //Variant
                 unsigned int  hasVariants = [UIKeyboardEmojiCategory_Class hasVariantsForEmoji:key];
-                NSLog(@"emoji %u:%@ ",hasVariants, key);
+                
+                NSLog(@"%lu:%u:%@:%@",(unsigned long)emojiCount,hasVariants, key, unicodeString);
                 
                 [emojisInCate addObject:key];
                 
                 if (hasVariants == 0) {
                     //NSLog(@"没有变体");
                 }
-                else if (hasVariants == 1) {
+                else if (hasVariants == 1) {//☺⭐☀⛄...
                     //NSLog(@"有变体，有普通字体和emoji");
                 }
-                else if (hasVariants == 2) {
-                    //NSLog(@"有变体，emoji和肤色");
+                else if (hasVariants == 2) {//👍👦👧🏊🚵...
+                    //NSLog(@"有变体，emoji的肤色");
                     
                     NSArray *skinToneEmojis = [self skinedEmojisForBaseEmoji:key];
                     [dictEmojiSkined setObject:skinToneEmojis forKey:key];
@@ -151,9 +156,25 @@
                         if (unicodeString) {
                             [dictEmojiUnicode setObject:unicodeString forKey:skinedKey];
                         }
+                        
+                        NSLog(@"  %@:%@",skinedKey, unicodeString);
                     }
                 }
-                else{
+                else if (hasVariants == 3) {//✌☝
+                    //NSLog(@"有变体，普通字体的肤色");
+                    NSArray *skinToneEmojis = [self skinedEmojisForBaseEmoji:key];
+                    [dictEmojiSkined setObject:skinToneEmojis forKey:key];
+                    
+                    //uncode
+                    for (NSString *skinedKey in skinToneEmojis) {
+                        NSString *unicodeString = [self getEmojiUnicodeString:skinedKey];
+                        if (unicodeString) {
+                            [dictEmojiUnicode setObject:unicodeString forKey:skinedKey];
+                        }
+                        NSLog(@"  %@:%@", skinedKey, unicodeString);
+                    }
+                }
+                else {
                     NSLog(@"Other variants!");
                 }
             }

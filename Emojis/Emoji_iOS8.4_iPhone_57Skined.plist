@@ -2,13 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>⛹</key>
+	<key>☝</key>
 	<array>
-		<string>⛹🏻</string>
-		<string>⛹🏼</string>
-		<string>⛹🏽</string>
-		<string>⛹🏾</string>
-		<string>⛹🏿</string>
+		<string>☝🏻</string>
+		<string>☝🏼</string>
+		<string>☝🏽</string>
+		<string>☝🏾</string>
+		<string>☝🏿</string>
 	</array>
 	<key>✊</key>
 	<array>
@@ -26,13 +26,13 @@
 		<string>✋🏾</string>
 		<string>✋🏿</string>
 	</array>
-	<key>✍</key>
+	<key>✌</key>
 	<array>
-		<string>✍🏻</string>
-		<string>✍🏼</string>
-		<string>✍🏽</string>
-		<string>✍🏾</string>
-		<string>✍🏿</string>
+		<string>✌🏻</string>
+		<string>✌🏼</string>
+		<string>✌🏽</string>
+		<string>✌🏾</string>
+		<string>✌🏿</string>
 	</array>
 	<key>🎅</key>
 	<array>
@@ -73,14 +73,6 @@
 		<string>🏊🏽</string>
 		<string>🏊🏾</string>
 		<string>🏊🏿</string>
-	</array>
-	<key>🏋</key>
-	<array>
-		<string>🏋🏻</string>
-		<string>🏋🏼</string>
-		<string>🏋🏽</string>
-		<string>🏋🏾</string>
-		<string>🏋🏿</string>
 	</array>
 	<key>👂</key>
 	<array>
@@ -362,30 +354,6 @@
 		<string>💪🏾</string>
 		<string>💪🏿</string>
 	</array>
-	<key>🖐</key>
-	<array>
-		<string>🖐🏻</string>
-		<string>🖐🏼</string>
-		<string>🖐🏽</string>
-		<string>🖐🏾</string>
-		<string>🖐🏿</string>
-	</array>
-	<key>🖕</key>
-	<array>
-		<string>🖕🏻</string>
-		<string>🖕🏼</string>
-		<string>🖕🏽</string>
-		<string>🖕🏾</string>
-		<string>🖕🏿</string>
-	</array>
-	<key>🖖</key>
-	<array>
-		<string>🖖🏻</string>
-		<string>🖖🏼</string>
-		<string>🖖🏽</string>
-		<string>🖖🏾</string>
-		<string>🖖🏿</string>
-	</array>
 	<key>🙅</key>
 	<array>
 		<string>🙅🏻</string>
@@ -489,14 +457,6 @@
 		<string>🛀🏽</string>
 		<string>🛀🏾</string>
 		<string>🛀🏿</string>
-	</array>
-	<key>🤘</key>
-	<array>
-		<string>🤘🏻</string>
-		<string>🤘🏼</string>
-		<string>🤘🏽</string>
-		<string>🤘🏾</string>
-		<string>🤘🏿</string>
 	</array>
 </dict>
 </plist>
