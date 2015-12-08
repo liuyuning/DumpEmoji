@@ -89,6 +89,7 @@
     NSMutableDictionary *dictEmojiUnicode = [NSMutableDictionary dictionary];
     NSMutableArray *cateNames = [NSMutableArray array];
     
+    NSMutableString *allEmojis = [NSMutableString string];
     
     Class UIKeyboardEmojiCategory_Class = NSClassFromString(@"UIKeyboardEmojiCategory");
     
@@ -134,6 +135,7 @@
                 //Variant
                 unsigned int  hasVariants = [UIKeyboardEmojiCategory_Class hasVariantsForEmoji:key];
                 
+                 [allEmojis appendString:key];
                 NSLog(@"%lu:%u:%@:%@",(unsigned long)emojiCount,hasVariants, key, unicodeString);
                 
                 [emojisInCate addObject:key];
@@ -157,6 +159,7 @@
                             [dictEmojiUnicode setObject:unicodeString forKey:skinedKey];
                         }
                         
+                        [allEmojis appendString:skinedKey];
                         NSLog(@"  %@:%@",skinedKey, unicodeString);
                     }
                 }
@@ -171,6 +174,8 @@
                         if (unicodeString) {
                             [dictEmojiUnicode setObject:unicodeString forKey:skinedKey];
                         }
+                        
+                        [allEmojis appendString:skinedKey];
                         NSLog(@"  %@:%@", skinedKey, unicodeString);
                     }
                 }
@@ -182,6 +187,8 @@
         
         [dictEmojiInCate setObject:emojisInCate forKey:name];
     }
+    
+    NSLog(@"%@",allEmojis);
     
 #if TARGET_IPHONE_SIMULATOR
     NSString *hostHome = [[NSProcessInfo processInfo].environment objectForKey:@"SIMULATOR_HOST_HOME"];
