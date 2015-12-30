@@ -1,5 +1,5 @@
 # DumpEmoji
-😀Dump Emoji from iOS😀 iOS8 Emoji and iOS9 Emoji，
+😀Dump Emoji from iOS😀 iOS8 and iOS9 
 
 All the Emoji Categories and Code. Also unicode hex string.
 
