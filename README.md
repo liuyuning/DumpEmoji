@@ -8,8 +8,8 @@ All the Emoji Categories and Code. Also unicode hex string.
 
 The Chinese name of Emoji charactors in dir Chinese-Emoji.(Emoji的中文对应名称)
 
-* iOS8.1    /usr/share/mecabra/zh/common/emoji.plist
-* iOS 9.0.2 /System/Library/LinguisticData/RequiredAssets_zh.bundle/AssetData/emoji.plist
+* iOS8.1.0 emoji_8.1.0.plist /usr/share/mecabra/zh/common/emoji.plist
+* iOS9.0.2 emoji_9.0.2.plist /System/Library/LinguisticData/RequiredAssets_zh.bundle/AssetData/emoji.plist
 
 ### Exported emojis file in dir Emojis/:
 
