@@ -31,9 +31,17 @@
 
 -(IBAction)actionDump:(UIButton *)sender{
     
+    self.textLabel.text = nil;
+    
+    //iOS9 Emoji Flags didn't loaded for a all new simulator or device.
+    //iOS9.1 Emoji Flags are sorted by diffrent language.
+    if (![self isCategoryFlagsLoad]) {
+        self.textLabel.text = @"⚠️Show keyboard of Emoji in system app, and tap 'flag' icon. Run this dump again.";
+        return;
+    }
+    
     NSLog(@"Dump start!");
     
-    self.textLabel.text = nil;
     [self getEmojiListFromSysKeyboard];
     
     NSLog(@"Dump finish!");
@@ -42,7 +50,7 @@
     NSString *hostHome = [[NSProcessInfo processInfo].environment objectForKey:@"SIMULATOR_HOST_HOME"];
     self.textLabel.text = [NSString stringWithFormat:@"😀Dump finish!\n Files under %@/",hostHome];
 #else
-    self.textLabel.text = @"Use iTunes App file sharing to export files.(Select all,Drag the file to Desktop)";
+    self.textLabel.text = @"😀Use iTunes App file sharing to export files.(Select all,Drag the file to Desktop)";
 #endif
     
     
@@ -81,32 +89,81 @@
     return emojis;
 }
 
+
+
+- (BOOL)isCategoryFlagsLoad{
+    //On iOS9.1 Emoji Flags are sorted by diffrent language.
+    
+    //    id computeEmojiFlagsSortedByLanguage = [NSClassFromString(@"UIKeyboardEmojiCategory") performSelector:@selector(computeEmojiFlagsSortedByLanguage)];
+    //    for (NSString *key in computeEmojiFlagsSortedByLanguage) {
+    //        NSLog(@"%@",key);
+    //    }
+    //    //NSLog(@"%@",computeEmojiFlagsSortedByLanguage);
+    //    id loadPrecomputedEmojiFlagCategory = [NSClassFromString(@"UIKeyboardEmojiCategory") performSelector:@selector(loadPrecomputedEmojiFlagCategory)];
+    //    NSLog(@"%@",loadPrecomputedEmojiFlagCategory);
+    
+    Class UIKeyboardEmojiCategory_Class = NSClassFromString(@"UIKeyboardEmojiCategory");
+    int numberOfCategories = [UIKeyboardEmojiCategory_Class numberOfCategories];
+    
+    for (int index = 0 ; index < numberOfCategories; index ++) {
+        id UIKeyboardEmojiCategory_inst = [UIKeyboardEmojiCategory_Class categoryForType:index];
+        
+        NSString *name = [UIKeyboardEmojiCategory_inst name];
+        NSArray *emojis = [UIKeyboardEmojiCategory_inst emoji];
+        
+        if ([name isEqualToString:@"UIKeyboardEmojiCategoryFlags"] && (0 == [emojis count])) {
+            return NO;
+        }
+    }
+    return YES;
+}
+
+
 - (void)getEmojiListFromSysKeyboard{
     
-    NSUInteger emojiCount = 0;
+    NSUInteger emojiCountInCate = 0;
+    
     NSMutableDictionary *dictEmojiInCate = [NSMutableDictionary dictionary];
     NSMutableDictionary *dictEmojiSkined = [NSMutableDictionary dictionary];
     NSMutableDictionary *dictEmojiUnicode = [NSMutableDictionary dictionary];
-    NSMutableArray *cateNames = [NSMutableArray array];
     
-    NSMutableString *allEmojis = [NSMutableString string];
+    NSMutableArray *arrayCateNames = [NSMutableArray array];
+    NSMutableArray *arrayAllEmojis = [NSMutableArray array];
     
-    Class UIKeyboardEmojiCategory_Class = NSClassFromString(@"UIKeyboardEmojiCategory");
+    NSMutableString *stringAllEmojis = [NSMutableString string];
     
     //read catetory
     //Anther method to read all category using "NSArray *list = [NSClassFromString(@"UIKeyboardEmojiCategory") categories];", should call "categoryForType:" first.
-    int numberOfCategories = [UIKeyboardEmojiCategory_Class numberOfCategories];
-    for (int index = 0 ; index < numberOfCategories;index ++) {
+    Class UIKeyboardEmojiCategory_Class = NSClassFromString(@"UIKeyboardEmojiCategory");
+    
+    NSMutableArray *categoryIndexes = [NSMutableArray array];
+    
+    //iOS9.1 ([UIKeyboardEmojiCategory numberOfCategories] has more Emoji, but not same as displayed on Emoji Keyboard)
+    if ([UIKeyboardEmojiCategory_Class respondsToSelector:@selector(enabledCategoryIndexes)]) {
+        NSArray *enabledCategoryIndexes = [UIKeyboardEmojiCategory_Class enabledCategoryIndexes];
+        [categoryIndexes setArray:enabledCategoryIndexes];
+        //        for (NSNumber *index in enabledCategoryIndexes) {
+        //            NSLog(@"%@:%d", index, [UIKeyboardEmojiCategory_Class categoryIndexForCategoryType:[index intValue]]);
+        //        }
+    }
+    //iOS8
+    else{
+        int numberOfCategories = [UIKeyboardEmojiCategory_Class numberOfCategories];
+        for (int index = 0 ; index < numberOfCategories; index ++){
+            [categoryIndexes addObject:@(index)];
+        }
+    }
+    
+    for (NSNumber *index in categoryIndexes) {
         
-        id UIKeyboardEmojiCategory_inst = [UIKeyboardEmojiCategory_Class categoryForType:index];
+        id UIKeyboardEmojiCategory_inst = [UIKeyboardEmojiCategory_Class categoryForType:index.intValue];
         
         //name
         NSString *name = [UIKeyboardEmojiCategory_inst performSelector:@selector(name)];
         if (!name || [name isEqualToString:@"UIKeyboardEmojiCategoryRecent"]){
             continue;
         }
-        
-        [cateNames addObject:name];
+        [arrayCateNames addObject:name];
         
         //UIKeyboardEmoji
         NSMutableArray *emojisInCate = [NSMutableArray array];
@@ -114,73 +171,62 @@
         
         NSLog(@"cate:%@ count:%lu",name, (unsigned long)[emojis count]);
         
-        //iOS9 Emoji Flags didn't loaded for a all new simulator or device.
-        if ([name isEqualToString:@"UIKeyboardEmojiCategoryFlags"] && (0 == [emojis count])) {
-            NSAssert(0, @"Show keyboard of emoji in system app, and tap 'flag' icon. Run this dump again.");
-        }
-        
         for (id UIKeyboardEmoji_inst in emojis) {
             
             NSString *key = [UIKeyboardEmoji_inst performSelector:@selector(key)];
-            if (key) {
-                emojiCount ++;
+            if (key.length < 1) {
+                continue;
+            }
+            
+            emojiCountInCate ++;
+            
+            [emojisInCate addObject:key];
+            [arrayAllEmojis addObject:key];
+            [stringAllEmojis appendString:key];
+            
+            //unicode
+            NSString *unicodeString = [self getEmojiUnicodeString:key];
+            [dictEmojiUnicode setObject:unicodeString forKey:key];
+            
+            BOOL hasSkined = NO;
+            
+            //Variant
+            unsigned int hasVariants = [UIKeyboardEmojiCategory_Class hasVariantsForEmoji:key];
+            NSLog(@"%lu:%u:%@:'%@'",(unsigned long)emojiCountInCate,hasVariants, key, unicodeString);
+            
+            if (hasVariants == 0) {
+                //NSLog(@"没有变体");
+            }
+            else if (hasVariants == 1) {//☺⭐☀⛄...
+                //NSLog(@"有变体，有普通字体和emoji");//Diff from AppleColorEmoji font from other font
+            }
+            else if (hasVariants == 2) {//👍👦👧🏊🚵...
+                //NSLog(@"有变体，emoji的肤色");
+                hasSkined = YES;
+            }
+            else if (hasVariants == 3) {//✌☝
+                //NSLog(@"有变体，普通字体的肤色");
+                hasSkined = YES;
+            }
+            else {
+                NSLog(@"Other variants!");
+            }
+            
+            //skined
+            if (hasSkined) {
+                NSArray *skinToneEmojis = [self skinedEmojisForBaseEmoji:key];
+                [dictEmojiSkined setObject:skinToneEmojis forKey:key];//✍
                 
-                //unicode
-                NSString *unicodeString = [self getEmojiUnicodeString:key];
-                if (unicodeString) {
-                    [dictEmojiUnicode setObject:unicodeString forKey:key];
-                }
-                
-                
-                //Variant
-                unsigned int  hasVariants = [UIKeyboardEmojiCategory_Class hasVariantsForEmoji:key];
-                
-                 [allEmojis appendString:key];
-                NSLog(@"%lu:%u:%@:%@",(unsigned long)emojiCount,hasVariants, key, unicodeString);
-                
-                [emojisInCate addObject:key];
-                
-                if (hasVariants == 0) {
-                    //NSLog(@"没有变体");
-                }
-                else if (hasVariants == 1) {//☺⭐☀⛄...
-                    //NSLog(@"有变体，有普通字体和emoji");
-                }
-                else if (hasVariants == 2) {//👍👦👧🏊🚵...
-                    //NSLog(@"有变体，emoji的肤色");
+                for (NSString *skinedKey in skinToneEmojis) {
                     
-                    NSArray *skinToneEmojis = [self skinedEmojisForBaseEmoji:key];
-                    [dictEmojiSkined setObject:skinToneEmojis forKey:key];
+                    [arrayAllEmojis addObject:skinedKey];
+                    [stringAllEmojis appendString:skinedKey];
                     
                     //uncode
-                    for (NSString *skinedKey in skinToneEmojis) {
-                        NSString *unicodeString = [self getEmojiUnicodeString:skinedKey];
-                        if (unicodeString) {
-                            [dictEmojiUnicode setObject:unicodeString forKey:skinedKey];
-                        }
-                        
-                        [allEmojis appendString:skinedKey];
-                        NSLog(@"  %@:%@",skinedKey, unicodeString);
-                    }
-                }
-                else if (hasVariants == 3) {//✌☝
-                    //NSLog(@"有变体，普通字体的肤色");
-                    NSArray *skinToneEmojis = [self skinedEmojisForBaseEmoji:key];
-                    [dictEmojiSkined setObject:skinToneEmojis forKey:key];
+                    NSString *unicodeString = [self getEmojiUnicodeString:skinedKey];
+                    [dictEmojiUnicode setObject:unicodeString forKey:skinedKey];
                     
-                    //uncode
-                    for (NSString *skinedKey in skinToneEmojis) {
-                        NSString *unicodeString = [self getEmojiUnicodeString:skinedKey];
-                        if (unicodeString) {
-                            [dictEmojiUnicode setObject:unicodeString forKey:skinedKey];
-                        }
-                        
-                        [allEmojis appendString:skinedKey];
-                        NSLog(@"  %@:%@", skinedKey, unicodeString);
-                    }
-                }
-                else {
-                    NSLog(@"Other variants!");
+                    NSLog(@"  %@:'%@'", skinedKey, unicodeString);
                 }
             }
         }
@@ -188,7 +234,7 @@
         [dictEmojiInCate setObject:emojisInCate forKey:name];
     }
     
-    NSLog(@"%@",allEmojis);
+    //NSLog(@"%@",stringAllEmojis);
     
 #if TARGET_IPHONE_SIMULATOR
     NSString *hostHome = [[NSProcessInfo processInfo].environment objectForKey:@"SIMULATOR_HOST_HOME"];
@@ -197,22 +243,25 @@
     NSString *basePath = [NSString stringWithFormat:@"%@/Documents/Emoji_iOS%@_iPhone",NSHomeDirectory(),[UIDevice currentDevice].systemVersion];
 #endif
     
-    NSString *pathEmojiInCate =     [NSString stringWithFormat:@"%@_%luEmojis.plist",    basePath,(unsigned long)emojiCount];
-    NSString *pathSkinTone =        [NSString stringWithFormat:@"%@_%luSkined.plist",    basePath,(unsigned long)dictEmojiSkined.allKeys.count];
-    NSString *pathEmojiUnicode =    [NSString stringWithFormat:@"%@_%luUnicode.plist",   basePath,(unsigned long)dictEmojiUnicode.allKeys.count];
-    NSString *pathEmojiCategories = [NSString stringWithFormat:@"%@_%luCategories.plist",basePath,(unsigned long)cateNames.count];
+    NSString *pathEmojiInCate =     [NSString stringWithFormat:@"%@_%luEmojisInCate.plist", basePath,(unsigned long)emojiCountInCate];
+    NSString *pathEmojiSkined =     [NSString stringWithFormat:@"%@_%luSkined.plist",       basePath,(unsigned long)dictEmojiSkined.allKeys.count];
+    NSString *pathEmojiUnicode =    [NSString stringWithFormat:@"%@_%luUnicode.plist",      basePath,(unsigned long)dictEmojiUnicode.allKeys.count];
     
+    NSString *pathEmojiCategories = [NSString stringWithFormat:@"%@_%luCategories.plist",   basePath,(unsigned long)arrayCateNames.count];
+    NSString *pathEmojiAllArray =   [NSString stringWithFormat:@"%@_%luEmojis.plist",       basePath,(unsigned long)arrayAllEmojis.count];
     
-    //On iOS9.1 Emoji Flags are sorted by diffrent language.
-    //id computeEmojiFlagsSortedByLanguage = [NSClassFromString(@"UIKeyboardEmojiCategory") performSelector:@selector(computeEmojiFlagsSortedByLanguage)];
-    // NSLog(@"%@",computeEmojiFlagsSortedByLanguage);
-    //id loadPrecomputedEmojiFlagCategory = [NSClassFromString(@"UIKeyboardEmojiCategory") performSelector:@selector(loadPrecomputedEmojiFlagCategory)];
-    //NSLog(@"%@",loadPrecomputedEmojiFlagCategory);
+    NSString *pathEmojiAllString =  [NSString stringWithFormat:@"%@_%luEmojis.txt",         basePath,(unsigned long)arrayAllEmojis.count];
+    
     
     [dictEmojiInCate writeToFile:pathEmojiInCate atomically:YES];//Emoji may dumped in diff category
-    [dictEmojiSkined writeToFile:pathSkinTone atomically:YES];
+    [dictEmojiSkined writeToFile:pathEmojiSkined atomically:YES];
     [dictEmojiUnicode writeToFile:pathEmojiUnicode atomically:YES];
-    [cateNames writeToFile:pathEmojiCategories atomically:YES];//Some category not display in keyboard
+    
+    [arrayCateNames writeToFile:pathEmojiCategories atomically:YES];//Some category not display in keyboard
+    
+    [arrayAllEmojis writeToFile:pathEmojiAllArray atomically:YES];
+    [stringAllEmojis writeToFile:pathEmojiAllString atomically:YES encoding:NSUTF8StringEncoding error:NULL];
+    
 }
 
 
