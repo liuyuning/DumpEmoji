@@ -412,6 +412,10 @@
 	<string>U+3297</string>
 	<key>㊙</key>
 	<string>U+3299</string>
+	<key>🀄</key>
+	<string>U+D83C U+DC04</string>
+	<key>🃏</key>
+	<string>U+D83C U+DCCF</string>
 	<key>🅰</key>
 	<string>U+D83C U+DD70</string>
 	<key>🅱</key>
@@ -998,6 +1002,8 @@
 	<string>U+D83C U+DF0E</string>
 	<key>🌏</key>
 	<string>U+D83C U+DF0F</string>
+	<key>🌐</key>
+	<string>U+D83C U+DF10</string>
 	<key>🌑</key>
 	<string>U+D83C U+DF11</string>
 	<key>🌒</key>
@@ -1320,6 +1326,12 @@
 	<string>U+D83C U+DFB2</string>
 	<key>🎳</key>
 	<string>U+D83C U+DFB3</string>
+	<key>🎴</key>
+	<string>U+D83C U+DFB4</string>
+	<key>🎵</key>
+	<string>U+D83C U+DFB5</string>
+	<key>🎶</key>
+	<string>U+D83C U+DFB6</string>
 	<key>🎷</key>
 	<string>U+D83C U+DFB7</string>
 	<key>🎸</key>
@@ -1632,6 +1644,8 @@
 	<string>U+D83D U+DC40</string>
 	<key>👁</key>
 	<string>U+D83D U+DC41</string>
+	<key>👁‍🗨</key>
+	<string>U+D83D U+DC41 U+200D U+D83D U+DDE8</string>
 	<key>👂</key>
 	<string>U+D83D U+DC42</string>
 	<key>👂🏻</key>
@@ -3114,6 +3128,14 @@
 	<string>U+D83D U+DEC0 U+D83C U+DFFF</string>
 	<key>🛁</key>
 	<string>U+D83D U+DEC1</string>
+	<key>🛂</key>
+	<string>U+D83D U+DEC2</string>
+	<key>🛃</key>
+	<string>U+D83D U+DEC3</string>
+	<key>🛄</key>
+	<string>U+D83D U+DEC4</string>
+	<key>🛅</key>
+	<string>U+D83D U+DEC5</string>
 	<key>🛋</key>
 	<string>U+D83D U+DECB</string>
 	<key>🛌</key>
@@ -3124,6 +3146,8 @@
 	<string>U+D83D U+DECE</string>
 	<key>🛏</key>
 	<string>U+D83D U+DECF</string>
+	<key>🛐</key>
+	<string>U+D83D U+DED0</string>
 	<key>🛠</key>
 	<string>U+D83D U+DEE0</string>
 	<key>🛡</key>

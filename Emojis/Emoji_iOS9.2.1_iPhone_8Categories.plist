@@ -5,11 +5,10 @@
 	<string>UIKeyboardEmojiCategoryPeople</string>
 	<string>UIKeyboardEmojiCategoryNature</string>
 	<string>UIKeyboardEmojiCategoryFoodAndDrink</string>
-	<string>UIKeyboardEmojiCategoryCelebration</string>
 	<string>UIKeyboardEmojiCategoryActivity</string>
 	<string>UIKeyboardEmojiCategoryTravelAndPlaces</string>
-	<string>UIKeyboardEmojiCategoryFlags</string>
-	<string>UIKeyboardEmojiCategoryObjectsAndSymbols</string>
 	<string>UIKeyboardEmojiCategoryObjects</string>
+	<string>UIKeyboardEmojiCategorySymbols</string>
+	<string>UIKeyboardEmojiCategoryFlags</string>
 </array>
 </plist>
