@@ -15,7 +15,7 @@ The Chinese name of Emoji charactors in dir Chinese-Emoji(Emoji的中文对应�
 iOS8.1, 8.2, 8.3 8.4, 9.0, 9.1, 9.2, 9.2.1
 
 
-Not all emoji character can display in browser, you can copy emoji text to TextEdit.app and select the font emoji
+Not all emoji character can display in browser, you can copy emoji text to TextEdit.app and select the font of emoji.
 
 
 All Emoji on iOS9.1
