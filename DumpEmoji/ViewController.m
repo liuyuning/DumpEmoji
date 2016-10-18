@@ -74,6 +74,24 @@
     return unicodeString;
 }
 
+- (NSString *)getEmojiUnicodeStringUCS4:(NSString*)emoji{
+    
+    uint32_t uniBuff[16] = {0};
+    [emoji getCString:(char *)uniBuff maxLength:sizeof(uint32_t)*16 encoding:NSUTF32StringEncoding];
+    
+    NSMutableString *unicodeString = [NSMutableString string];
+    int i = 0;
+    while (uniBuff[i]) {
+        [unicodeString appendFormat:@"U+%04X ",uniBuff[i]];
+        i++;
+    }
+    if([unicodeString hasSuffix:@" "]){
+        [unicodeString deleteCharactersInRange:NSMakeRange(unicodeString.length-1, 1)];
+    }
+    
+    return unicodeString;
+}
+
 //🏿 Unicode: U+1F3FF (U+D83C U+DFFF)，UTF-8: F0 9F 8F BF，GB: 9439C933
 //🏿 编译后的存储格式(exe binary): 3CD8 FFDF
 - (NSArray *)skinedEmojisForBaseEmoji:(NSString *)baseEmoji{
@@ -186,6 +204,10 @@
             
             //unicode
             NSString *unicodeString = [self getEmojiUnicodeString:key];
+            NSString *unicodeStringUCS4 = [self getEmojiUnicodeStringUCS4:key];
+            if (![unicodeString isEqualToString:unicodeStringUCS4]) {
+                unicodeString = [NSString stringWithFormat:@"%@ (%@)", unicodeStringUCS4, unicodeString];
+            }
             [dictEmojiUnicode setObject:unicodeString forKey:key];
             
             BOOL hasSkined = NO;
@@ -224,6 +246,10 @@
                     
                     //uncode
                     NSString *unicodeString = [self getEmojiUnicodeString:skinedKey];
+                    NSString *unicodeStringUCS4 = [self getEmojiUnicodeStringUCS4:skinedKey];
+                    if (![unicodeString isEqualToString:unicodeStringUCS4]) {
+                        unicodeString = [NSString stringWithFormat:@"%@ (%@)", unicodeStringUCS4, unicodeString];
+                    }
                     [dictEmojiUnicode setObject:unicodeString forKey:skinedKey];
                     
                     NSLog(@"  %@:'%@'", skinedKey, unicodeString);
