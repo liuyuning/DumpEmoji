@@ -101,15 +101,15 @@
 	<key>☝</key>
 	<string>U+261D</string>
 	<key>☝🏻</key>
-	<string>U+261D U+D83C U+DFFB</string>
+	<string>U+261D U+1F3FB (U+261D U+D83C U+DFFB)</string>
 	<key>☝🏼</key>
-	<string>U+261D U+D83C U+DFFC</string>
+	<string>U+261D U+1F3FC (U+261D U+D83C U+DFFC)</string>
 	<key>☝🏽</key>
-	<string>U+261D U+D83C U+DFFD</string>
+	<string>U+261D U+1F3FD (U+261D U+D83C U+DFFD)</string>
 	<key>☝🏾</key>
-	<string>U+261D U+D83C U+DFFE</string>
+	<string>U+261D U+1F3FE (U+261D U+D83C U+DFFE)</string>
 	<key>☝🏿</key>
-	<string>U+261D U+D83C U+DFFF</string>
+	<string>U+261D U+1F3FF (U+261D U+D83C U+DFFF)</string>
 	<key>☺</key>
 	<string>U+263A</string>
 	<key>♈</key>
@@ -195,39 +195,39 @@
 	<key>✊</key>
 	<string>U+270A</string>
 	<key>✊🏻</key>
-	<string>U+270A U+D83C U+DFFB</string>
+	<string>U+270A U+1F3FB (U+270A U+D83C U+DFFB)</string>
 	<key>✊🏼</key>
-	<string>U+270A U+D83C U+DFFC</string>
+	<string>U+270A U+1F3FC (U+270A U+D83C U+DFFC)</string>
 	<key>✊🏽</key>
-	<string>U+270A U+D83C U+DFFD</string>
+	<string>U+270A U+1F3FD (U+270A U+D83C U+DFFD)</string>
 	<key>✊🏾</key>
-	<string>U+270A U+D83C U+DFFE</string>
+	<string>U+270A U+1F3FE (U+270A U+D83C U+DFFE)</string>
 	<key>✊🏿</key>
-	<string>U+270A U+D83C U+DFFF</string>
+	<string>U+270A U+1F3FF (U+270A U+D83C U+DFFF)</string>
 	<key>✋</key>
 	<string>U+270B</string>
 	<key>✋🏻</key>
-	<string>U+270B U+D83C U+DFFB</string>
+	<string>U+270B U+1F3FB (U+270B U+D83C U+DFFB)</string>
 	<key>✋🏼</key>
-	<string>U+270B U+D83C U+DFFC</string>
+	<string>U+270B U+1F3FC (U+270B U+D83C U+DFFC)</string>
 	<key>✋🏽</key>
-	<string>U+270B U+D83C U+DFFD</string>
+	<string>U+270B U+1F3FD (U+270B U+D83C U+DFFD)</string>
 	<key>✋🏾</key>
-	<string>U+270B U+D83C U+DFFE</string>
+	<string>U+270B U+1F3FE (U+270B U+D83C U+DFFE)</string>
 	<key>✋🏿</key>
-	<string>U+270B U+D83C U+DFFF</string>
+	<string>U+270B U+1F3FF (U+270B U+D83C U+DFFF)</string>
 	<key>✌</key>
 	<string>U+270C</string>
 	<key>✌🏻</key>
-	<string>U+270C U+D83C U+DFFB</string>
+	<string>U+270C U+1F3FB (U+270C U+D83C U+DFFB)</string>
 	<key>✌🏼</key>
-	<string>U+270C U+D83C U+DFFC</string>
+	<string>U+270C U+1F3FC (U+270C U+D83C U+DFFC)</string>
 	<key>✌🏽</key>
-	<string>U+270C U+D83C U+DFFD</string>
+	<string>U+270C U+1F3FD (U+270C U+D83C U+DFFD)</string>
 	<key>✌🏾</key>
-	<string>U+270C U+D83C U+DFFE</string>
+	<string>U+270C U+1F3FE (U+270C U+D83C U+DFFE)</string>
 	<key>✌🏿</key>
-	<string>U+270C U+D83C U+DFFF</string>
+	<string>U+270C U+1F3FF (U+270C U+D83C U+DFFF)</string>
 	<key>✏</key>
 	<string>U+270F</string>
 	<key>✒</key>
@@ -299,2068 +299,2068 @@
 	<key>㊙</key>
 	<string>U+3299</string>
 	<key>🀄</key>
-	<string>U+D83C U+DC04</string>
+	<string>U+1F004 (U+D83C U+DC04)</string>
 	<key>🃏</key>
-	<string>U+D83C U+DCCF</string>
+	<string>U+1F0CF (U+D83C U+DCCF)</string>
 	<key>🅰</key>
-	<string>U+D83C U+DD70</string>
+	<string>U+1F170 (U+D83C U+DD70)</string>
 	<key>🅱</key>
-	<string>U+D83C U+DD71</string>
+	<string>U+1F171 (U+D83C U+DD71)</string>
 	<key>🅾</key>
-	<string>U+D83C U+DD7E</string>
+	<string>U+1F17E (U+D83C U+DD7E)</string>
 	<key>🅿</key>
-	<string>U+D83C U+DD7F</string>
+	<string>U+1F17F (U+D83C U+DD7F)</string>
 	<key>🆎</key>
-	<string>U+D83C U+DD8E</string>
+	<string>U+1F18E (U+D83C U+DD8E)</string>
 	<key>🆑</key>
-	<string>U+D83C U+DD91</string>
+	<string>U+1F191 (U+D83C U+DD91)</string>
 	<key>🆒</key>
-	<string>U+D83C U+DD92</string>
+	<string>U+1F192 (U+D83C U+DD92)</string>
 	<key>🆓</key>
-	<string>U+D83C U+DD93</string>
+	<string>U+1F193 (U+D83C U+DD93)</string>
 	<key>🆔</key>
-	<string>U+D83C U+DD94</string>
+	<string>U+1F194 (U+D83C U+DD94)</string>
 	<key>🆕</key>
-	<string>U+D83C U+DD95</string>
+	<string>U+1F195 (U+D83C U+DD95)</string>
 	<key>🆖</key>
-	<string>U+D83C U+DD96</string>
+	<string>U+1F196 (U+D83C U+DD96)</string>
 	<key>🆗</key>
-	<string>U+D83C U+DD97</string>
+	<string>U+1F197 (U+D83C U+DD97)</string>
 	<key>🆘</key>
-	<string>U+D83C U+DD98</string>
+	<string>U+1F198 (U+D83C U+DD98)</string>
 	<key>🆙</key>
-	<string>U+D83C U+DD99</string>
+	<string>U+1F199 (U+D83C U+DD99)</string>
 	<key>🆚</key>
-	<string>U+D83C U+DD9A</string>
+	<string>U+1F19A (U+D83C U+DD9A)</string>
 	<key>🇦🇪</key>
-	<string>U+D83C U+DDE6 U+D83C U+DDEA</string>
+	<string>U+1F1E6 U+1F1EA (U+D83C U+DDE6 U+D83C U+DDEA)</string>
 	<key>🇦🇹</key>
-	<string>U+D83C U+DDE6 U+D83C U+DDF9</string>
+	<string>U+1F1E6 U+1F1F9 (U+D83C U+DDE6 U+D83C U+DDF9)</string>
 	<key>🇦🇺</key>
-	<string>U+D83C U+DDE6 U+D83C U+DDFA</string>
+	<string>U+1F1E6 U+1F1FA (U+D83C U+DDE6 U+D83C U+DDFA)</string>
 	<key>🇧🇪</key>
-	<string>U+D83C U+DDE7 U+D83C U+DDEA</string>
+	<string>U+1F1E7 U+1F1EA (U+D83C U+DDE7 U+D83C U+DDEA)</string>
 	<key>🇧🇷</key>
-	<string>U+D83C U+DDE7 U+D83C U+DDF7</string>
+	<string>U+1F1E7 U+1F1F7 (U+D83C U+DDE7 U+D83C U+DDF7)</string>
 	<key>🇨🇦</key>
-	<string>U+D83C U+DDE8 U+D83C U+DDE6</string>
+	<string>U+1F1E8 U+1F1E6 (U+D83C U+DDE8 U+D83C U+DDE6)</string>
 	<key>🇨🇭</key>
-	<string>U+D83C U+DDE8 U+D83C U+DDED</string>
+	<string>U+1F1E8 U+1F1ED (U+D83C U+DDE8 U+D83C U+DDED)</string>
 	<key>🇨🇱</key>
-	<string>U+D83C U+DDE8 U+D83C U+DDF1</string>
+	<string>U+1F1E8 U+1F1F1 (U+D83C U+DDE8 U+D83C U+DDF1)</string>
 	<key>🇨🇳</key>
-	<string>U+D83C U+DDE8 U+D83C U+DDF3</string>
+	<string>U+1F1E8 U+1F1F3 (U+D83C U+DDE8 U+D83C U+DDF3)</string>
 	<key>🇨🇴</key>
-	<string>U+D83C U+DDE8 U+D83C U+DDF4</string>
+	<string>U+1F1E8 U+1F1F4 (U+D83C U+DDE8 U+D83C U+DDF4)</string>
 	<key>🇩🇪</key>
-	<string>U+D83C U+DDE9 U+D83C U+DDEA</string>
+	<string>U+1F1E9 U+1F1EA (U+D83C U+DDE9 U+D83C U+DDEA)</string>
 	<key>🇩🇰</key>
-	<string>U+D83C U+DDE9 U+D83C U+DDF0</string>
+	<string>U+1F1E9 U+1F1F0 (U+D83C U+DDE9 U+D83C U+DDF0)</string>
 	<key>🇪🇸</key>
-	<string>U+D83C U+DDEA U+D83C U+DDF8</string>
+	<string>U+1F1EA U+1F1F8 (U+D83C U+DDEA U+D83C U+DDF8)</string>
 	<key>🇫🇮</key>
-	<string>U+D83C U+DDEB U+D83C U+DDEE</string>
+	<string>U+1F1EB U+1F1EE (U+D83C U+DDEB U+D83C U+DDEE)</string>
 	<key>🇫🇷</key>
-	<string>U+D83C U+DDEB U+D83C U+DDF7</string>
+	<string>U+1F1EB U+1F1F7 (U+D83C U+DDEB U+D83C U+DDF7)</string>
 	<key>🇬🇧</key>
-	<string>U+D83C U+DDEC U+D83C U+DDE7</string>
+	<string>U+1F1EC U+1F1E7 (U+D83C U+DDEC U+D83C U+DDE7)</string>
 	<key>🇭🇰</key>
-	<string>U+D83C U+DDED U+D83C U+DDF0</string>
+	<string>U+1F1ED U+1F1F0 (U+D83C U+DDED U+D83C U+DDF0)</string>
 	<key>🇮🇩</key>
-	<string>U+D83C U+DDEE U+D83C U+DDE9</string>
+	<string>U+1F1EE U+1F1E9 (U+D83C U+DDEE U+D83C U+DDE9)</string>
 	<key>🇮🇪</key>
-	<string>U+D83C U+DDEE U+D83C U+DDEA</string>
+	<string>U+1F1EE U+1F1EA (U+D83C U+DDEE U+D83C U+DDEA)</string>
 	<key>🇮🇱</key>
-	<string>U+D83C U+DDEE U+D83C U+DDF1</string>
+	<string>U+1F1EE U+1F1F1 (U+D83C U+DDEE U+D83C U+DDF1)</string>
 	<key>🇮🇳</key>
-	<string>U+D83C U+DDEE U+D83C U+DDF3</string>
+	<string>U+1F1EE U+1F1F3 (U+D83C U+DDEE U+D83C U+DDF3)</string>
 	<key>🇮🇹</key>
-	<string>U+D83C U+DDEE U+D83C U+DDF9</string>
+	<string>U+1F1EE U+1F1F9 (U+D83C U+DDEE U+D83C U+DDF9)</string>
 	<key>🇯🇵</key>
-	<string>U+D83C U+DDEF U+D83C U+DDF5</string>
+	<string>U+1F1EF U+1F1F5 (U+D83C U+DDEF U+D83C U+DDF5)</string>
 	<key>🇰🇷</key>
-	<string>U+D83C U+DDF0 U+D83C U+DDF7</string>
+	<string>U+1F1F0 U+1F1F7 (U+D83C U+DDF0 U+D83C U+DDF7)</string>
 	<key>🇲🇴</key>
-	<string>U+D83C U+DDF2 U+D83C U+DDF4</string>
+	<string>U+1F1F2 U+1F1F4 (U+D83C U+DDF2 U+D83C U+DDF4)</string>
 	<key>🇲🇽</key>
-	<string>U+D83C U+DDF2 U+D83C U+DDFD</string>
+	<string>U+1F1F2 U+1F1FD (U+D83C U+DDF2 U+D83C U+DDFD)</string>
 	<key>🇲🇾</key>
-	<string>U+D83C U+DDF2 U+D83C U+DDFE</string>
+	<string>U+1F1F2 U+1F1FE (U+D83C U+DDF2 U+D83C U+DDFE)</string>
 	<key>🇳🇱</key>
-	<string>U+D83C U+DDF3 U+D83C U+DDF1</string>
+	<string>U+1F1F3 U+1F1F1 (U+D83C U+DDF3 U+D83C U+DDF1)</string>
 	<key>🇳🇴</key>
-	<string>U+D83C U+DDF3 U+D83C U+DDF4</string>
+	<string>U+1F1F3 U+1F1F4 (U+D83C U+DDF3 U+D83C U+DDF4)</string>
 	<key>🇳🇿</key>
-	<string>U+D83C U+DDF3 U+D83C U+DDFF</string>
+	<string>U+1F1F3 U+1F1FF (U+D83C U+DDF3 U+D83C U+DDFF)</string>
 	<key>🇵🇭</key>
-	<string>U+D83C U+DDF5 U+D83C U+DDED</string>
+	<string>U+1F1F5 U+1F1ED (U+D83C U+DDF5 U+D83C U+DDED)</string>
 	<key>🇵🇱</key>
-	<string>U+D83C U+DDF5 U+D83C U+DDF1</string>
+	<string>U+1F1F5 U+1F1F1 (U+D83C U+DDF5 U+D83C U+DDF1)</string>
 	<key>🇵🇷</key>
-	<string>U+D83C U+DDF5 U+D83C U+DDF7</string>
+	<string>U+1F1F5 U+1F1F7 (U+D83C U+DDF5 U+D83C U+DDF7)</string>
 	<key>🇵🇹</key>
-	<string>U+D83C U+DDF5 U+D83C U+DDF9</string>
+	<string>U+1F1F5 U+1F1F9 (U+D83C U+DDF5 U+D83C U+DDF9)</string>
 	<key>🇷🇺</key>
-	<string>U+D83C U+DDF7 U+D83C U+DDFA</string>
+	<string>U+1F1F7 U+1F1FA (U+D83C U+DDF7 U+D83C U+DDFA)</string>
 	<key>🇸🇦</key>
-	<string>U+D83C U+DDF8 U+D83C U+DDE6</string>
+	<string>U+1F1F8 U+1F1E6 (U+D83C U+DDF8 U+D83C U+DDE6)</string>
 	<key>🇸🇪</key>
-	<string>U+D83C U+DDF8 U+D83C U+DDEA</string>
+	<string>U+1F1F8 U+1F1EA (U+D83C U+DDF8 U+D83C U+DDEA)</string>
 	<key>🇸🇬</key>
-	<string>U+D83C U+DDF8 U+D83C U+DDEC</string>
+	<string>U+1F1F8 U+1F1EC (U+D83C U+DDF8 U+D83C U+DDEC)</string>
 	<key>🇹🇷</key>
-	<string>U+D83C U+DDF9 U+D83C U+DDF7</string>
+	<string>U+1F1F9 U+1F1F7 (U+D83C U+DDF9 U+D83C U+DDF7)</string>
 	<key>🇺🇸</key>
-	<string>U+D83C U+DDFA U+D83C U+DDF8</string>
+	<string>U+1F1FA U+1F1F8 (U+D83C U+DDFA U+D83C U+DDF8)</string>
 	<key>🇻🇳</key>
-	<string>U+D83C U+DDFB U+D83C U+DDF3</string>
+	<string>U+1F1FB U+1F1F3 (U+D83C U+DDFB U+D83C U+DDF3)</string>
 	<key>🇿🇦</key>
-	<string>U+D83C U+DDFF U+D83C U+DDE6</string>
+	<string>U+1F1FF U+1F1E6 (U+D83C U+DDFF U+D83C U+DDE6)</string>
 	<key>🈁</key>
-	<string>U+D83C U+DE01</string>
+	<string>U+1F201 (U+D83C U+DE01)</string>
 	<key>🈂</key>
-	<string>U+D83C U+DE02</string>
+	<string>U+1F202 (U+D83C U+DE02)</string>
 	<key>🈚</key>
-	<string>U+D83C U+DE1A</string>
+	<string>U+1F21A (U+D83C U+DE1A)</string>
 	<key>🈯</key>
-	<string>U+D83C U+DE2F</string>
+	<string>U+1F22F (U+D83C U+DE2F)</string>
 	<key>🈲</key>
-	<string>U+D83C U+DE32</string>
+	<string>U+1F232 (U+D83C U+DE32)</string>
 	<key>🈳</key>
-	<string>U+D83C U+DE33</string>
+	<string>U+1F233 (U+D83C U+DE33)</string>
 	<key>🈴</key>
-	<string>U+D83C U+DE34</string>
+	<string>U+1F234 (U+D83C U+DE34)</string>
 	<key>🈵</key>
-	<string>U+D83C U+DE35</string>
+	<string>U+1F235 (U+D83C U+DE35)</string>
 	<key>🈶</key>
-	<string>U+D83C U+DE36</string>
+	<string>U+1F236 (U+D83C U+DE36)</string>
 	<key>🈷</key>
-	<string>U+D83C U+DE37</string>
+	<string>U+1F237 (U+D83C U+DE37)</string>
 	<key>🈸</key>
-	<string>U+D83C U+DE38</string>
+	<string>U+1F238 (U+D83C U+DE38)</string>
 	<key>🈹</key>
-	<string>U+D83C U+DE39</string>
+	<string>U+1F239 (U+D83C U+DE39)</string>
 	<key>🈺</key>
-	<string>U+D83C U+DE3A</string>
+	<string>U+1F23A (U+D83C U+DE3A)</string>
 	<key>🉐</key>
-	<string>U+D83C U+DE50</string>
+	<string>U+1F250 (U+D83C U+DE50)</string>
 	<key>🉑</key>
-	<string>U+D83C U+DE51</string>
+	<string>U+1F251 (U+D83C U+DE51)</string>
 	<key>🌀</key>
-	<string>U+D83C U+DF00</string>
+	<string>U+1F300 (U+D83C U+DF00)</string>
 	<key>🌁</key>
-	<string>U+D83C U+DF01</string>
+	<string>U+1F301 (U+D83C U+DF01)</string>
 	<key>🌂</key>
-	<string>U+D83C U+DF02</string>
+	<string>U+1F302 (U+D83C U+DF02)</string>
 	<key>🌃</key>
-	<string>U+D83C U+DF03</string>
+	<string>U+1F303 (U+D83C U+DF03)</string>
 	<key>🌄</key>
-	<string>U+D83C U+DF04</string>
+	<string>U+1F304 (U+D83C U+DF04)</string>
 	<key>🌅</key>
-	<string>U+D83C U+DF05</string>
+	<string>U+1F305 (U+D83C U+DF05)</string>
 	<key>🌆</key>
-	<string>U+D83C U+DF06</string>
+	<string>U+1F306 (U+D83C U+DF06)</string>
 	<key>🌇</key>
-	<string>U+D83C U+DF07</string>
+	<string>U+1F307 (U+D83C U+DF07)</string>
 	<key>🌈</key>
-	<string>U+D83C U+DF08</string>
+	<string>U+1F308 (U+D83C U+DF08)</string>
 	<key>🌉</key>
-	<string>U+D83C U+DF09</string>
+	<string>U+1F309 (U+D83C U+DF09)</string>
 	<key>🌊</key>
-	<string>U+D83C U+DF0A</string>
+	<string>U+1F30A (U+D83C U+DF0A)</string>
 	<key>🌋</key>
-	<string>U+D83C U+DF0B</string>
+	<string>U+1F30B (U+D83C U+DF0B)</string>
 	<key>🌌</key>
-	<string>U+D83C U+DF0C</string>
+	<string>U+1F30C (U+D83C U+DF0C)</string>
 	<key>🌍</key>
-	<string>U+D83C U+DF0D</string>
+	<string>U+1F30D (U+D83C U+DF0D)</string>
 	<key>🌎</key>
-	<string>U+D83C U+DF0E</string>
+	<string>U+1F30E (U+D83C U+DF0E)</string>
 	<key>🌏</key>
-	<string>U+D83C U+DF0F</string>
+	<string>U+1F30F (U+D83C U+DF0F)</string>
 	<key>🌐</key>
-	<string>U+D83C U+DF10</string>
+	<string>U+1F310 (U+D83C U+DF10)</string>
 	<key>🌑</key>
-	<string>U+D83C U+DF11</string>
+	<string>U+1F311 (U+D83C U+DF11)</string>
 	<key>🌒</key>
-	<string>U+D83C U+DF12</string>
+	<string>U+1F312 (U+D83C U+DF12)</string>
 	<key>🌓</key>
-	<string>U+D83C U+DF13</string>
+	<string>U+1F313 (U+D83C U+DF13)</string>
 	<key>🌔</key>
-	<string>U+D83C U+DF14</string>
+	<string>U+1F314 (U+D83C U+DF14)</string>
 	<key>🌕</key>
-	<string>U+D83C U+DF15</string>
+	<string>U+1F315 (U+D83C U+DF15)</string>
 	<key>🌖</key>
-	<string>U+D83C U+DF16</string>
+	<string>U+1F316 (U+D83C U+DF16)</string>
 	<key>🌗</key>
-	<string>U+D83C U+DF17</string>
+	<string>U+1F317 (U+D83C U+DF17)</string>
 	<key>🌘</key>
-	<string>U+D83C U+DF18</string>
+	<string>U+1F318 (U+D83C U+DF18)</string>
 	<key>🌙</key>
-	<string>U+D83C U+DF19</string>
+	<string>U+1F319 (U+D83C U+DF19)</string>
 	<key>🌚</key>
-	<string>U+D83C U+DF1A</string>
+	<string>U+1F31A (U+D83C U+DF1A)</string>
 	<key>🌛</key>
-	<string>U+D83C U+DF1B</string>
+	<string>U+1F31B (U+D83C U+DF1B)</string>
 	<key>🌜</key>
-	<string>U+D83C U+DF1C</string>
+	<string>U+1F31C (U+D83C U+DF1C)</string>
 	<key>🌝</key>
-	<string>U+D83C U+DF1D</string>
+	<string>U+1F31D (U+D83C U+DF1D)</string>
 	<key>🌞</key>
-	<string>U+D83C U+DF1E</string>
+	<string>U+1F31E (U+D83C U+DF1E)</string>
 	<key>🌟</key>
-	<string>U+D83C U+DF1F</string>
+	<string>U+1F31F (U+D83C U+DF1F)</string>
 	<key>🌠</key>
-	<string>U+D83C U+DF20</string>
+	<string>U+1F320 (U+D83C U+DF20)</string>
 	<key>🌰</key>
-	<string>U+D83C U+DF30</string>
+	<string>U+1F330 (U+D83C U+DF30)</string>
 	<key>🌱</key>
-	<string>U+D83C U+DF31</string>
+	<string>U+1F331 (U+D83C U+DF31)</string>
 	<key>🌲</key>
-	<string>U+D83C U+DF32</string>
+	<string>U+1F332 (U+D83C U+DF32)</string>
 	<key>🌳</key>
-	<string>U+D83C U+DF33</string>
+	<string>U+1F333 (U+D83C U+DF33)</string>
 	<key>🌴</key>
-	<string>U+D83C U+DF34</string>
+	<string>U+1F334 (U+D83C U+DF34)</string>
 	<key>🌵</key>
-	<string>U+D83C U+DF35</string>
+	<string>U+1F335 (U+D83C U+DF35)</string>
 	<key>🌷</key>
-	<string>U+D83C U+DF37</string>
+	<string>U+1F337 (U+D83C U+DF37)</string>
 	<key>🌸</key>
-	<string>U+D83C U+DF38</string>
+	<string>U+1F338 (U+D83C U+DF38)</string>
 	<key>🌹</key>
-	<string>U+D83C U+DF39</string>
+	<string>U+1F339 (U+D83C U+DF39)</string>
 	<key>🌺</key>
-	<string>U+D83C U+DF3A</string>
+	<string>U+1F33A (U+D83C U+DF3A)</string>
 	<key>🌻</key>
-	<string>U+D83C U+DF3B</string>
+	<string>U+1F33B (U+D83C U+DF3B)</string>
 	<key>🌼</key>
-	<string>U+D83C U+DF3C</string>
+	<string>U+1F33C (U+D83C U+DF3C)</string>
 	<key>🌽</key>
-	<string>U+D83C U+DF3D</string>
+	<string>U+1F33D (U+D83C U+DF3D)</string>
 	<key>🌾</key>
-	<string>U+D83C U+DF3E</string>
+	<string>U+1F33E (U+D83C U+DF3E)</string>
 	<key>🌿</key>
-	<string>U+D83C U+DF3F</string>
+	<string>U+1F33F (U+D83C U+DF3F)</string>
 	<key>🍀</key>
-	<string>U+D83C U+DF40</string>
+	<string>U+1F340 (U+D83C U+DF40)</string>
 	<key>🍁</key>
-	<string>U+D83C U+DF41</string>
+	<string>U+1F341 (U+D83C U+DF41)</string>
 	<key>🍂</key>
-	<string>U+D83C U+DF42</string>
+	<string>U+1F342 (U+D83C U+DF42)</string>
 	<key>🍃</key>
-	<string>U+D83C U+DF43</string>
+	<string>U+1F343 (U+D83C U+DF43)</string>
 	<key>🍄</key>
-	<string>U+D83C U+DF44</string>
+	<string>U+1F344 (U+D83C U+DF44)</string>
 	<key>🍅</key>
-	<string>U+D83C U+DF45</string>
+	<string>U+1F345 (U+D83C U+DF45)</string>
 	<key>🍆</key>
-	<string>U+D83C U+DF46</string>
+	<string>U+1F346 (U+D83C U+DF46)</string>
 	<key>🍇</key>
-	<string>U+D83C U+DF47</string>
+	<string>U+1F347 (U+D83C U+DF47)</string>
 	<key>🍈</key>
-	<string>U+D83C U+DF48</string>
+	<string>U+1F348 (U+D83C U+DF48)</string>
 	<key>🍉</key>
-	<string>U+D83C U+DF49</string>
+	<string>U+1F349 (U+D83C U+DF49)</string>
 	<key>🍊</key>
-	<string>U+D83C U+DF4A</string>
+	<string>U+1F34A (U+D83C U+DF4A)</string>
 	<key>🍋</key>
-	<string>U+D83C U+DF4B</string>
+	<string>U+1F34B (U+D83C U+DF4B)</string>
 	<key>🍌</key>
-	<string>U+D83C U+DF4C</string>
+	<string>U+1F34C (U+D83C U+DF4C)</string>
 	<key>🍍</key>
-	<string>U+D83C U+DF4D</string>
+	<string>U+1F34D (U+D83C U+DF4D)</string>
 	<key>🍎</key>
-	<string>U+D83C U+DF4E</string>
+	<string>U+1F34E (U+D83C U+DF4E)</string>
 	<key>🍏</key>
-	<string>U+D83C U+DF4F</string>
+	<string>U+1F34F (U+D83C U+DF4F)</string>
 	<key>🍐</key>
-	<string>U+D83C U+DF50</string>
+	<string>U+1F350 (U+D83C U+DF50)</string>
 	<key>🍑</key>
-	<string>U+D83C U+DF51</string>
+	<string>U+1F351 (U+D83C U+DF51)</string>
 	<key>🍒</key>
-	<string>U+D83C U+DF52</string>
+	<string>U+1F352 (U+D83C U+DF52)</string>
 	<key>🍓</key>
-	<string>U+D83C U+DF53</string>
+	<string>U+1F353 (U+D83C U+DF53)</string>
 	<key>🍔</key>
-	<string>U+D83C U+DF54</string>
+	<string>U+1F354 (U+D83C U+DF54)</string>
 	<key>🍕</key>
-	<string>U+D83C U+DF55</string>
+	<string>U+1F355 (U+D83C U+DF55)</string>
 	<key>🍖</key>
-	<string>U+D83C U+DF56</string>
+	<string>U+1F356 (U+D83C U+DF56)</string>
 	<key>🍗</key>
-	<string>U+D83C U+DF57</string>
+	<string>U+1F357 (U+D83C U+DF57)</string>
 	<key>🍘</key>
-	<string>U+D83C U+DF58</string>
+	<string>U+1F358 (U+D83C U+DF58)</string>
 	<key>🍙</key>
-	<string>U+D83C U+DF59</string>
+	<string>U+1F359 (U+D83C U+DF59)</string>
 	<key>🍚</key>
-	<string>U+D83C U+DF5A</string>
+	<string>U+1F35A (U+D83C U+DF5A)</string>
 	<key>🍛</key>
-	<string>U+D83C U+DF5B</string>
+	<string>U+1F35B (U+D83C U+DF5B)</string>
 	<key>🍜</key>
-	<string>U+D83C U+DF5C</string>
+	<string>U+1F35C (U+D83C U+DF5C)</string>
 	<key>🍝</key>
-	<string>U+D83C U+DF5D</string>
+	<string>U+1F35D (U+D83C U+DF5D)</string>
 	<key>🍞</key>
-	<string>U+D83C U+DF5E</string>
+	<string>U+1F35E (U+D83C U+DF5E)</string>
 	<key>🍟</key>
-	<string>U+D83C U+DF5F</string>
+	<string>U+1F35F (U+D83C U+DF5F)</string>
 	<key>🍠</key>
-	<string>U+D83C U+DF60</string>
+	<string>U+1F360 (U+D83C U+DF60)</string>
 	<key>🍡</key>
-	<string>U+D83C U+DF61</string>
+	<string>U+1F361 (U+D83C U+DF61)</string>
 	<key>🍢</key>
-	<string>U+D83C U+DF62</string>
+	<string>U+1F362 (U+D83C U+DF62)</string>
 	<key>🍣</key>
-	<string>U+D83C U+DF63</string>
+	<string>U+1F363 (U+D83C U+DF63)</string>
 	<key>🍤</key>
-	<string>U+D83C U+DF64</string>
+	<string>U+1F364 (U+D83C U+DF64)</string>
 	<key>🍥</key>
-	<string>U+D83C U+DF65</string>
+	<string>U+1F365 (U+D83C U+DF65)</string>
 	<key>🍦</key>
-	<string>U+D83C U+DF66</string>
+	<string>U+1F366 (U+D83C U+DF66)</string>
 	<key>🍧</key>
-	<string>U+D83C U+DF67</string>
+	<string>U+1F367 (U+D83C U+DF67)</string>
 	<key>🍨</key>
-	<string>U+D83C U+DF68</string>
+	<string>U+1F368 (U+D83C U+DF68)</string>
 	<key>🍩</key>
-	<string>U+D83C U+DF69</string>
+	<string>U+1F369 (U+D83C U+DF69)</string>
 	<key>🍪</key>
-	<string>U+D83C U+DF6A</string>
+	<string>U+1F36A (U+D83C U+DF6A)</string>
 	<key>🍫</key>
-	<string>U+D83C U+DF6B</string>
+	<string>U+1F36B (U+D83C U+DF6B)</string>
 	<key>🍬</key>
-	<string>U+D83C U+DF6C</string>
+	<string>U+1F36C (U+D83C U+DF6C)</string>
 	<key>🍭</key>
-	<string>U+D83C U+DF6D</string>
+	<string>U+1F36D (U+D83C U+DF6D)</string>
 	<key>🍮</key>
-	<string>U+D83C U+DF6E</string>
+	<string>U+1F36E (U+D83C U+DF6E)</string>
 	<key>🍯</key>
-	<string>U+D83C U+DF6F</string>
+	<string>U+1F36F (U+D83C U+DF6F)</string>
 	<key>🍰</key>
-	<string>U+D83C U+DF70</string>
+	<string>U+1F370 (U+D83C U+DF70)</string>
 	<key>🍱</key>
-	<string>U+D83C U+DF71</string>
+	<string>U+1F371 (U+D83C U+DF71)</string>
 	<key>🍲</key>
-	<string>U+D83C U+DF72</string>
+	<string>U+1F372 (U+D83C U+DF72)</string>
 	<key>🍳</key>
-	<string>U+D83C U+DF73</string>
+	<string>U+1F373 (U+D83C U+DF73)</string>
 	<key>🍴</key>
-	<string>U+D83C U+DF74</string>
+	<string>U+1F374 (U+D83C U+DF74)</string>
 	<key>🍵</key>
-	<string>U+D83C U+DF75</string>
+	<string>U+1F375 (U+D83C U+DF75)</string>
 	<key>🍶</key>
-	<string>U+D83C U+DF76</string>
+	<string>U+1F376 (U+D83C U+DF76)</string>
 	<key>🍷</key>
-	<string>U+D83C U+DF77</string>
+	<string>U+1F377 (U+D83C U+DF77)</string>
 	<key>🍸</key>
-	<string>U+D83C U+DF78</string>
+	<string>U+1F378 (U+D83C U+DF78)</string>
 	<key>🍹</key>
-	<string>U+D83C U+DF79</string>
+	<string>U+1F379 (U+D83C U+DF79)</string>
 	<key>🍺</key>
-	<string>U+D83C U+DF7A</string>
+	<string>U+1F37A (U+D83C U+DF7A)</string>
 	<key>🍻</key>
-	<string>U+D83C U+DF7B</string>
+	<string>U+1F37B (U+D83C U+DF7B)</string>
 	<key>🍼</key>
-	<string>U+D83C U+DF7C</string>
+	<string>U+1F37C (U+D83C U+DF7C)</string>
 	<key>🎀</key>
-	<string>U+D83C U+DF80</string>
+	<string>U+1F380 (U+D83C U+DF80)</string>
 	<key>🎁</key>
-	<string>U+D83C U+DF81</string>
+	<string>U+1F381 (U+D83C U+DF81)</string>
 	<key>🎂</key>
-	<string>U+D83C U+DF82</string>
+	<string>U+1F382 (U+D83C U+DF82)</string>
 	<key>🎃</key>
-	<string>U+D83C U+DF83</string>
+	<string>U+1F383 (U+D83C U+DF83)</string>
 	<key>🎄</key>
-	<string>U+D83C U+DF84</string>
+	<string>U+1F384 (U+D83C U+DF84)</string>
 	<key>🎅</key>
-	<string>U+D83C U+DF85</string>
+	<string>U+1F385 (U+D83C U+DF85)</string>
 	<key>🎅🏻</key>
-	<string>U+D83C U+DF85 U+D83C U+DFFB</string>
+	<string>U+1F385 U+1F3FB (U+D83C U+DF85 U+D83C U+DFFB)</string>
 	<key>🎅🏼</key>
-	<string>U+D83C U+DF85 U+D83C U+DFFC</string>
+	<string>U+1F385 U+1F3FC (U+D83C U+DF85 U+D83C U+DFFC)</string>
 	<key>🎅🏽</key>
-	<string>U+D83C U+DF85 U+D83C U+DFFD</string>
+	<string>U+1F385 U+1F3FD (U+D83C U+DF85 U+D83C U+DFFD)</string>
 	<key>🎅🏾</key>
-	<string>U+D83C U+DF85 U+D83C U+DFFE</string>
+	<string>U+1F385 U+1F3FE (U+D83C U+DF85 U+D83C U+DFFE)</string>
 	<key>🎅🏿</key>
-	<string>U+D83C U+DF85 U+D83C U+DFFF</string>
+	<string>U+1F385 U+1F3FF (U+D83C U+DF85 U+D83C U+DFFF)</string>
 	<key>🎆</key>
-	<string>U+D83C U+DF86</string>
+	<string>U+1F386 (U+D83C U+DF86)</string>
 	<key>🎇</key>
-	<string>U+D83C U+DF87</string>
+	<string>U+1F387 (U+D83C U+DF87)</string>
 	<key>🎈</key>
-	<string>U+D83C U+DF88</string>
+	<string>U+1F388 (U+D83C U+DF88)</string>
 	<key>🎉</key>
-	<string>U+D83C U+DF89</string>
+	<string>U+1F389 (U+D83C U+DF89)</string>
 	<key>🎊</key>
-	<string>U+D83C U+DF8A</string>
+	<string>U+1F38A (U+D83C U+DF8A)</string>
 	<key>🎋</key>
-	<string>U+D83C U+DF8B</string>
+	<string>U+1F38B (U+D83C U+DF8B)</string>
 	<key>🎌</key>
-	<string>U+D83C U+DF8C</string>
+	<string>U+1F38C (U+D83C U+DF8C)</string>
 	<key>🎍</key>
-	<string>U+D83C U+DF8D</string>
+	<string>U+1F38D (U+D83C U+DF8D)</string>
 	<key>🎎</key>
-	<string>U+D83C U+DF8E</string>
+	<string>U+1F38E (U+D83C U+DF8E)</string>
 	<key>🎏</key>
-	<string>U+D83C U+DF8F</string>
+	<string>U+1F38F (U+D83C U+DF8F)</string>
 	<key>🎐</key>
-	<string>U+D83C U+DF90</string>
+	<string>U+1F390 (U+D83C U+DF90)</string>
 	<key>🎑</key>
-	<string>U+D83C U+DF91</string>
+	<string>U+1F391 (U+D83C U+DF91)</string>
 	<key>🎒</key>
-	<string>U+D83C U+DF92</string>
+	<string>U+1F392 (U+D83C U+DF92)</string>
 	<key>🎓</key>
-	<string>U+D83C U+DF93</string>
+	<string>U+1F393 (U+D83C U+DF93)</string>
 	<key>🎠</key>
-	<string>U+D83C U+DFA0</string>
+	<string>U+1F3A0 (U+D83C U+DFA0)</string>
 	<key>🎡</key>
-	<string>U+D83C U+DFA1</string>
+	<string>U+1F3A1 (U+D83C U+DFA1)</string>
 	<key>🎢</key>
-	<string>U+D83C U+DFA2</string>
+	<string>U+1F3A2 (U+D83C U+DFA2)</string>
 	<key>🎣</key>
-	<string>U+D83C U+DFA3</string>
+	<string>U+1F3A3 (U+D83C U+DFA3)</string>
 	<key>🎤</key>
-	<string>U+D83C U+DFA4</string>
+	<string>U+1F3A4 (U+D83C U+DFA4)</string>
 	<key>🎥</key>
-	<string>U+D83C U+DFA5</string>
+	<string>U+1F3A5 (U+D83C U+DFA5)</string>
 	<key>🎦</key>
-	<string>U+D83C U+DFA6</string>
+	<string>U+1F3A6 (U+D83C U+DFA6)</string>
 	<key>🎧</key>
-	<string>U+D83C U+DFA7</string>
+	<string>U+1F3A7 (U+D83C U+DFA7)</string>
 	<key>🎨</key>
-	<string>U+D83C U+DFA8</string>
+	<string>U+1F3A8 (U+D83C U+DFA8)</string>
 	<key>🎩</key>
-	<string>U+D83C U+DFA9</string>
+	<string>U+1F3A9 (U+D83C U+DFA9)</string>
 	<key>🎪</key>
-	<string>U+D83C U+DFAA</string>
+	<string>U+1F3AA (U+D83C U+DFAA)</string>
 	<key>🎫</key>
-	<string>U+D83C U+DFAB</string>
+	<string>U+1F3AB (U+D83C U+DFAB)</string>
 	<key>🎬</key>
-	<string>U+D83C U+DFAC</string>
+	<string>U+1F3AC (U+D83C U+DFAC)</string>
 	<key>🎭</key>
-	<string>U+D83C U+DFAD</string>
+	<string>U+1F3AD (U+D83C U+DFAD)</string>
 	<key>🎮</key>
-	<string>U+D83C U+DFAE</string>
+	<string>U+1F3AE (U+D83C U+DFAE)</string>
 	<key>🎯</key>
-	<string>U+D83C U+DFAF</string>
+	<string>U+1F3AF (U+D83C U+DFAF)</string>
 	<key>🎰</key>
-	<string>U+D83C U+DFB0</string>
+	<string>U+1F3B0 (U+D83C U+DFB0)</string>
 	<key>🎱</key>
-	<string>U+D83C U+DFB1</string>
+	<string>U+1F3B1 (U+D83C U+DFB1)</string>
 	<key>🎲</key>
-	<string>U+D83C U+DFB2</string>
+	<string>U+1F3B2 (U+D83C U+DFB2)</string>
 	<key>🎳</key>
-	<string>U+D83C U+DFB3</string>
+	<string>U+1F3B3 (U+D83C U+DFB3)</string>
 	<key>🎴</key>
-	<string>U+D83C U+DFB4</string>
+	<string>U+1F3B4 (U+D83C U+DFB4)</string>
 	<key>🎵</key>
-	<string>U+D83C U+DFB5</string>
+	<string>U+1F3B5 (U+D83C U+DFB5)</string>
 	<key>🎶</key>
-	<string>U+D83C U+DFB6</string>
+	<string>U+1F3B6 (U+D83C U+DFB6)</string>
 	<key>🎷</key>
-	<string>U+D83C U+DFB7</string>
+	<string>U+1F3B7 (U+D83C U+DFB7)</string>
 	<key>🎸</key>
-	<string>U+D83C U+DFB8</string>
+	<string>U+1F3B8 (U+D83C U+DFB8)</string>
 	<key>🎹</key>
-	<string>U+D83C U+DFB9</string>
+	<string>U+1F3B9 (U+D83C U+DFB9)</string>
 	<key>🎺</key>
-	<string>U+D83C U+DFBA</string>
+	<string>U+1F3BA (U+D83C U+DFBA)</string>
 	<key>🎻</key>
-	<string>U+D83C U+DFBB</string>
+	<string>U+1F3BB (U+D83C U+DFBB)</string>
 	<key>🎼</key>
-	<string>U+D83C U+DFBC</string>
+	<string>U+1F3BC (U+D83C U+DFBC)</string>
 	<key>🎽</key>
-	<string>U+D83C U+DFBD</string>
+	<string>U+1F3BD (U+D83C U+DFBD)</string>
 	<key>🎾</key>
-	<string>U+D83C U+DFBE</string>
+	<string>U+1F3BE (U+D83C U+DFBE)</string>
 	<key>🎿</key>
-	<string>U+D83C U+DFBF</string>
+	<string>U+1F3BF (U+D83C U+DFBF)</string>
 	<key>🏀</key>
-	<string>U+D83C U+DFC0</string>
+	<string>U+1F3C0 (U+D83C U+DFC0)</string>
 	<key>🏁</key>
-	<string>U+D83C U+DFC1</string>
+	<string>U+1F3C1 (U+D83C U+DFC1)</string>
 	<key>🏂</key>
-	<string>U+D83C U+DFC2</string>
+	<string>U+1F3C2 (U+D83C U+DFC2)</string>
 	<key>🏃</key>
-	<string>U+D83C U+DFC3</string>
+	<string>U+1F3C3 (U+D83C U+DFC3)</string>
 	<key>🏃🏻</key>
-	<string>U+D83C U+DFC3 U+D83C U+DFFB</string>
+	<string>U+1F3C3 U+1F3FB (U+D83C U+DFC3 U+D83C U+DFFB)</string>
 	<key>🏃🏼</key>
-	<string>U+D83C U+DFC3 U+D83C U+DFFC</string>
+	<string>U+1F3C3 U+1F3FC (U+D83C U+DFC3 U+D83C U+DFFC)</string>
 	<key>🏃🏽</key>
-	<string>U+D83C U+DFC3 U+D83C U+DFFD</string>
+	<string>U+1F3C3 U+1F3FD (U+D83C U+DFC3 U+D83C U+DFFD)</string>
 	<key>🏃🏾</key>
-	<string>U+D83C U+DFC3 U+D83C U+DFFE</string>
+	<string>U+1F3C3 U+1F3FE (U+D83C U+DFC3 U+D83C U+DFFE)</string>
 	<key>🏃🏿</key>
-	<string>U+D83C U+DFC3 U+D83C U+DFFF</string>
+	<string>U+1F3C3 U+1F3FF (U+D83C U+DFC3 U+D83C U+DFFF)</string>
 	<key>🏄</key>
-	<string>U+D83C U+DFC4</string>
+	<string>U+1F3C4 (U+D83C U+DFC4)</string>
 	<key>🏄🏻</key>
-	<string>U+D83C U+DFC4 U+D83C U+DFFB</string>
+	<string>U+1F3C4 U+1F3FB (U+D83C U+DFC4 U+D83C U+DFFB)</string>
 	<key>🏄🏼</key>
-	<string>U+D83C U+DFC4 U+D83C U+DFFC</string>
+	<string>U+1F3C4 U+1F3FC (U+D83C U+DFC4 U+D83C U+DFFC)</string>
 	<key>🏄🏽</key>
-	<string>U+D83C U+DFC4 U+D83C U+DFFD</string>
+	<string>U+1F3C4 U+1F3FD (U+D83C U+DFC4 U+D83C U+DFFD)</string>
 	<key>🏄🏾</key>
-	<string>U+D83C U+DFC4 U+D83C U+DFFE</string>
+	<string>U+1F3C4 U+1F3FE (U+D83C U+DFC4 U+D83C U+DFFE)</string>
 	<key>🏄🏿</key>
-	<string>U+D83C U+DFC4 U+D83C U+DFFF</string>
+	<string>U+1F3C4 U+1F3FF (U+D83C U+DFC4 U+D83C U+DFFF)</string>
 	<key>🏆</key>
-	<string>U+D83C U+DFC6</string>
+	<string>U+1F3C6 (U+D83C U+DFC6)</string>
 	<key>🏇</key>
-	<string>U+D83C U+DFC7</string>
+	<string>U+1F3C7 (U+D83C U+DFC7)</string>
 	<key>🏇🏻</key>
-	<string>U+D83C U+DFC7 U+D83C U+DFFB</string>
+	<string>U+1F3C7 U+1F3FB (U+D83C U+DFC7 U+D83C U+DFFB)</string>
 	<key>🏇🏼</key>
-	<string>U+D83C U+DFC7 U+D83C U+DFFC</string>
+	<string>U+1F3C7 U+1F3FC (U+D83C U+DFC7 U+D83C U+DFFC)</string>
 	<key>🏇🏽</key>
-	<string>U+D83C U+DFC7 U+D83C U+DFFD</string>
+	<string>U+1F3C7 U+1F3FD (U+D83C U+DFC7 U+D83C U+DFFD)</string>
 	<key>🏇🏾</key>
-	<string>U+D83C U+DFC7 U+D83C U+DFFE</string>
+	<string>U+1F3C7 U+1F3FE (U+D83C U+DFC7 U+D83C U+DFFE)</string>
 	<key>🏇🏿</key>
-	<string>U+D83C U+DFC7 U+D83C U+DFFF</string>
+	<string>U+1F3C7 U+1F3FF (U+D83C U+DFC7 U+D83C U+DFFF)</string>
 	<key>🏈</key>
-	<string>U+D83C U+DFC8</string>
+	<string>U+1F3C8 (U+D83C U+DFC8)</string>
 	<key>🏉</key>
-	<string>U+D83C U+DFC9</string>
+	<string>U+1F3C9 (U+D83C U+DFC9)</string>
 	<key>🏊</key>
-	<string>U+D83C U+DFCA</string>
+	<string>U+1F3CA (U+D83C U+DFCA)</string>
 	<key>🏊🏻</key>
-	<string>U+D83C U+DFCA U+D83C U+DFFB</string>
+	<string>U+1F3CA U+1F3FB (U+D83C U+DFCA U+D83C U+DFFB)</string>
 	<key>🏊🏼</key>
-	<string>U+D83C U+DFCA U+D83C U+DFFC</string>
+	<string>U+1F3CA U+1F3FC (U+D83C U+DFCA U+D83C U+DFFC)</string>
 	<key>🏊🏽</key>
-	<string>U+D83C U+DFCA U+D83C U+DFFD</string>
+	<string>U+1F3CA U+1F3FD (U+D83C U+DFCA U+D83C U+DFFD)</string>
 	<key>🏊🏾</key>
-	<string>U+D83C U+DFCA U+D83C U+DFFE</string>
+	<string>U+1F3CA U+1F3FE (U+D83C U+DFCA U+D83C U+DFFE)</string>
 	<key>🏊🏿</key>
-	<string>U+D83C U+DFCA U+D83C U+DFFF</string>
+	<string>U+1F3CA U+1F3FF (U+D83C U+DFCA U+D83C U+DFFF)</string>
 	<key>🏠</key>
-	<string>U+D83C U+DFE0</string>
+	<string>U+1F3E0 (U+D83C U+DFE0)</string>
 	<key>🏡</key>
-	<string>U+D83C U+DFE1</string>
+	<string>U+1F3E1 (U+D83C U+DFE1)</string>
 	<key>🏢</key>
-	<string>U+D83C U+DFE2</string>
+	<string>U+1F3E2 (U+D83C U+DFE2)</string>
 	<key>🏣</key>
-	<string>U+D83C U+DFE3</string>
+	<string>U+1F3E3 (U+D83C U+DFE3)</string>
 	<key>🏤</key>
-	<string>U+D83C U+DFE4</string>
+	<string>U+1F3E4 (U+D83C U+DFE4)</string>
 	<key>🏥</key>
-	<string>U+D83C U+DFE5</string>
+	<string>U+1F3E5 (U+D83C U+DFE5)</string>
 	<key>🏦</key>
-	<string>U+D83C U+DFE6</string>
+	<string>U+1F3E6 (U+D83C U+DFE6)</string>
 	<key>🏧</key>
-	<string>U+D83C U+DFE7</string>
+	<string>U+1F3E7 (U+D83C U+DFE7)</string>
 	<key>🏨</key>
-	<string>U+D83C U+DFE8</string>
+	<string>U+1F3E8 (U+D83C U+DFE8)</string>
 	<key>🏩</key>
-	<string>U+D83C U+DFE9</string>
+	<string>U+1F3E9 (U+D83C U+DFE9)</string>
 	<key>🏪</key>
-	<string>U+D83C U+DFEA</string>
+	<string>U+1F3EA (U+D83C U+DFEA)</string>
 	<key>🏫</key>
-	<string>U+D83C U+DFEB</string>
+	<string>U+1F3EB (U+D83C U+DFEB)</string>
 	<key>🏬</key>
-	<string>U+D83C U+DFEC</string>
+	<string>U+1F3EC (U+D83C U+DFEC)</string>
 	<key>🏭</key>
-	<string>U+D83C U+DFED</string>
+	<string>U+1F3ED (U+D83C U+DFED)</string>
 	<key>🏮</key>
-	<string>U+D83C U+DFEE</string>
+	<string>U+1F3EE (U+D83C U+DFEE)</string>
 	<key>🏯</key>
-	<string>U+D83C U+DFEF</string>
+	<string>U+1F3EF (U+D83C U+DFEF)</string>
 	<key>🏰</key>
-	<string>U+D83C U+DFF0</string>
+	<string>U+1F3F0 (U+D83C U+DFF0)</string>
 	<key>🐀</key>
-	<string>U+D83D U+DC00</string>
+	<string>U+1F400 (U+D83D U+DC00)</string>
 	<key>🐁</key>
-	<string>U+D83D U+DC01</string>
+	<string>U+1F401 (U+D83D U+DC01)</string>
 	<key>🐂</key>
-	<string>U+D83D U+DC02</string>
+	<string>U+1F402 (U+D83D U+DC02)</string>
 	<key>🐃</key>
-	<string>U+D83D U+DC03</string>
+	<string>U+1F403 (U+D83D U+DC03)</string>
 	<key>🐄</key>
-	<string>U+D83D U+DC04</string>
+	<string>U+1F404 (U+D83D U+DC04)</string>
 	<key>🐅</key>
-	<string>U+D83D U+DC05</string>
+	<string>U+1F405 (U+D83D U+DC05)</string>
 	<key>🐆</key>
-	<string>U+D83D U+DC06</string>
+	<string>U+1F406 (U+D83D U+DC06)</string>
 	<key>🐇</key>
-	<string>U+D83D U+DC07</string>
+	<string>U+1F407 (U+D83D U+DC07)</string>
 	<key>🐈</key>
-	<string>U+D83D U+DC08</string>
+	<string>U+1F408 (U+D83D U+DC08)</string>
 	<key>🐉</key>
-	<string>U+D83D U+DC09</string>
+	<string>U+1F409 (U+D83D U+DC09)</string>
 	<key>🐊</key>
-	<string>U+D83D U+DC0A</string>
+	<string>U+1F40A (U+D83D U+DC0A)</string>
 	<key>🐋</key>
-	<string>U+D83D U+DC0B</string>
+	<string>U+1F40B (U+D83D U+DC0B)</string>
 	<key>🐌</key>
-	<string>U+D83D U+DC0C</string>
+	<string>U+1F40C (U+D83D U+DC0C)</string>
 	<key>🐍</key>
-	<string>U+D83D U+DC0D</string>
+	<string>U+1F40D (U+D83D U+DC0D)</string>
 	<key>🐎</key>
-	<string>U+D83D U+DC0E</string>
+	<string>U+1F40E (U+D83D U+DC0E)</string>
 	<key>🐏</key>
-	<string>U+D83D U+DC0F</string>
+	<string>U+1F40F (U+D83D U+DC0F)</string>
 	<key>🐐</key>
-	<string>U+D83D U+DC10</string>
+	<string>U+1F410 (U+D83D U+DC10)</string>
 	<key>🐑</key>
-	<string>U+D83D U+DC11</string>
+	<string>U+1F411 (U+D83D U+DC11)</string>
 	<key>🐒</key>
-	<string>U+D83D U+DC12</string>
+	<string>U+1F412 (U+D83D U+DC12)</string>
 	<key>🐓</key>
-	<string>U+D83D U+DC13</string>
+	<string>U+1F413 (U+D83D U+DC13)</string>
 	<key>🐔</key>
-	<string>U+D83D U+DC14</string>
+	<string>U+1F414 (U+D83D U+DC14)</string>
 	<key>🐕</key>
-	<string>U+D83D U+DC15</string>
+	<string>U+1F415 (U+D83D U+DC15)</string>
 	<key>🐖</key>
-	<string>U+D83D U+DC16</string>
+	<string>U+1F416 (U+D83D U+DC16)</string>
 	<key>🐗</key>
-	<string>U+D83D U+DC17</string>
+	<string>U+1F417 (U+D83D U+DC17)</string>
 	<key>🐘</key>
-	<string>U+D83D U+DC18</string>
+	<string>U+1F418 (U+D83D U+DC18)</string>
 	<key>🐙</key>
-	<string>U+D83D U+DC19</string>
+	<string>U+1F419 (U+D83D U+DC19)</string>
 	<key>🐚</key>
-	<string>U+D83D U+DC1A</string>
+	<string>U+1F41A (U+D83D U+DC1A)</string>
 	<key>🐛</key>
-	<string>U+D83D U+DC1B</string>
+	<string>U+1F41B (U+D83D U+DC1B)</string>
 	<key>🐜</key>
-	<string>U+D83D U+DC1C</string>
+	<string>U+1F41C (U+D83D U+DC1C)</string>
 	<key>🐝</key>
-	<string>U+D83D U+DC1D</string>
+	<string>U+1F41D (U+D83D U+DC1D)</string>
 	<key>🐞</key>
-	<string>U+D83D U+DC1E</string>
+	<string>U+1F41E (U+D83D U+DC1E)</string>
 	<key>🐟</key>
-	<string>U+D83D U+DC1F</string>
+	<string>U+1F41F (U+D83D U+DC1F)</string>
 	<key>🐠</key>
-	<string>U+D83D U+DC20</string>
+	<string>U+1F420 (U+D83D U+DC20)</string>
 	<key>🐡</key>
-	<string>U+D83D U+DC21</string>
+	<string>U+1F421 (U+D83D U+DC21)</string>
 	<key>🐢</key>
-	<string>U+D83D U+DC22</string>
+	<string>U+1F422 (U+D83D U+DC22)</string>
 	<key>🐣</key>
-	<string>U+D83D U+DC23</string>
+	<string>U+1F423 (U+D83D U+DC23)</string>
 	<key>🐤</key>
-	<string>U+D83D U+DC24</string>
+	<string>U+1F424 (U+D83D U+DC24)</string>
 	<key>🐥</key>
-	<string>U+D83D U+DC25</string>
+	<string>U+1F425 (U+D83D U+DC25)</string>
 	<key>🐦</key>
-	<string>U+D83D U+DC26</string>
+	<string>U+1F426 (U+D83D U+DC26)</string>
 	<key>🐧</key>
-	<string>U+D83D U+DC27</string>
+	<string>U+1F427 (U+D83D U+DC27)</string>
 	<key>🐨</key>
-	<string>U+D83D U+DC28</string>
+	<string>U+1F428 (U+D83D U+DC28)</string>
 	<key>🐩</key>
-	<string>U+D83D U+DC29</string>
+	<string>U+1F429 (U+D83D U+DC29)</string>
 	<key>🐪</key>
-	<string>U+D83D U+DC2A</string>
+	<string>U+1F42A (U+D83D U+DC2A)</string>
 	<key>🐫</key>
-	<string>U+D83D U+DC2B</string>
+	<string>U+1F42B (U+D83D U+DC2B)</string>
 	<key>🐬</key>
-	<string>U+D83D U+DC2C</string>
+	<string>U+1F42C (U+D83D U+DC2C)</string>
 	<key>🐭</key>
-	<string>U+D83D U+DC2D</string>
+	<string>U+1F42D (U+D83D U+DC2D)</string>
 	<key>🐮</key>
-	<string>U+D83D U+DC2E</string>
+	<string>U+1F42E (U+D83D U+DC2E)</string>
 	<key>🐯</key>
-	<string>U+D83D U+DC2F</string>
+	<string>U+1F42F (U+D83D U+DC2F)</string>
 	<key>🐰</key>
-	<string>U+D83D U+DC30</string>
+	<string>U+1F430 (U+D83D U+DC30)</string>
 	<key>🐱</key>
-	<string>U+D83D U+DC31</string>
+	<string>U+1F431 (U+D83D U+DC31)</string>
 	<key>🐲</key>
-	<string>U+D83D U+DC32</string>
+	<string>U+1F432 (U+D83D U+DC32)</string>
 	<key>🐳</key>
-	<string>U+D83D U+DC33</string>
+	<string>U+1F433 (U+D83D U+DC33)</string>
 	<key>🐴</key>
-	<string>U+D83D U+DC34</string>
+	<string>U+1F434 (U+D83D U+DC34)</string>
 	<key>🐵</key>
-	<string>U+D83D U+DC35</string>
+	<string>U+1F435 (U+D83D U+DC35)</string>
 	<key>🐶</key>
-	<string>U+D83D U+DC36</string>
+	<string>U+1F436 (U+D83D U+DC36)</string>
 	<key>🐷</key>
-	<string>U+D83D U+DC37</string>
+	<string>U+1F437 (U+D83D U+DC37)</string>
 	<key>🐸</key>
-	<string>U+D83D U+DC38</string>
+	<string>U+1F438 (U+D83D U+DC38)</string>
 	<key>🐹</key>
-	<string>U+D83D U+DC39</string>
+	<string>U+1F439 (U+D83D U+DC39)</string>
 	<key>🐺</key>
-	<string>U+D83D U+DC3A</string>
+	<string>U+1F43A (U+D83D U+DC3A)</string>
 	<key>🐻</key>
-	<string>U+D83D U+DC3B</string>
+	<string>U+1F43B (U+D83D U+DC3B)</string>
 	<key>🐼</key>
-	<string>U+D83D U+DC3C</string>
+	<string>U+1F43C (U+D83D U+DC3C)</string>
 	<key>🐽</key>
-	<string>U+D83D U+DC3D</string>
+	<string>U+1F43D (U+D83D U+DC3D)</string>
 	<key>🐾</key>
-	<string>U+D83D U+DC3E</string>
+	<string>U+1F43E (U+D83D U+DC3E)</string>
 	<key>👀</key>
-	<string>U+D83D U+DC40</string>
+	<string>U+1F440 (U+D83D U+DC40)</string>
 	<key>👂</key>
-	<string>U+D83D U+DC42</string>
+	<string>U+1F442 (U+D83D U+DC42)</string>
 	<key>👂🏻</key>
-	<string>U+D83D U+DC42 U+D83C U+DFFB</string>
+	<string>U+1F442 U+1F3FB (U+D83D U+DC42 U+D83C U+DFFB)</string>
 	<key>👂🏼</key>
-	<string>U+D83D U+DC42 U+D83C U+DFFC</string>
+	<string>U+1F442 U+1F3FC (U+D83D U+DC42 U+D83C U+DFFC)</string>
 	<key>👂🏽</key>
-	<string>U+D83D U+DC42 U+D83C U+DFFD</string>
+	<string>U+1F442 U+1F3FD (U+D83D U+DC42 U+D83C U+DFFD)</string>
 	<key>👂🏾</key>
-	<string>U+D83D U+DC42 U+D83C U+DFFE</string>
+	<string>U+1F442 U+1F3FE (U+D83D U+DC42 U+D83C U+DFFE)</string>
 	<key>👂🏿</key>
-	<string>U+D83D U+DC42 U+D83C U+DFFF</string>
+	<string>U+1F442 U+1F3FF (U+D83D U+DC42 U+D83C U+DFFF)</string>
 	<key>👃</key>
-	<string>U+D83D U+DC43</string>
+	<string>U+1F443 (U+D83D U+DC43)</string>
 	<key>👃🏻</key>
-	<string>U+D83D U+DC43 U+D83C U+DFFB</string>
+	<string>U+1F443 U+1F3FB (U+D83D U+DC43 U+D83C U+DFFB)</string>
 	<key>👃🏼</key>
-	<string>U+D83D U+DC43 U+D83C U+DFFC</string>
+	<string>U+1F443 U+1F3FC (U+D83D U+DC43 U+D83C U+DFFC)</string>
 	<key>👃🏽</key>
-	<string>U+D83D U+DC43 U+D83C U+DFFD</string>
+	<string>U+1F443 U+1F3FD (U+D83D U+DC43 U+D83C U+DFFD)</string>
 	<key>👃🏾</key>
-	<string>U+D83D U+DC43 U+D83C U+DFFE</string>
+	<string>U+1F443 U+1F3FE (U+D83D U+DC43 U+D83C U+DFFE)</string>
 	<key>👃🏿</key>
-	<string>U+D83D U+DC43 U+D83C U+DFFF</string>
+	<string>U+1F443 U+1F3FF (U+D83D U+DC43 U+D83C U+DFFF)</string>
 	<key>👄</key>
-	<string>U+D83D U+DC44</string>
+	<string>U+1F444 (U+D83D U+DC44)</string>
 	<key>👅</key>
-	<string>U+D83D U+DC45</string>
+	<string>U+1F445 (U+D83D U+DC45)</string>
 	<key>👆</key>
-	<string>U+D83D U+DC46</string>
+	<string>U+1F446 (U+D83D U+DC46)</string>
 	<key>👆🏻</key>
-	<string>U+D83D U+DC46 U+D83C U+DFFB</string>
+	<string>U+1F446 U+1F3FB (U+D83D U+DC46 U+D83C U+DFFB)</string>
 	<key>👆🏼</key>
-	<string>U+D83D U+DC46 U+D83C U+DFFC</string>
+	<string>U+1F446 U+1F3FC (U+D83D U+DC46 U+D83C U+DFFC)</string>
 	<key>👆🏽</key>
-	<string>U+D83D U+DC46 U+D83C U+DFFD</string>
+	<string>U+1F446 U+1F3FD (U+D83D U+DC46 U+D83C U+DFFD)</string>
 	<key>👆🏾</key>
-	<string>U+D83D U+DC46 U+D83C U+DFFE</string>
+	<string>U+1F446 U+1F3FE (U+D83D U+DC46 U+D83C U+DFFE)</string>
 	<key>👆🏿</key>
-	<string>U+D83D U+DC46 U+D83C U+DFFF</string>
+	<string>U+1F446 U+1F3FF (U+D83D U+DC46 U+D83C U+DFFF)</string>
 	<key>👇</key>
-	<string>U+D83D U+DC47</string>
+	<string>U+1F447 (U+D83D U+DC47)</string>
 	<key>👇🏻</key>
-	<string>U+D83D U+DC47 U+D83C U+DFFB</string>
+	<string>U+1F447 U+1F3FB (U+D83D U+DC47 U+D83C U+DFFB)</string>
 	<key>👇🏼</key>
-	<string>U+D83D U+DC47 U+D83C U+DFFC</string>
+	<string>U+1F447 U+1F3FC (U+D83D U+DC47 U+D83C U+DFFC)</string>
 	<key>👇🏽</key>
-	<string>U+D83D U+DC47 U+D83C U+DFFD</string>
+	<string>U+1F447 U+1F3FD (U+D83D U+DC47 U+D83C U+DFFD)</string>
 	<key>👇🏾</key>
-	<string>U+D83D U+DC47 U+D83C U+DFFE</string>
+	<string>U+1F447 U+1F3FE (U+D83D U+DC47 U+D83C U+DFFE)</string>
 	<key>👇🏿</key>
-	<string>U+D83D U+DC47 U+D83C U+DFFF</string>
+	<string>U+1F447 U+1F3FF (U+D83D U+DC47 U+D83C U+DFFF)</string>
 	<key>👈</key>
-	<string>U+D83D U+DC48</string>
+	<string>U+1F448 (U+D83D U+DC48)</string>
 	<key>👈🏻</key>
-	<string>U+D83D U+DC48 U+D83C U+DFFB</string>
+	<string>U+1F448 U+1F3FB (U+D83D U+DC48 U+D83C U+DFFB)</string>
 	<key>👈🏼</key>
-	<string>U+D83D U+DC48 U+D83C U+DFFC</string>
+	<string>U+1F448 U+1F3FC (U+D83D U+DC48 U+D83C U+DFFC)</string>
 	<key>👈🏽</key>
-	<string>U+D83D U+DC48 U+D83C U+DFFD</string>
+	<string>U+1F448 U+1F3FD (U+D83D U+DC48 U+D83C U+DFFD)</string>
 	<key>👈🏾</key>
-	<string>U+D83D U+DC48 U+D83C U+DFFE</string>
+	<string>U+1F448 U+1F3FE (U+D83D U+DC48 U+D83C U+DFFE)</string>
 	<key>👈🏿</key>
-	<string>U+D83D U+DC48 U+D83C U+DFFF</string>
+	<string>U+1F448 U+1F3FF (U+D83D U+DC48 U+D83C U+DFFF)</string>
 	<key>👉</key>
-	<string>U+D83D U+DC49</string>
+	<string>U+1F449 (U+D83D U+DC49)</string>
 	<key>👉🏻</key>
-	<string>U+D83D U+DC49 U+D83C U+DFFB</string>
+	<string>U+1F449 U+1F3FB (U+D83D U+DC49 U+D83C U+DFFB)</string>
 	<key>👉🏼</key>
-	<string>U+D83D U+DC49 U+D83C U+DFFC</string>
+	<string>U+1F449 U+1F3FC (U+D83D U+DC49 U+D83C U+DFFC)</string>
 	<key>👉🏽</key>
-	<string>U+D83D U+DC49 U+D83C U+DFFD</string>
+	<string>U+1F449 U+1F3FD (U+D83D U+DC49 U+D83C U+DFFD)</string>
 	<key>👉🏾</key>
-	<string>U+D83D U+DC49 U+D83C U+DFFE</string>
+	<string>U+1F449 U+1F3FE (U+D83D U+DC49 U+D83C U+DFFE)</string>
 	<key>👉🏿</key>
-	<string>U+D83D U+DC49 U+D83C U+DFFF</string>
+	<string>U+1F449 U+1F3FF (U+D83D U+DC49 U+D83C U+DFFF)</string>
 	<key>👊</key>
-	<string>U+D83D U+DC4A</string>
+	<string>U+1F44A (U+D83D U+DC4A)</string>
 	<key>👊🏻</key>
-	<string>U+D83D U+DC4A U+D83C U+DFFB</string>
+	<string>U+1F44A U+1F3FB (U+D83D U+DC4A U+D83C U+DFFB)</string>
 	<key>👊🏼</key>
-	<string>U+D83D U+DC4A U+D83C U+DFFC</string>
+	<string>U+1F44A U+1F3FC (U+D83D U+DC4A U+D83C U+DFFC)</string>
 	<key>👊🏽</key>
-	<string>U+D83D U+DC4A U+D83C U+DFFD</string>
+	<string>U+1F44A U+1F3FD (U+D83D U+DC4A U+D83C U+DFFD)</string>
 	<key>👊🏾</key>
-	<string>U+D83D U+DC4A U+D83C U+DFFE</string>
+	<string>U+1F44A U+1F3FE (U+D83D U+DC4A U+D83C U+DFFE)</string>
 	<key>👊🏿</key>
-	<string>U+D83D U+DC4A U+D83C U+DFFF</string>
+	<string>U+1F44A U+1F3FF (U+D83D U+DC4A U+D83C U+DFFF)</string>
 	<key>👋</key>
-	<string>U+D83D U+DC4B</string>
+	<string>U+1F44B (U+D83D U+DC4B)</string>
 	<key>👋🏻</key>
-	<string>U+D83D U+DC4B U+D83C U+DFFB</string>
+	<string>U+1F44B U+1F3FB (U+D83D U+DC4B U+D83C U+DFFB)</string>
 	<key>👋🏼</key>
-	<string>U+D83D U+DC4B U+D83C U+DFFC</string>
+	<string>U+1F44B U+1F3FC (U+D83D U+DC4B U+D83C U+DFFC)</string>
 	<key>👋🏽</key>
-	<string>U+D83D U+DC4B U+D83C U+DFFD</string>
+	<string>U+1F44B U+1F3FD (U+D83D U+DC4B U+D83C U+DFFD)</string>
 	<key>👋🏾</key>
-	<string>U+D83D U+DC4B U+D83C U+DFFE</string>
+	<string>U+1F44B U+1F3FE (U+D83D U+DC4B U+D83C U+DFFE)</string>
 	<key>👋🏿</key>
-	<string>U+D83D U+DC4B U+D83C U+DFFF</string>
+	<string>U+1F44B U+1F3FF (U+D83D U+DC4B U+D83C U+DFFF)</string>
 	<key>👌</key>
-	<string>U+D83D U+DC4C</string>
+	<string>U+1F44C (U+D83D U+DC4C)</string>
 	<key>👌🏻</key>
-	<string>U+D83D U+DC4C U+D83C U+DFFB</string>
+	<string>U+1F44C U+1F3FB (U+D83D U+DC4C U+D83C U+DFFB)</string>
 	<key>👌🏼</key>
-	<string>U+D83D U+DC4C U+D83C U+DFFC</string>
+	<string>U+1F44C U+1F3FC (U+D83D U+DC4C U+D83C U+DFFC)</string>
 	<key>👌🏽</key>
-	<string>U+D83D U+DC4C U+D83C U+DFFD</string>
+	<string>U+1F44C U+1F3FD (U+D83D U+DC4C U+D83C U+DFFD)</string>
 	<key>👌🏾</key>
-	<string>U+D83D U+DC4C U+D83C U+DFFE</string>
+	<string>U+1F44C U+1F3FE (U+D83D U+DC4C U+D83C U+DFFE)</string>
 	<key>👌🏿</key>
-	<string>U+D83D U+DC4C U+D83C U+DFFF</string>
+	<string>U+1F44C U+1F3FF (U+D83D U+DC4C U+D83C U+DFFF)</string>
 	<key>👍</key>
-	<string>U+D83D U+DC4D</string>
+	<string>U+1F44D (U+D83D U+DC4D)</string>
 	<key>👍🏻</key>
-	<string>U+D83D U+DC4D U+D83C U+DFFB</string>
+	<string>U+1F44D U+1F3FB (U+D83D U+DC4D U+D83C U+DFFB)</string>
 	<key>👍🏼</key>
-	<string>U+D83D U+DC4D U+D83C U+DFFC</string>
+	<string>U+1F44D U+1F3FC (U+D83D U+DC4D U+D83C U+DFFC)</string>
 	<key>👍🏽</key>
-	<string>U+D83D U+DC4D U+D83C U+DFFD</string>
+	<string>U+1F44D U+1F3FD (U+D83D U+DC4D U+D83C U+DFFD)</string>
 	<key>👍🏾</key>
-	<string>U+D83D U+DC4D U+D83C U+DFFE</string>
+	<string>U+1F44D U+1F3FE (U+D83D U+DC4D U+D83C U+DFFE)</string>
 	<key>👍🏿</key>
-	<string>U+D83D U+DC4D U+D83C U+DFFF</string>
+	<string>U+1F44D U+1F3FF (U+D83D U+DC4D U+D83C U+DFFF)</string>
 	<key>👎</key>
-	<string>U+D83D U+DC4E</string>
+	<string>U+1F44E (U+D83D U+DC4E)</string>
 	<key>👎🏻</key>
-	<string>U+D83D U+DC4E U+D83C U+DFFB</string>
+	<string>U+1F44E U+1F3FB (U+D83D U+DC4E U+D83C U+DFFB)</string>
 	<key>👎🏼</key>
-	<string>U+D83D U+DC4E U+D83C U+DFFC</string>
+	<string>U+1F44E U+1F3FC (U+D83D U+DC4E U+D83C U+DFFC)</string>
 	<key>👎🏽</key>
-	<string>U+D83D U+DC4E U+D83C U+DFFD</string>
+	<string>U+1F44E U+1F3FD (U+D83D U+DC4E U+D83C U+DFFD)</string>
 	<key>👎🏾</key>
-	<string>U+D83D U+DC4E U+D83C U+DFFE</string>
+	<string>U+1F44E U+1F3FE (U+D83D U+DC4E U+D83C U+DFFE)</string>
 	<key>👎🏿</key>
-	<string>U+D83D U+DC4E U+D83C U+DFFF</string>
+	<string>U+1F44E U+1F3FF (U+D83D U+DC4E U+D83C U+DFFF)</string>
 	<key>👏</key>
-	<string>U+D83D U+DC4F</string>
+	<string>U+1F44F (U+D83D U+DC4F)</string>
 	<key>👏🏻</key>
-	<string>U+D83D U+DC4F U+D83C U+DFFB</string>
+	<string>U+1F44F U+1F3FB (U+D83D U+DC4F U+D83C U+DFFB)</string>
 	<key>👏🏼</key>
-	<string>U+D83D U+DC4F U+D83C U+DFFC</string>
+	<string>U+1F44F U+1F3FC (U+D83D U+DC4F U+D83C U+DFFC)</string>
 	<key>👏🏽</key>
-	<string>U+D83D U+DC4F U+D83C U+DFFD</string>
+	<string>U+1F44F U+1F3FD (U+D83D U+DC4F U+D83C U+DFFD)</string>
 	<key>👏🏾</key>
-	<string>U+D83D U+DC4F U+D83C U+DFFE</string>
+	<string>U+1F44F U+1F3FE (U+D83D U+DC4F U+D83C U+DFFE)</string>
 	<key>👏🏿</key>
-	<string>U+D83D U+DC4F U+D83C U+DFFF</string>
+	<string>U+1F44F U+1F3FF (U+D83D U+DC4F U+D83C U+DFFF)</string>
 	<key>👐</key>
-	<string>U+D83D U+DC50</string>
+	<string>U+1F450 (U+D83D U+DC50)</string>
 	<key>👐🏻</key>
-	<string>U+D83D U+DC50 U+D83C U+DFFB</string>
+	<string>U+1F450 U+1F3FB (U+D83D U+DC50 U+D83C U+DFFB)</string>
 	<key>👐🏼</key>
-	<string>U+D83D U+DC50 U+D83C U+DFFC</string>
+	<string>U+1F450 U+1F3FC (U+D83D U+DC50 U+D83C U+DFFC)</string>
 	<key>👐🏽</key>
-	<string>U+D83D U+DC50 U+D83C U+DFFD</string>
+	<string>U+1F450 U+1F3FD (U+D83D U+DC50 U+D83C U+DFFD)</string>
 	<key>👐🏾</key>
-	<string>U+D83D U+DC50 U+D83C U+DFFE</string>
+	<string>U+1F450 U+1F3FE (U+D83D U+DC50 U+D83C U+DFFE)</string>
 	<key>👐🏿</key>
-	<string>U+D83D U+DC50 U+D83C U+DFFF</string>
+	<string>U+1F450 U+1F3FF (U+D83D U+DC50 U+D83C U+DFFF)</string>
 	<key>👑</key>
-	<string>U+D83D U+DC51</string>
+	<string>U+1F451 (U+D83D U+DC51)</string>
 	<key>👒</key>
-	<string>U+D83D U+DC52</string>
+	<string>U+1F452 (U+D83D U+DC52)</string>
 	<key>👓</key>
-	<string>U+D83D U+DC53</string>
+	<string>U+1F453 (U+D83D U+DC53)</string>
 	<key>👔</key>
-	<string>U+D83D U+DC54</string>
+	<string>U+1F454 (U+D83D U+DC54)</string>
 	<key>👕</key>
-	<string>U+D83D U+DC55</string>
+	<string>U+1F455 (U+D83D U+DC55)</string>
 	<key>👖</key>
-	<string>U+D83D U+DC56</string>
+	<string>U+1F456 (U+D83D U+DC56)</string>
 	<key>👗</key>
-	<string>U+D83D U+DC57</string>
+	<string>U+1F457 (U+D83D U+DC57)</string>
 	<key>👘</key>
-	<string>U+D83D U+DC58</string>
+	<string>U+1F458 (U+D83D U+DC58)</string>
 	<key>👙</key>
-	<string>U+D83D U+DC59</string>
+	<string>U+1F459 (U+D83D U+DC59)</string>
 	<key>👚</key>
-	<string>U+D83D U+DC5A</string>
+	<string>U+1F45A (U+D83D U+DC5A)</string>
 	<key>👛</key>
-	<string>U+D83D U+DC5B</string>
+	<string>U+1F45B (U+D83D U+DC5B)</string>
 	<key>👜</key>
-	<string>U+D83D U+DC5C</string>
+	<string>U+1F45C (U+D83D U+DC5C)</string>
 	<key>👝</key>
-	<string>U+D83D U+DC5D</string>
+	<string>U+1F45D (U+D83D U+DC5D)</string>
 	<key>👞</key>
-	<string>U+D83D U+DC5E</string>
+	<string>U+1F45E (U+D83D U+DC5E)</string>
 	<key>👟</key>
-	<string>U+D83D U+DC5F</string>
+	<string>U+1F45F (U+D83D U+DC5F)</string>
 	<key>👠</key>
-	<string>U+D83D U+DC60</string>
+	<string>U+1F460 (U+D83D U+DC60)</string>
 	<key>👡</key>
-	<string>U+D83D U+DC61</string>
+	<string>U+1F461 (U+D83D U+DC61)</string>
 	<key>👢</key>
-	<string>U+D83D U+DC62</string>
+	<string>U+1F462 (U+D83D U+DC62)</string>
 	<key>👣</key>
-	<string>U+D83D U+DC63</string>
+	<string>U+1F463 (U+D83D U+DC63)</string>
 	<key>👤</key>
-	<string>U+D83D U+DC64</string>
+	<string>U+1F464 (U+D83D U+DC64)</string>
 	<key>👥</key>
-	<string>U+D83D U+DC65</string>
+	<string>U+1F465 (U+D83D U+DC65)</string>
 	<key>👦</key>
-	<string>U+D83D U+DC66</string>
+	<string>U+1F466 (U+D83D U+DC66)</string>
 	<key>👦🏻</key>
-	<string>U+D83D U+DC66 U+D83C U+DFFB</string>
+	<string>U+1F466 U+1F3FB (U+D83D U+DC66 U+D83C U+DFFB)</string>
 	<key>👦🏼</key>
-	<string>U+D83D U+DC66 U+D83C U+DFFC</string>
+	<string>U+1F466 U+1F3FC (U+D83D U+DC66 U+D83C U+DFFC)</string>
 	<key>👦🏽</key>
-	<string>U+D83D U+DC66 U+D83C U+DFFD</string>
+	<string>U+1F466 U+1F3FD (U+D83D U+DC66 U+D83C U+DFFD)</string>
 	<key>👦🏾</key>
-	<string>U+D83D U+DC66 U+D83C U+DFFE</string>
+	<string>U+1F466 U+1F3FE (U+D83D U+DC66 U+D83C U+DFFE)</string>
 	<key>👦🏿</key>
-	<string>U+D83D U+DC66 U+D83C U+DFFF</string>
+	<string>U+1F466 U+1F3FF (U+D83D U+DC66 U+D83C U+DFFF)</string>
 	<key>👧</key>
-	<string>U+D83D U+DC67</string>
+	<string>U+1F467 (U+D83D U+DC67)</string>
 	<key>👧🏻</key>
-	<string>U+D83D U+DC67 U+D83C U+DFFB</string>
+	<string>U+1F467 U+1F3FB (U+D83D U+DC67 U+D83C U+DFFB)</string>
 	<key>👧🏼</key>
-	<string>U+D83D U+DC67 U+D83C U+DFFC</string>
+	<string>U+1F467 U+1F3FC (U+D83D U+DC67 U+D83C U+DFFC)</string>
 	<key>👧🏽</key>
-	<string>U+D83D U+DC67 U+D83C U+DFFD</string>
+	<string>U+1F467 U+1F3FD (U+D83D U+DC67 U+D83C U+DFFD)</string>
 	<key>👧🏾</key>
-	<string>U+D83D U+DC67 U+D83C U+DFFE</string>
+	<string>U+1F467 U+1F3FE (U+D83D U+DC67 U+D83C U+DFFE)</string>
 	<key>👧🏿</key>
-	<string>U+D83D U+DC67 U+D83C U+DFFF</string>
+	<string>U+1F467 U+1F3FF (U+D83D U+DC67 U+D83C U+DFFF)</string>
 	<key>👨</key>
-	<string>U+D83D U+DC68</string>
+	<string>U+1F468 (U+D83D U+DC68)</string>
 	<key>👨‍❤️‍👨</key>
-	<string>U+D83D U+DC68 U+200D U+2764 U+FE0F U+200D U+D83D U+DC68</string>
+	<string>U+1F468 U+200D U+2764 U+FE0F U+200D U+1F468 (U+D83D U+DC68 U+200D U+2764 U+FE0F U+200D U+D83D U+DC68)</string>
 	<key>👨‍❤️‍💋‍👨</key>
-	<string>U+D83D U+DC68 U+200D U+2764 U+FE0F U+200D U+D83D U+DC8B U+200D U+D83D U+DC68</string>
+	<string>U+1F468 U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468 (U+D83D U+DC68 U+200D U+2764 U+FE0F U+200D U+D83D U+DC8B U+200D U+D83D U+DC68)</string>
 	<key>👨‍👨‍👦</key>
-	<string>U+D83D U+DC68 U+200D U+D83D U+DC68 U+200D U+D83D U+DC66</string>
+	<string>U+1F468 U+200D U+1F468 U+200D U+1F466 (U+D83D U+DC68 U+200D U+D83D U+DC68 U+200D U+D83D U+DC66)</string>
 	<key>👨‍👨‍👦‍👦</key>
-	<string>U+D83D U+DC68 U+200D U+D83D U+DC68 U+200D U+D83D U+DC66 U+200D U+D83D U+DC66</string>
+	<string>U+1F468 U+200D U+1F468 U+200D U+1F466 U+200D U+1F466 (U+D83D U+DC68 U+200D U+D83D U+DC68 U+200D U+D83D U+DC66 U+200D U+D83D U+DC66)</string>
 	<key>👨‍👨‍👧</key>
-	<string>U+D83D U+DC68 U+200D U+D83D U+DC68 U+200D U+D83D U+DC67</string>
+	<string>U+1F468 U+200D U+1F468 U+200D U+1F467 (U+D83D U+DC68 U+200D U+D83D U+DC68 U+200D U+D83D U+DC67)</string>
 	<key>👨‍👨‍👧‍👦</key>
-	<string>U+D83D U+DC68 U+200D U+D83D U+DC68 U+200D U+D83D U+DC67 U+200D U+D83D U+DC66</string>
+	<string>U+1F468 U+200D U+1F468 U+200D U+1F467 U+200D U+1F466 (U+D83D U+DC68 U+200D U+D83D U+DC68 U+200D U+D83D U+DC67 U+200D U+D83D U+DC66)</string>
 	<key>👨‍👨‍👧‍👧</key>
-	<string>U+D83D U+DC68 U+200D U+D83D U+DC68 U+200D U+D83D U+DC67 U+200D U+D83D U+DC67</string>
+	<string>U+1F468 U+200D U+1F468 U+200D U+1F467 U+200D U+1F467 (U+D83D U+DC68 U+200D U+D83D U+DC68 U+200D U+D83D U+DC67 U+200D U+D83D U+DC67)</string>
 	<key>👨‍👩‍👦‍👦</key>
-	<string>U+D83D U+DC68 U+200D U+D83D U+DC69 U+200D U+D83D U+DC66 U+200D U+D83D U+DC66</string>
+	<string>U+1F468 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466 (U+D83D U+DC68 U+200D U+D83D U+DC69 U+200D U+D83D U+DC66 U+200D U+D83D U+DC66)</string>
 	<key>👨‍👩‍👧</key>
-	<string>U+D83D U+DC68 U+200D U+D83D U+DC69 U+200D U+D83D U+DC67</string>
+	<string>U+1F468 U+200D U+1F469 U+200D U+1F467 (U+D83D U+DC68 U+200D U+D83D U+DC69 U+200D U+D83D U+DC67)</string>
 	<key>👨‍👩‍👧‍👦</key>
-	<string>U+D83D U+DC68 U+200D U+D83D U+DC69 U+200D U+D83D U+DC67 U+200D U+D83D U+DC66</string>
+	<string>U+1F468 U+200D U+1F469 U+200D U+1F467 U+200D U+1F466 (U+D83D U+DC68 U+200D U+D83D U+DC69 U+200D U+D83D U+DC67 U+200D U+D83D U+DC66)</string>
 	<key>👨‍👩‍👧‍👧</key>
-	<string>U+D83D U+DC68 U+200D U+D83D U+DC69 U+200D U+D83D U+DC67 U+200D U+D83D U+DC67</string>
+	<string>U+1F468 U+200D U+1F469 U+200D U+1F467 U+200D U+1F467 (U+D83D U+DC68 U+200D U+D83D U+DC69 U+200D U+D83D U+DC67 U+200D U+D83D U+DC67)</string>
 	<key>👨🏻</key>
-	<string>U+D83D U+DC68 U+D83C U+DFFB</string>
+	<string>U+1F468 U+1F3FB (U+D83D U+DC68 U+D83C U+DFFB)</string>
 	<key>👨🏼</key>
-	<string>U+D83D U+DC68 U+D83C U+DFFC</string>
+	<string>U+1F468 U+1F3FC (U+D83D U+DC68 U+D83C U+DFFC)</string>
 	<key>👨🏽</key>
-	<string>U+D83D U+DC68 U+D83C U+DFFD</string>
+	<string>U+1F468 U+1F3FD (U+D83D U+DC68 U+D83C U+DFFD)</string>
 	<key>👨🏾</key>
-	<string>U+D83D U+DC68 U+D83C U+DFFE</string>
+	<string>U+1F468 U+1F3FE (U+D83D U+DC68 U+D83C U+DFFE)</string>
 	<key>👨🏿</key>
-	<string>U+D83D U+DC68 U+D83C U+DFFF</string>
+	<string>U+1F468 U+1F3FF (U+D83D U+DC68 U+D83C U+DFFF)</string>
 	<key>👩</key>
-	<string>U+D83D U+DC69</string>
+	<string>U+1F469 (U+D83D U+DC69)</string>
 	<key>👩‍❤️‍👩</key>
-	<string>U+D83D U+DC69 U+200D U+2764 U+FE0F U+200D U+D83D U+DC69</string>
+	<string>U+1F469 U+200D U+2764 U+FE0F U+200D U+1F469 (U+D83D U+DC69 U+200D U+2764 U+FE0F U+200D U+D83D U+DC69)</string>
 	<key>👩‍❤️‍💋‍👩</key>
-	<string>U+D83D U+DC69 U+200D U+2764 U+FE0F U+200D U+D83D U+DC8B U+200D U+D83D U+DC69</string>
+	<string>U+1F469 U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F469 (U+D83D U+DC69 U+200D U+2764 U+FE0F U+200D U+D83D U+DC8B U+200D U+D83D U+DC69)</string>
 	<key>👩‍👩‍👦</key>
-	<string>U+D83D U+DC69 U+200D U+D83D U+DC69 U+200D U+D83D U+DC66</string>
+	<string>U+1F469 U+200D U+1F469 U+200D U+1F466 (U+D83D U+DC69 U+200D U+D83D U+DC69 U+200D U+D83D U+DC66)</string>
 	<key>👩‍👩‍👦‍👦</key>
-	<string>U+D83D U+DC69 U+200D U+D83D U+DC69 U+200D U+D83D U+DC66 U+200D U+D83D U+DC66</string>
+	<string>U+1F469 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466 (U+D83D U+DC69 U+200D U+D83D U+DC69 U+200D U+D83D U+DC66 U+200D U+D83D U+DC66)</string>
 	<key>👩‍👩‍👧</key>
-	<string>U+D83D U+DC69 U+200D U+D83D U+DC69 U+200D U+D83D U+DC67</string>
+	<string>U+1F469 U+200D U+1F469 U+200D U+1F467 (U+D83D U+DC69 U+200D U+D83D U+DC69 U+200D U+D83D U+DC67)</string>
 	<key>👩‍👩‍👧‍👦</key>
-	<string>U+D83D U+DC69 U+200D U+D83D U+DC69 U+200D U+D83D U+DC67 U+200D U+D83D U+DC66</string>
+	<string>U+1F469 U+200D U+1F469 U+200D U+1F467 U+200D U+1F466 (U+D83D U+DC69 U+200D U+D83D U+DC69 U+200D U+D83D U+DC67 U+200D U+D83D U+DC66)</string>
 	<key>👩‍👩‍👧‍👧</key>
-	<string>U+D83D U+DC69 U+200D U+D83D U+DC69 U+200D U+D83D U+DC67 U+200D U+D83D U+DC67</string>
+	<string>U+1F469 U+200D U+1F469 U+200D U+1F467 U+200D U+1F467 (U+D83D U+DC69 U+200D U+D83D U+DC69 U+200D U+D83D U+DC67 U+200D U+D83D U+DC67)</string>
 	<key>👩🏻</key>
-	<string>U+D83D U+DC69 U+D83C U+DFFB</string>
+	<string>U+1F469 U+1F3FB (U+D83D U+DC69 U+D83C U+DFFB)</string>
 	<key>👩🏼</key>
-	<string>U+D83D U+DC69 U+D83C U+DFFC</string>
+	<string>U+1F469 U+1F3FC (U+D83D U+DC69 U+D83C U+DFFC)</string>
 	<key>👩🏽</key>
-	<string>U+D83D U+DC69 U+D83C U+DFFD</string>
+	<string>U+1F469 U+1F3FD (U+D83D U+DC69 U+D83C U+DFFD)</string>
 	<key>👩🏾</key>
-	<string>U+D83D U+DC69 U+D83C U+DFFE</string>
+	<string>U+1F469 U+1F3FE (U+D83D U+DC69 U+D83C U+DFFE)</string>
 	<key>👩🏿</key>
-	<string>U+D83D U+DC69 U+D83C U+DFFF</string>
+	<string>U+1F469 U+1F3FF (U+D83D U+DC69 U+D83C U+DFFF)</string>
 	<key>👪</key>
-	<string>U+D83D U+DC6A</string>
+	<string>U+1F46A (U+D83D U+DC6A)</string>
 	<key>👫</key>
-	<string>U+D83D U+DC6B</string>
+	<string>U+1F46B (U+D83D U+DC6B)</string>
 	<key>👬</key>
-	<string>U+D83D U+DC6C</string>
+	<string>U+1F46C (U+D83D U+DC6C)</string>
 	<key>👭</key>
-	<string>U+D83D U+DC6D</string>
+	<string>U+1F46D (U+D83D U+DC6D)</string>
 	<key>👮</key>
-	<string>U+D83D U+DC6E</string>
+	<string>U+1F46E (U+D83D U+DC6E)</string>
 	<key>👮🏻</key>
-	<string>U+D83D U+DC6E U+D83C U+DFFB</string>
+	<string>U+1F46E U+1F3FB (U+D83D U+DC6E U+D83C U+DFFB)</string>
 	<key>👮🏼</key>
-	<string>U+D83D U+DC6E U+D83C U+DFFC</string>
+	<string>U+1F46E U+1F3FC (U+D83D U+DC6E U+D83C U+DFFC)</string>
 	<key>👮🏽</key>
-	<string>U+D83D U+DC6E U+D83C U+DFFD</string>
+	<string>U+1F46E U+1F3FD (U+D83D U+DC6E U+D83C U+DFFD)</string>
 	<key>👮🏾</key>
-	<string>U+D83D U+DC6E U+D83C U+DFFE</string>
+	<string>U+1F46E U+1F3FE (U+D83D U+DC6E U+D83C U+DFFE)</string>
 	<key>👮🏿</key>
-	<string>U+D83D U+DC6E U+D83C U+DFFF</string>
+	<string>U+1F46E U+1F3FF (U+D83D U+DC6E U+D83C U+DFFF)</string>
 	<key>👯</key>
-	<string>U+D83D U+DC6F</string>
+	<string>U+1F46F (U+D83D U+DC6F)</string>
 	<key>👰</key>
-	<string>U+D83D U+DC70</string>
+	<string>U+1F470 (U+D83D U+DC70)</string>
 	<key>👰🏻</key>
-	<string>U+D83D U+DC70 U+D83C U+DFFB</string>
+	<string>U+1F470 U+1F3FB (U+D83D U+DC70 U+D83C U+DFFB)</string>
 	<key>👰🏼</key>
-	<string>U+D83D U+DC70 U+D83C U+DFFC</string>
+	<string>U+1F470 U+1F3FC (U+D83D U+DC70 U+D83C U+DFFC)</string>
 	<key>👰🏽</key>
-	<string>U+D83D U+DC70 U+D83C U+DFFD</string>
+	<string>U+1F470 U+1F3FD (U+D83D U+DC70 U+D83C U+DFFD)</string>
 	<key>👰🏾</key>
-	<string>U+D83D U+DC70 U+D83C U+DFFE</string>
+	<string>U+1F470 U+1F3FE (U+D83D U+DC70 U+D83C U+DFFE)</string>
 	<key>👰🏿</key>
-	<string>U+D83D U+DC70 U+D83C U+DFFF</string>
+	<string>U+1F470 U+1F3FF (U+D83D U+DC70 U+D83C U+DFFF)</string>
 	<key>👱</key>
-	<string>U+D83D U+DC71</string>
+	<string>U+1F471 (U+D83D U+DC71)</string>
 	<key>👱🏻</key>
-	<string>U+D83D U+DC71 U+D83C U+DFFB</string>
+	<string>U+1F471 U+1F3FB (U+D83D U+DC71 U+D83C U+DFFB)</string>
 	<key>👱🏼</key>
-	<string>U+D83D U+DC71 U+D83C U+DFFC</string>
+	<string>U+1F471 U+1F3FC (U+D83D U+DC71 U+D83C U+DFFC)</string>
 	<key>👱🏽</key>
-	<string>U+D83D U+DC71 U+D83C U+DFFD</string>
+	<string>U+1F471 U+1F3FD (U+D83D U+DC71 U+D83C U+DFFD)</string>
 	<key>👱🏾</key>
-	<string>U+D83D U+DC71 U+D83C U+DFFE</string>
+	<string>U+1F471 U+1F3FE (U+D83D U+DC71 U+D83C U+DFFE)</string>
 	<key>👱🏿</key>
-	<string>U+D83D U+DC71 U+D83C U+DFFF</string>
+	<string>U+1F471 U+1F3FF (U+D83D U+DC71 U+D83C U+DFFF)</string>
 	<key>👲</key>
-	<string>U+D83D U+DC72</string>
+	<string>U+1F472 (U+D83D U+DC72)</string>
 	<key>👲🏻</key>
-	<string>U+D83D U+DC72 U+D83C U+DFFB</string>
+	<string>U+1F472 U+1F3FB (U+D83D U+DC72 U+D83C U+DFFB)</string>
 	<key>👲🏼</key>
-	<string>U+D83D U+DC72 U+D83C U+DFFC</string>
+	<string>U+1F472 U+1F3FC (U+D83D U+DC72 U+D83C U+DFFC)</string>
 	<key>👲🏽</key>
-	<string>U+D83D U+DC72 U+D83C U+DFFD</string>
+	<string>U+1F472 U+1F3FD (U+D83D U+DC72 U+D83C U+DFFD)</string>
 	<key>👲🏾</key>
-	<string>U+D83D U+DC72 U+D83C U+DFFE</string>
+	<string>U+1F472 U+1F3FE (U+D83D U+DC72 U+D83C U+DFFE)</string>
 	<key>👲🏿</key>
-	<string>U+D83D U+DC72 U+D83C U+DFFF</string>
+	<string>U+1F472 U+1F3FF (U+D83D U+DC72 U+D83C U+DFFF)</string>
 	<key>👳</key>
-	<string>U+D83D U+DC73</string>
+	<string>U+1F473 (U+D83D U+DC73)</string>
 	<key>👳🏻</key>
-	<string>U+D83D U+DC73 U+D83C U+DFFB</string>
+	<string>U+1F473 U+1F3FB (U+D83D U+DC73 U+D83C U+DFFB)</string>
 	<key>👳🏼</key>
-	<string>U+D83D U+DC73 U+D83C U+DFFC</string>
+	<string>U+1F473 U+1F3FC (U+D83D U+DC73 U+D83C U+DFFC)</string>
 	<key>👳🏽</key>
-	<string>U+D83D U+DC73 U+D83C U+DFFD</string>
+	<string>U+1F473 U+1F3FD (U+D83D U+DC73 U+D83C U+DFFD)</string>
 	<key>👳🏾</key>
-	<string>U+D83D U+DC73 U+D83C U+DFFE</string>
+	<string>U+1F473 U+1F3FE (U+D83D U+DC73 U+D83C U+DFFE)</string>
 	<key>👳🏿</key>
-	<string>U+D83D U+DC73 U+D83C U+DFFF</string>
+	<string>U+1F473 U+1F3FF (U+D83D U+DC73 U+D83C U+DFFF)</string>
 	<key>👴</key>
-	<string>U+D83D U+DC74</string>
+	<string>U+1F474 (U+D83D U+DC74)</string>
 	<key>👴🏻</key>
-	<string>U+D83D U+DC74 U+D83C U+DFFB</string>
+	<string>U+1F474 U+1F3FB (U+D83D U+DC74 U+D83C U+DFFB)</string>
 	<key>👴🏼</key>
-	<string>U+D83D U+DC74 U+D83C U+DFFC</string>
+	<string>U+1F474 U+1F3FC (U+D83D U+DC74 U+D83C U+DFFC)</string>
 	<key>👴🏽</key>
-	<string>U+D83D U+DC74 U+D83C U+DFFD</string>
+	<string>U+1F474 U+1F3FD (U+D83D U+DC74 U+D83C U+DFFD)</string>
 	<key>👴🏾</key>
-	<string>U+D83D U+DC74 U+D83C U+DFFE</string>
+	<string>U+1F474 U+1F3FE (U+D83D U+DC74 U+D83C U+DFFE)</string>
 	<key>👴🏿</key>
-	<string>U+D83D U+DC74 U+D83C U+DFFF</string>
+	<string>U+1F474 U+1F3FF (U+D83D U+DC74 U+D83C U+DFFF)</string>
 	<key>👵</key>
-	<string>U+D83D U+DC75</string>
+	<string>U+1F475 (U+D83D U+DC75)</string>
 	<key>👵🏻</key>
-	<string>U+D83D U+DC75 U+D83C U+DFFB</string>
+	<string>U+1F475 U+1F3FB (U+D83D U+DC75 U+D83C U+DFFB)</string>
 	<key>👵🏼</key>
-	<string>U+D83D U+DC75 U+D83C U+DFFC</string>
+	<string>U+1F475 U+1F3FC (U+D83D U+DC75 U+D83C U+DFFC)</string>
 	<key>👵🏽</key>
-	<string>U+D83D U+DC75 U+D83C U+DFFD</string>
+	<string>U+1F475 U+1F3FD (U+D83D U+DC75 U+D83C U+DFFD)</string>
 	<key>👵🏾</key>
-	<string>U+D83D U+DC75 U+D83C U+DFFE</string>
+	<string>U+1F475 U+1F3FE (U+D83D U+DC75 U+D83C U+DFFE)</string>
 	<key>👵🏿</key>
-	<string>U+D83D U+DC75 U+D83C U+DFFF</string>
+	<string>U+1F475 U+1F3FF (U+D83D U+DC75 U+D83C U+DFFF)</string>
 	<key>👶</key>
-	<string>U+D83D U+DC76</string>
+	<string>U+1F476 (U+D83D U+DC76)</string>
 	<key>👶🏻</key>
-	<string>U+D83D U+DC76 U+D83C U+DFFB</string>
+	<string>U+1F476 U+1F3FB (U+D83D U+DC76 U+D83C U+DFFB)</string>
 	<key>👶🏼</key>
-	<string>U+D83D U+DC76 U+D83C U+DFFC</string>
+	<string>U+1F476 U+1F3FC (U+D83D U+DC76 U+D83C U+DFFC)</string>
 	<key>👶🏽</key>
-	<string>U+D83D U+DC76 U+D83C U+DFFD</string>
+	<string>U+1F476 U+1F3FD (U+D83D U+DC76 U+D83C U+DFFD)</string>
 	<key>👶🏾</key>
-	<string>U+D83D U+DC76 U+D83C U+DFFE</string>
+	<string>U+1F476 U+1F3FE (U+D83D U+DC76 U+D83C U+DFFE)</string>
 	<key>👶🏿</key>
-	<string>U+D83D U+DC76 U+D83C U+DFFF</string>
+	<string>U+1F476 U+1F3FF (U+D83D U+DC76 U+D83C U+DFFF)</string>
 	<key>👷</key>
-	<string>U+D83D U+DC77</string>
+	<string>U+1F477 (U+D83D U+DC77)</string>
 	<key>👷🏻</key>
-	<string>U+D83D U+DC77 U+D83C U+DFFB</string>
+	<string>U+1F477 U+1F3FB (U+D83D U+DC77 U+D83C U+DFFB)</string>
 	<key>👷🏼</key>
-	<string>U+D83D U+DC77 U+D83C U+DFFC</string>
+	<string>U+1F477 U+1F3FC (U+D83D U+DC77 U+D83C U+DFFC)</string>
 	<key>👷🏽</key>
-	<string>U+D83D U+DC77 U+D83C U+DFFD</string>
+	<string>U+1F477 U+1F3FD (U+D83D U+DC77 U+D83C U+DFFD)</string>
 	<key>👷🏾</key>
-	<string>U+D83D U+DC77 U+D83C U+DFFE</string>
+	<string>U+1F477 U+1F3FE (U+D83D U+DC77 U+D83C U+DFFE)</string>
 	<key>👷🏿</key>
-	<string>U+D83D U+DC77 U+D83C U+DFFF</string>
+	<string>U+1F477 U+1F3FF (U+D83D U+DC77 U+D83C U+DFFF)</string>
 	<key>👸</key>
-	<string>U+D83D U+DC78</string>
+	<string>U+1F478 (U+D83D U+DC78)</string>
 	<key>👸🏻</key>
-	<string>U+D83D U+DC78 U+D83C U+DFFB</string>
+	<string>U+1F478 U+1F3FB (U+D83D U+DC78 U+D83C U+DFFB)</string>
 	<key>👸🏼</key>
-	<string>U+D83D U+DC78 U+D83C U+DFFC</string>
+	<string>U+1F478 U+1F3FC (U+D83D U+DC78 U+D83C U+DFFC)</string>
 	<key>👸🏽</key>
-	<string>U+D83D U+DC78 U+D83C U+DFFD</string>
+	<string>U+1F478 U+1F3FD (U+D83D U+DC78 U+D83C U+DFFD)</string>
 	<key>👸🏾</key>
-	<string>U+D83D U+DC78 U+D83C U+DFFE</string>
+	<string>U+1F478 U+1F3FE (U+D83D U+DC78 U+D83C U+DFFE)</string>
 	<key>👸🏿</key>
-	<string>U+D83D U+DC78 U+D83C U+DFFF</string>
+	<string>U+1F478 U+1F3FF (U+D83D U+DC78 U+D83C U+DFFF)</string>
 	<key>👹</key>
-	<string>U+D83D U+DC79</string>
+	<string>U+1F479 (U+D83D U+DC79)</string>
 	<key>👺</key>
-	<string>U+D83D U+DC7A</string>
+	<string>U+1F47A (U+D83D U+DC7A)</string>
 	<key>👻</key>
-	<string>U+D83D U+DC7B</string>
+	<string>U+1F47B (U+D83D U+DC7B)</string>
 	<key>👼</key>
-	<string>U+D83D U+DC7C</string>
+	<string>U+1F47C (U+D83D U+DC7C)</string>
 	<key>👼🏻</key>
-	<string>U+D83D U+DC7C U+D83C U+DFFB</string>
+	<string>U+1F47C U+1F3FB (U+D83D U+DC7C U+D83C U+DFFB)</string>
 	<key>👼🏼</key>
-	<string>U+D83D U+DC7C U+D83C U+DFFC</string>
+	<string>U+1F47C U+1F3FC (U+D83D U+DC7C U+D83C U+DFFC)</string>
 	<key>👼🏽</key>
-	<string>U+D83D U+DC7C U+D83C U+DFFD</string>
+	<string>U+1F47C U+1F3FD (U+D83D U+DC7C U+D83C U+DFFD)</string>
 	<key>👼🏾</key>
-	<string>U+D83D U+DC7C U+D83C U+DFFE</string>
+	<string>U+1F47C U+1F3FE (U+D83D U+DC7C U+D83C U+DFFE)</string>
 	<key>👼🏿</key>
-	<string>U+D83D U+DC7C U+D83C U+DFFF</string>
+	<string>U+1F47C U+1F3FF (U+D83D U+DC7C U+D83C U+DFFF)</string>
 	<key>👽</key>
-	<string>U+D83D U+DC7D</string>
+	<string>U+1F47D (U+D83D U+DC7D)</string>
 	<key>👾</key>
-	<string>U+D83D U+DC7E</string>
+	<string>U+1F47E (U+D83D U+DC7E)</string>
 	<key>👿</key>
-	<string>U+D83D U+DC7F</string>
+	<string>U+1F47F (U+D83D U+DC7F)</string>
 	<key>💀</key>
-	<string>U+D83D U+DC80</string>
+	<string>U+1F480 (U+D83D U+DC80)</string>
 	<key>💁</key>
-	<string>U+D83D U+DC81</string>
+	<string>U+1F481 (U+D83D U+DC81)</string>
 	<key>💁🏻</key>
-	<string>U+D83D U+DC81 U+D83C U+DFFB</string>
+	<string>U+1F481 U+1F3FB (U+D83D U+DC81 U+D83C U+DFFB)</string>
 	<key>💁🏼</key>
-	<string>U+D83D U+DC81 U+D83C U+DFFC</string>
+	<string>U+1F481 U+1F3FC (U+D83D U+DC81 U+D83C U+DFFC)</string>
 	<key>💁🏽</key>
-	<string>U+D83D U+DC81 U+D83C U+DFFD</string>
+	<string>U+1F481 U+1F3FD (U+D83D U+DC81 U+D83C U+DFFD)</string>
 	<key>💁🏾</key>
-	<string>U+D83D U+DC81 U+D83C U+DFFE</string>
+	<string>U+1F481 U+1F3FE (U+D83D U+DC81 U+D83C U+DFFE)</string>
 	<key>💁🏿</key>
-	<string>U+D83D U+DC81 U+D83C U+DFFF</string>
+	<string>U+1F481 U+1F3FF (U+D83D U+DC81 U+D83C U+DFFF)</string>
 	<key>💂</key>
-	<string>U+D83D U+DC82</string>
+	<string>U+1F482 (U+D83D U+DC82)</string>
 	<key>💂🏻</key>
-	<string>U+D83D U+DC82 U+D83C U+DFFB</string>
+	<string>U+1F482 U+1F3FB (U+D83D U+DC82 U+D83C U+DFFB)</string>
 	<key>💂🏼</key>
-	<string>U+D83D U+DC82 U+D83C U+DFFC</string>
+	<string>U+1F482 U+1F3FC (U+D83D U+DC82 U+D83C U+DFFC)</string>
 	<key>💂🏽</key>
-	<string>U+D83D U+DC82 U+D83C U+DFFD</string>
+	<string>U+1F482 U+1F3FD (U+D83D U+DC82 U+D83C U+DFFD)</string>
 	<key>💂🏾</key>
-	<string>U+D83D U+DC82 U+D83C U+DFFE</string>
+	<string>U+1F482 U+1F3FE (U+D83D U+DC82 U+D83C U+DFFE)</string>
 	<key>💂🏿</key>
-	<string>U+D83D U+DC82 U+D83C U+DFFF</string>
+	<string>U+1F482 U+1F3FF (U+D83D U+DC82 U+D83C U+DFFF)</string>
 	<key>💃</key>
-	<string>U+D83D U+DC83</string>
+	<string>U+1F483 (U+D83D U+DC83)</string>
 	<key>💃🏻</key>
-	<string>U+D83D U+DC83 U+D83C U+DFFB</string>
+	<string>U+1F483 U+1F3FB (U+D83D U+DC83 U+D83C U+DFFB)</string>
 	<key>💃🏼</key>
-	<string>U+D83D U+DC83 U+D83C U+DFFC</string>
+	<string>U+1F483 U+1F3FC (U+D83D U+DC83 U+D83C U+DFFC)</string>
 	<key>💃🏽</key>
-	<string>U+D83D U+DC83 U+D83C U+DFFD</string>
+	<string>U+1F483 U+1F3FD (U+D83D U+DC83 U+D83C U+DFFD)</string>
 	<key>💃🏾</key>
-	<string>U+D83D U+DC83 U+D83C U+DFFE</string>
+	<string>U+1F483 U+1F3FE (U+D83D U+DC83 U+D83C U+DFFE)</string>
 	<key>💃🏿</key>
-	<string>U+D83D U+DC83 U+D83C U+DFFF</string>
+	<string>U+1F483 U+1F3FF (U+D83D U+DC83 U+D83C U+DFFF)</string>
 	<key>💄</key>
-	<string>U+D83D U+DC84</string>
+	<string>U+1F484 (U+D83D U+DC84)</string>
 	<key>💅</key>
-	<string>U+D83D U+DC85</string>
+	<string>U+1F485 (U+D83D U+DC85)</string>
 	<key>💅🏻</key>
-	<string>U+D83D U+DC85 U+D83C U+DFFB</string>
+	<string>U+1F485 U+1F3FB (U+D83D U+DC85 U+D83C U+DFFB)</string>
 	<key>💅🏼</key>
-	<string>U+D83D U+DC85 U+D83C U+DFFC</string>
+	<string>U+1F485 U+1F3FC (U+D83D U+DC85 U+D83C U+DFFC)</string>
 	<key>💅🏽</key>
-	<string>U+D83D U+DC85 U+D83C U+DFFD</string>
+	<string>U+1F485 U+1F3FD (U+D83D U+DC85 U+D83C U+DFFD)</string>
 	<key>💅🏾</key>
-	<string>U+D83D U+DC85 U+D83C U+DFFE</string>
+	<string>U+1F485 U+1F3FE (U+D83D U+DC85 U+D83C U+DFFE)</string>
 	<key>💅🏿</key>
-	<string>U+D83D U+DC85 U+D83C U+DFFF</string>
+	<string>U+1F485 U+1F3FF (U+D83D U+DC85 U+D83C U+DFFF)</string>
 	<key>💆</key>
-	<string>U+D83D U+DC86</string>
+	<string>U+1F486 (U+D83D U+DC86)</string>
 	<key>💆🏻</key>
-	<string>U+D83D U+DC86 U+D83C U+DFFB</string>
+	<string>U+1F486 U+1F3FB (U+D83D U+DC86 U+D83C U+DFFB)</string>
 	<key>💆🏼</key>
-	<string>U+D83D U+DC86 U+D83C U+DFFC</string>
+	<string>U+1F486 U+1F3FC (U+D83D U+DC86 U+D83C U+DFFC)</string>
 	<key>💆🏽</key>
-	<string>U+D83D U+DC86 U+D83C U+DFFD</string>
+	<string>U+1F486 U+1F3FD (U+D83D U+DC86 U+D83C U+DFFD)</string>
 	<key>💆🏾</key>
-	<string>U+D83D U+DC86 U+D83C U+DFFE</string>
+	<string>U+1F486 U+1F3FE (U+D83D U+DC86 U+D83C U+DFFE)</string>
 	<key>💆🏿</key>
-	<string>U+D83D U+DC86 U+D83C U+DFFF</string>
+	<string>U+1F486 U+1F3FF (U+D83D U+DC86 U+D83C U+DFFF)</string>
 	<key>💇</key>
-	<string>U+D83D U+DC87</string>
+	<string>U+1F487 (U+D83D U+DC87)</string>
 	<key>💇🏻</key>
-	<string>U+D83D U+DC87 U+D83C U+DFFB</string>
+	<string>U+1F487 U+1F3FB (U+D83D U+DC87 U+D83C U+DFFB)</string>
 	<key>💇🏼</key>
-	<string>U+D83D U+DC87 U+D83C U+DFFC</string>
+	<string>U+1F487 U+1F3FC (U+D83D U+DC87 U+D83C U+DFFC)</string>
 	<key>💇🏽</key>
-	<string>U+D83D U+DC87 U+D83C U+DFFD</string>
+	<string>U+1F487 U+1F3FD (U+D83D U+DC87 U+D83C U+DFFD)</string>
 	<key>💇🏾</key>
-	<string>U+D83D U+DC87 U+D83C U+DFFE</string>
+	<string>U+1F487 U+1F3FE (U+D83D U+DC87 U+D83C U+DFFE)</string>
 	<key>💇🏿</key>
-	<string>U+D83D U+DC87 U+D83C U+DFFF</string>
+	<string>U+1F487 U+1F3FF (U+D83D U+DC87 U+D83C U+DFFF)</string>
 	<key>💈</key>
-	<string>U+D83D U+DC88</string>
+	<string>U+1F488 (U+D83D U+DC88)</string>
 	<key>💉</key>
-	<string>U+D83D U+DC89</string>
+	<string>U+1F489 (U+D83D U+DC89)</string>
 	<key>💊</key>
-	<string>U+D83D U+DC8A</string>
+	<string>U+1F48A (U+D83D U+DC8A)</string>
 	<key>💋</key>
-	<string>U+D83D U+DC8B</string>
+	<string>U+1F48B (U+D83D U+DC8B)</string>
 	<key>💌</key>
-	<string>U+D83D U+DC8C</string>
+	<string>U+1F48C (U+D83D U+DC8C)</string>
 	<key>💍</key>
-	<string>U+D83D U+DC8D</string>
+	<string>U+1F48D (U+D83D U+DC8D)</string>
 	<key>💎</key>
-	<string>U+D83D U+DC8E</string>
+	<string>U+1F48E (U+D83D U+DC8E)</string>
 	<key>💏</key>
-	<string>U+D83D U+DC8F</string>
+	<string>U+1F48F (U+D83D U+DC8F)</string>
 	<key>💐</key>
-	<string>U+D83D U+DC90</string>
+	<string>U+1F490 (U+D83D U+DC90)</string>
 	<key>💑</key>
-	<string>U+D83D U+DC91</string>
+	<string>U+1F491 (U+D83D U+DC91)</string>
 	<key>💒</key>
-	<string>U+D83D U+DC92</string>
+	<string>U+1F492 (U+D83D U+DC92)</string>
 	<key>💓</key>
-	<string>U+D83D U+DC93</string>
+	<string>U+1F493 (U+D83D U+DC93)</string>
 	<key>💔</key>
-	<string>U+D83D U+DC94</string>
+	<string>U+1F494 (U+D83D U+DC94)</string>
 	<key>💕</key>
-	<string>U+D83D U+DC95</string>
+	<string>U+1F495 (U+D83D U+DC95)</string>
 	<key>💖</key>
-	<string>U+D83D U+DC96</string>
+	<string>U+1F496 (U+D83D U+DC96)</string>
 	<key>💗</key>
-	<string>U+D83D U+DC97</string>
+	<string>U+1F497 (U+D83D U+DC97)</string>
 	<key>💘</key>
-	<string>U+D83D U+DC98</string>
+	<string>U+1F498 (U+D83D U+DC98)</string>
 	<key>💙</key>
-	<string>U+D83D U+DC99</string>
+	<string>U+1F499 (U+D83D U+DC99)</string>
 	<key>💚</key>
-	<string>U+D83D U+DC9A</string>
+	<string>U+1F49A (U+D83D U+DC9A)</string>
 	<key>💛</key>
-	<string>U+D83D U+DC9B</string>
+	<string>U+1F49B (U+D83D U+DC9B)</string>
 	<key>💜</key>
-	<string>U+D83D U+DC9C</string>
+	<string>U+1F49C (U+D83D U+DC9C)</string>
 	<key>💝</key>
-	<string>U+D83D U+DC9D</string>
+	<string>U+1F49D (U+D83D U+DC9D)</string>
 	<key>💞</key>
-	<string>U+D83D U+DC9E</string>
+	<string>U+1F49E (U+D83D U+DC9E)</string>
 	<key>💟</key>
-	<string>U+D83D U+DC9F</string>
+	<string>U+1F49F (U+D83D U+DC9F)</string>
 	<key>💠</key>
-	<string>U+D83D U+DCA0</string>
+	<string>U+1F4A0 (U+D83D U+DCA0)</string>
 	<key>💡</key>
-	<string>U+D83D U+DCA1</string>
+	<string>U+1F4A1 (U+D83D U+DCA1)</string>
 	<key>💢</key>
-	<string>U+D83D U+DCA2</string>
+	<string>U+1F4A2 (U+D83D U+DCA2)</string>
 	<key>💣</key>
-	<string>U+D83D U+DCA3</string>
+	<string>U+1F4A3 (U+D83D U+DCA3)</string>
 	<key>💤</key>
-	<string>U+D83D U+DCA4</string>
+	<string>U+1F4A4 (U+D83D U+DCA4)</string>
 	<key>💥</key>
-	<string>U+D83D U+DCA5</string>
+	<string>U+1F4A5 (U+D83D U+DCA5)</string>
 	<key>💦</key>
-	<string>U+D83D U+DCA6</string>
+	<string>U+1F4A6 (U+D83D U+DCA6)</string>
 	<key>💧</key>
-	<string>U+D83D U+DCA7</string>
+	<string>U+1F4A7 (U+D83D U+DCA7)</string>
 	<key>💨</key>
-	<string>U+D83D U+DCA8</string>
+	<string>U+1F4A8 (U+D83D U+DCA8)</string>
 	<key>💩</key>
-	<string>U+D83D U+DCA9</string>
+	<string>U+1F4A9 (U+D83D U+DCA9)</string>
 	<key>💪</key>
-	<string>U+D83D U+DCAA</string>
+	<string>U+1F4AA (U+D83D U+DCAA)</string>
 	<key>💪🏻</key>
-	<string>U+D83D U+DCAA U+D83C U+DFFB</string>
+	<string>U+1F4AA U+1F3FB (U+D83D U+DCAA U+D83C U+DFFB)</string>
 	<key>💪🏼</key>
-	<string>U+D83D U+DCAA U+D83C U+DFFC</string>
+	<string>U+1F4AA U+1F3FC (U+D83D U+DCAA U+D83C U+DFFC)</string>
 	<key>💪🏽</key>
-	<string>U+D83D U+DCAA U+D83C U+DFFD</string>
+	<string>U+1F4AA U+1F3FD (U+D83D U+DCAA U+D83C U+DFFD)</string>
 	<key>💪🏾</key>
-	<string>U+D83D U+DCAA U+D83C U+DFFE</string>
+	<string>U+1F4AA U+1F3FE (U+D83D U+DCAA U+D83C U+DFFE)</string>
 	<key>💪🏿</key>
-	<string>U+D83D U+DCAA U+D83C U+DFFF</string>
+	<string>U+1F4AA U+1F3FF (U+D83D U+DCAA U+D83C U+DFFF)</string>
 	<key>💫</key>
-	<string>U+D83D U+DCAB</string>
+	<string>U+1F4AB (U+D83D U+DCAB)</string>
 	<key>💬</key>
-	<string>U+D83D U+DCAC</string>
+	<string>U+1F4AC (U+D83D U+DCAC)</string>
 	<key>💭</key>
-	<string>U+D83D U+DCAD</string>
+	<string>U+1F4AD (U+D83D U+DCAD)</string>
 	<key>💮</key>
-	<string>U+D83D U+DCAE</string>
+	<string>U+1F4AE (U+D83D U+DCAE)</string>
 	<key>💯</key>
-	<string>U+D83D U+DCAF</string>
+	<string>U+1F4AF (U+D83D U+DCAF)</string>
 	<key>💰</key>
-	<string>U+D83D U+DCB0</string>
+	<string>U+1F4B0 (U+D83D U+DCB0)</string>
 	<key>💱</key>
-	<string>U+D83D U+DCB1</string>
+	<string>U+1F4B1 (U+D83D U+DCB1)</string>
 	<key>💲</key>
-	<string>U+D83D U+DCB2</string>
+	<string>U+1F4B2 (U+D83D U+DCB2)</string>
 	<key>💳</key>
-	<string>U+D83D U+DCB3</string>
+	<string>U+1F4B3 (U+D83D U+DCB3)</string>
 	<key>💴</key>
-	<string>U+D83D U+DCB4</string>
+	<string>U+1F4B4 (U+D83D U+DCB4)</string>
 	<key>💵</key>
-	<string>U+D83D U+DCB5</string>
+	<string>U+1F4B5 (U+D83D U+DCB5)</string>
 	<key>💶</key>
-	<string>U+D83D U+DCB6</string>
+	<string>U+1F4B6 (U+D83D U+DCB6)</string>
 	<key>💷</key>
-	<string>U+D83D U+DCB7</string>
+	<string>U+1F4B7 (U+D83D U+DCB7)</string>
 	<key>💸</key>
-	<string>U+D83D U+DCB8</string>
+	<string>U+1F4B8 (U+D83D U+DCB8)</string>
 	<key>💹</key>
-	<string>U+D83D U+DCB9</string>
+	<string>U+1F4B9 (U+D83D U+DCB9)</string>
 	<key>💺</key>
-	<string>U+D83D U+DCBA</string>
+	<string>U+1F4BA (U+D83D U+DCBA)</string>
 	<key>💻</key>
-	<string>U+D83D U+DCBB</string>
+	<string>U+1F4BB (U+D83D U+DCBB)</string>
 	<key>💼</key>
-	<string>U+D83D U+DCBC</string>
+	<string>U+1F4BC (U+D83D U+DCBC)</string>
 	<key>💽</key>
-	<string>U+D83D U+DCBD</string>
+	<string>U+1F4BD (U+D83D U+DCBD)</string>
 	<key>💾</key>
-	<string>U+D83D U+DCBE</string>
+	<string>U+1F4BE (U+D83D U+DCBE)</string>
 	<key>💿</key>
-	<string>U+D83D U+DCBF</string>
+	<string>U+1F4BF (U+D83D U+DCBF)</string>
 	<key>📀</key>
-	<string>U+D83D U+DCC0</string>
+	<string>U+1F4C0 (U+D83D U+DCC0)</string>
 	<key>📁</key>
-	<string>U+D83D U+DCC1</string>
+	<string>U+1F4C1 (U+D83D U+DCC1)</string>
 	<key>📂</key>
-	<string>U+D83D U+DCC2</string>
+	<string>U+1F4C2 (U+D83D U+DCC2)</string>
 	<key>📃</key>
-	<string>U+D83D U+DCC3</string>
+	<string>U+1F4C3 (U+D83D U+DCC3)</string>
 	<key>📄</key>
-	<string>U+D83D U+DCC4</string>
+	<string>U+1F4C4 (U+D83D U+DCC4)</string>
 	<key>📅</key>
-	<string>U+D83D U+DCC5</string>
+	<string>U+1F4C5 (U+D83D U+DCC5)</string>
 	<key>📆</key>
-	<string>U+D83D U+DCC6</string>
+	<string>U+1F4C6 (U+D83D U+DCC6)</string>
 	<key>📇</key>
-	<string>U+D83D U+DCC7</string>
+	<string>U+1F4C7 (U+D83D U+DCC7)</string>
 	<key>📈</key>
-	<string>U+D83D U+DCC8</string>
+	<string>U+1F4C8 (U+D83D U+DCC8)</string>
 	<key>📉</key>
-	<string>U+D83D U+DCC9</string>
+	<string>U+1F4C9 (U+D83D U+DCC9)</string>
 	<key>📊</key>
-	<string>U+D83D U+DCCA</string>
+	<string>U+1F4CA (U+D83D U+DCCA)</string>
 	<key>📋</key>
-	<string>U+D83D U+DCCB</string>
+	<string>U+1F4CB (U+D83D U+DCCB)</string>
 	<key>📌</key>
-	<string>U+D83D U+DCCC</string>
+	<string>U+1F4CC (U+D83D U+DCCC)</string>
 	<key>📍</key>
-	<string>U+D83D U+DCCD</string>
+	<string>U+1F4CD (U+D83D U+DCCD)</string>
 	<key>📎</key>
-	<string>U+D83D U+DCCE</string>
+	<string>U+1F4CE (U+D83D U+DCCE)</string>
 	<key>📏</key>
-	<string>U+D83D U+DCCF</string>
+	<string>U+1F4CF (U+D83D U+DCCF)</string>
 	<key>📐</key>
-	<string>U+D83D U+DCD0</string>
+	<string>U+1F4D0 (U+D83D U+DCD0)</string>
 	<key>📑</key>
-	<string>U+D83D U+DCD1</string>
+	<string>U+1F4D1 (U+D83D U+DCD1)</string>
 	<key>📒</key>
-	<string>U+D83D U+DCD2</string>
+	<string>U+1F4D2 (U+D83D U+DCD2)</string>
 	<key>📓</key>
-	<string>U+D83D U+DCD3</string>
+	<string>U+1F4D3 (U+D83D U+DCD3)</string>
 	<key>📔</key>
-	<string>U+D83D U+DCD4</string>
+	<string>U+1F4D4 (U+D83D U+DCD4)</string>
 	<key>📕</key>
-	<string>U+D83D U+DCD5</string>
+	<string>U+1F4D5 (U+D83D U+DCD5)</string>
 	<key>📖</key>
-	<string>U+D83D U+DCD6</string>
+	<string>U+1F4D6 (U+D83D U+DCD6)</string>
 	<key>📗</key>
-	<string>U+D83D U+DCD7</string>
+	<string>U+1F4D7 (U+D83D U+DCD7)</string>
 	<key>📘</key>
-	<string>U+D83D U+DCD8</string>
+	<string>U+1F4D8 (U+D83D U+DCD8)</string>
 	<key>📙</key>
-	<string>U+D83D U+DCD9</string>
+	<string>U+1F4D9 (U+D83D U+DCD9)</string>
 	<key>📚</key>
-	<string>U+D83D U+DCDA</string>
+	<string>U+1F4DA (U+D83D U+DCDA)</string>
 	<key>📛</key>
-	<string>U+D83D U+DCDB</string>
+	<string>U+1F4DB (U+D83D U+DCDB)</string>
 	<key>📜</key>
-	<string>U+D83D U+DCDC</string>
+	<string>U+1F4DC (U+D83D U+DCDC)</string>
 	<key>📝</key>
-	<string>U+D83D U+DCDD</string>
+	<string>U+1F4DD (U+D83D U+DCDD)</string>
 	<key>📞</key>
-	<string>U+D83D U+DCDE</string>
+	<string>U+1F4DE (U+D83D U+DCDE)</string>
 	<key>📟</key>
-	<string>U+D83D U+DCDF</string>
+	<string>U+1F4DF (U+D83D U+DCDF)</string>
 	<key>📠</key>
-	<string>U+D83D U+DCE0</string>
+	<string>U+1F4E0 (U+D83D U+DCE0)</string>
 	<key>📡</key>
-	<string>U+D83D U+DCE1</string>
+	<string>U+1F4E1 (U+D83D U+DCE1)</string>
 	<key>📢</key>
-	<string>U+D83D U+DCE2</string>
+	<string>U+1F4E2 (U+D83D U+DCE2)</string>
 	<key>📣</key>
-	<string>U+D83D U+DCE3</string>
+	<string>U+1F4E3 (U+D83D U+DCE3)</string>
 	<key>📤</key>
-	<string>U+D83D U+DCE4</string>
+	<string>U+1F4E4 (U+D83D U+DCE4)</string>
 	<key>📥</key>
-	<string>U+D83D U+DCE5</string>
+	<string>U+1F4E5 (U+D83D U+DCE5)</string>
 	<key>📦</key>
-	<string>U+D83D U+DCE6</string>
+	<string>U+1F4E6 (U+D83D U+DCE6)</string>
 	<key>📧</key>
-	<string>U+D83D U+DCE7</string>
+	<string>U+1F4E7 (U+D83D U+DCE7)</string>
 	<key>📨</key>
-	<string>U+D83D U+DCE8</string>
+	<string>U+1F4E8 (U+D83D U+DCE8)</string>
 	<key>📩</key>
-	<string>U+D83D U+DCE9</string>
+	<string>U+1F4E9 (U+D83D U+DCE9)</string>
 	<key>📪</key>
-	<string>U+D83D U+DCEA</string>
+	<string>U+1F4EA (U+D83D U+DCEA)</string>
 	<key>📫</key>
-	<string>U+D83D U+DCEB</string>
+	<string>U+1F4EB (U+D83D U+DCEB)</string>
 	<key>📬</key>
-	<string>U+D83D U+DCEC</string>
+	<string>U+1F4EC (U+D83D U+DCEC)</string>
 	<key>📭</key>
-	<string>U+D83D U+DCED</string>
+	<string>U+1F4ED (U+D83D U+DCED)</string>
 	<key>📮</key>
-	<string>U+D83D U+DCEE</string>
+	<string>U+1F4EE (U+D83D U+DCEE)</string>
 	<key>📯</key>
-	<string>U+D83D U+DCEF</string>
+	<string>U+1F4EF (U+D83D U+DCEF)</string>
 	<key>📰</key>
-	<string>U+D83D U+DCF0</string>
+	<string>U+1F4F0 (U+D83D U+DCF0)</string>
 	<key>📱</key>
-	<string>U+D83D U+DCF1</string>
+	<string>U+1F4F1 (U+D83D U+DCF1)</string>
 	<key>📲</key>
-	<string>U+D83D U+DCF2</string>
+	<string>U+1F4F2 (U+D83D U+DCF2)</string>
 	<key>📳</key>
-	<string>U+D83D U+DCF3</string>
+	<string>U+1F4F3 (U+D83D U+DCF3)</string>
 	<key>📴</key>
-	<string>U+D83D U+DCF4</string>
+	<string>U+1F4F4 (U+D83D U+DCF4)</string>
 	<key>📵</key>
-	<string>U+D83D U+DCF5</string>
+	<string>U+1F4F5 (U+D83D U+DCF5)</string>
 	<key>📶</key>
-	<string>U+D83D U+DCF6</string>
+	<string>U+1F4F6 (U+D83D U+DCF6)</string>
 	<key>📷</key>
-	<string>U+D83D U+DCF7</string>
+	<string>U+1F4F7 (U+D83D U+DCF7)</string>
 	<key>📹</key>
-	<string>U+D83D U+DCF9</string>
+	<string>U+1F4F9 (U+D83D U+DCF9)</string>
 	<key>📺</key>
-	<string>U+D83D U+DCFA</string>
+	<string>U+1F4FA (U+D83D U+DCFA)</string>
 	<key>📻</key>
-	<string>U+D83D U+DCFB</string>
+	<string>U+1F4FB (U+D83D U+DCFB)</string>
 	<key>📼</key>
-	<string>U+D83D U+DCFC</string>
+	<string>U+1F4FC (U+D83D U+DCFC)</string>
 	<key>🔀</key>
-	<string>U+D83D U+DD00</string>
+	<string>U+1F500 (U+D83D U+DD00)</string>
 	<key>🔁</key>
-	<string>U+D83D U+DD01</string>
+	<string>U+1F501 (U+D83D U+DD01)</string>
 	<key>🔂</key>
-	<string>U+D83D U+DD02</string>
+	<string>U+1F502 (U+D83D U+DD02)</string>
 	<key>🔃</key>
-	<string>U+D83D U+DD03</string>
+	<string>U+1F503 (U+D83D U+DD03)</string>
 	<key>🔄</key>
-	<string>U+D83D U+DD04</string>
+	<string>U+1F504 (U+D83D U+DD04)</string>
 	<key>🔅</key>
-	<string>U+D83D U+DD05</string>
+	<string>U+1F505 (U+D83D U+DD05)</string>
 	<key>🔆</key>
-	<string>U+D83D U+DD06</string>
+	<string>U+1F506 (U+D83D U+DD06)</string>
 	<key>🔇</key>
-	<string>U+D83D U+DD07</string>
+	<string>U+1F507 (U+D83D U+DD07)</string>
 	<key>🔈</key>
-	<string>U+D83D U+DD08</string>
+	<string>U+1F508 (U+D83D U+DD08)</string>
 	<key>🔉</key>
-	<string>U+D83D U+DD09</string>
+	<string>U+1F509 (U+D83D U+DD09)</string>
 	<key>🔊</key>
-	<string>U+D83D U+DD0A</string>
+	<string>U+1F50A (U+D83D U+DD0A)</string>
 	<key>🔋</key>
-	<string>U+D83D U+DD0B</string>
+	<string>U+1F50B (U+D83D U+DD0B)</string>
 	<key>🔌</key>
-	<string>U+D83D U+DD0C</string>
+	<string>U+1F50C (U+D83D U+DD0C)</string>
 	<key>🔍</key>
-	<string>U+D83D U+DD0D</string>
+	<string>U+1F50D (U+D83D U+DD0D)</string>
 	<key>🔎</key>
-	<string>U+D83D U+DD0E</string>
+	<string>U+1F50E (U+D83D U+DD0E)</string>
 	<key>🔏</key>
-	<string>U+D83D U+DD0F</string>
+	<string>U+1F50F (U+D83D U+DD0F)</string>
 	<key>🔐</key>
-	<string>U+D83D U+DD10</string>
+	<string>U+1F510 (U+D83D U+DD10)</string>
 	<key>🔑</key>
-	<string>U+D83D U+DD11</string>
+	<string>U+1F511 (U+D83D U+DD11)</string>
 	<key>🔒</key>
-	<string>U+D83D U+DD12</string>
+	<string>U+1F512 (U+D83D U+DD12)</string>
 	<key>🔓</key>
-	<string>U+D83D U+DD13</string>
+	<string>U+1F513 (U+D83D U+DD13)</string>
 	<key>🔔</key>
-	<string>U+D83D U+DD14</string>
+	<string>U+1F514 (U+D83D U+DD14)</string>
 	<key>🔕</key>
-	<string>U+D83D U+DD15</string>
+	<string>U+1F515 (U+D83D U+DD15)</string>
 	<key>🔖</key>
-	<string>U+D83D U+DD16</string>
+	<string>U+1F516 (U+D83D U+DD16)</string>
 	<key>🔗</key>
-	<string>U+D83D U+DD17</string>
+	<string>U+1F517 (U+D83D U+DD17)</string>
 	<key>🔘</key>
-	<string>U+D83D U+DD18</string>
+	<string>U+1F518 (U+D83D U+DD18)</string>
 	<key>🔙</key>
-	<string>U+D83D U+DD19</string>
+	<string>U+1F519 (U+D83D U+DD19)</string>
 	<key>🔚</key>
-	<string>U+D83D U+DD1A</string>
+	<string>U+1F51A (U+D83D U+DD1A)</string>
 	<key>🔛</key>
-	<string>U+D83D U+DD1B</string>
+	<string>U+1F51B (U+D83D U+DD1B)</string>
 	<key>🔜</key>
-	<string>U+D83D U+DD1C</string>
+	<string>U+1F51C (U+D83D U+DD1C)</string>
 	<key>🔝</key>
-	<string>U+D83D U+DD1D</string>
+	<string>U+1F51D (U+D83D U+DD1D)</string>
 	<key>🔞</key>
-	<string>U+D83D U+DD1E</string>
+	<string>U+1F51E (U+D83D U+DD1E)</string>
 	<key>🔟</key>
-	<string>U+D83D U+DD1F</string>
+	<string>U+1F51F (U+D83D U+DD1F)</string>
 	<key>🔠</key>
-	<string>U+D83D U+DD20</string>
+	<string>U+1F520 (U+D83D U+DD20)</string>
 	<key>🔡</key>
-	<string>U+D83D U+DD21</string>
+	<string>U+1F521 (U+D83D U+DD21)</string>
 	<key>🔢</key>
-	<string>U+D83D U+DD22</string>
+	<string>U+1F522 (U+D83D U+DD22)</string>
 	<key>🔣</key>
-	<string>U+D83D U+DD23</string>
+	<string>U+1F523 (U+D83D U+DD23)</string>
 	<key>🔤</key>
-	<string>U+D83D U+DD24</string>
+	<string>U+1F524 (U+D83D U+DD24)</string>
 	<key>🔥</key>
-	<string>U+D83D U+DD25</string>
+	<string>U+1F525 (U+D83D U+DD25)</string>
 	<key>🔦</key>
-	<string>U+D83D U+DD26</string>
+	<string>U+1F526 (U+D83D U+DD26)</string>
 	<key>🔧</key>
-	<string>U+D83D U+DD27</string>
+	<string>U+1F527 (U+D83D U+DD27)</string>
 	<key>🔨</key>
-	<string>U+D83D U+DD28</string>
+	<string>U+1F528 (U+D83D U+DD28)</string>
 	<key>🔩</key>
-	<string>U+D83D U+DD29</string>
+	<string>U+1F529 (U+D83D U+DD29)</string>
 	<key>🔪</key>
-	<string>U+D83D U+DD2A</string>
+	<string>U+1F52A (U+D83D U+DD2A)</string>
 	<key>🔫</key>
-	<string>U+D83D U+DD2B</string>
+	<string>U+1F52B (U+D83D U+DD2B)</string>
 	<key>🔬</key>
-	<string>U+D83D U+DD2C</string>
+	<string>U+1F52C (U+D83D U+DD2C)</string>
 	<key>🔭</key>
-	<string>U+D83D U+DD2D</string>
+	<string>U+1F52D (U+D83D U+DD2D)</string>
 	<key>🔮</key>
-	<string>U+D83D U+DD2E</string>
+	<string>U+1F52E (U+D83D U+DD2E)</string>
 	<key>🔯</key>
-	<string>U+D83D U+DD2F</string>
+	<string>U+1F52F (U+D83D U+DD2F)</string>
 	<key>🔰</key>
-	<string>U+D83D U+DD30</string>
+	<string>U+1F530 (U+D83D U+DD30)</string>
 	<key>🔱</key>
-	<string>U+D83D U+DD31</string>
+	<string>U+1F531 (U+D83D U+DD31)</string>
 	<key>🔲</key>
-	<string>U+D83D U+DD32</string>
+	<string>U+1F532 (U+D83D U+DD32)</string>
 	<key>🔳</key>
-	<string>U+D83D U+DD33</string>
+	<string>U+1F533 (U+D83D U+DD33)</string>
 	<key>🔴</key>
-	<string>U+D83D U+DD34</string>
+	<string>U+1F534 (U+D83D U+DD34)</string>
 	<key>🔵</key>
-	<string>U+D83D U+DD35</string>
+	<string>U+1F535 (U+D83D U+DD35)</string>
 	<key>🔶</key>
-	<string>U+D83D U+DD36</string>
+	<string>U+1F536 (U+D83D U+DD36)</string>
 	<key>🔷</key>
-	<string>U+D83D U+DD37</string>
+	<string>U+1F537 (U+D83D U+DD37)</string>
 	<key>🔸</key>
-	<string>U+D83D U+DD38</string>
+	<string>U+1F538 (U+D83D U+DD38)</string>
 	<key>🔹</key>
-	<string>U+D83D U+DD39</string>
+	<string>U+1F539 (U+D83D U+DD39)</string>
 	<key>🔺</key>
-	<string>U+D83D U+DD3A</string>
+	<string>U+1F53A (U+D83D U+DD3A)</string>
 	<key>🔻</key>
-	<string>U+D83D U+DD3B</string>
+	<string>U+1F53B (U+D83D U+DD3B)</string>
 	<key>🔼</key>
-	<string>U+D83D U+DD3C</string>
+	<string>U+1F53C (U+D83D U+DD3C)</string>
 	<key>🔽</key>
-	<string>U+D83D U+DD3D</string>
+	<string>U+1F53D (U+D83D U+DD3D)</string>
 	<key>🕐</key>
-	<string>U+D83D U+DD50</string>
+	<string>U+1F550 (U+D83D U+DD50)</string>
 	<key>🕑</key>
-	<string>U+D83D U+DD51</string>
+	<string>U+1F551 (U+D83D U+DD51)</string>
 	<key>🕒</key>
-	<string>U+D83D U+DD52</string>
+	<string>U+1F552 (U+D83D U+DD52)</string>
 	<key>🕓</key>
-	<string>U+D83D U+DD53</string>
+	<string>U+1F553 (U+D83D U+DD53)</string>
 	<key>🕔</key>
-	<string>U+D83D U+DD54</string>
+	<string>U+1F554 (U+D83D U+DD54)</string>
 	<key>🕕</key>
-	<string>U+D83D U+DD55</string>
+	<string>U+1F555 (U+D83D U+DD55)</string>
 	<key>🕖</key>
-	<string>U+D83D U+DD56</string>
+	<string>U+1F556 (U+D83D U+DD56)</string>
 	<key>🕗</key>
-	<string>U+D83D U+DD57</string>
+	<string>U+1F557 (U+D83D U+DD57)</string>
 	<key>🕘</key>
-	<string>U+D83D U+DD58</string>
+	<string>U+1F558 (U+D83D U+DD58)</string>
 	<key>🕙</key>
-	<string>U+D83D U+DD59</string>
+	<string>U+1F559 (U+D83D U+DD59)</string>
 	<key>🕚</key>
-	<string>U+D83D U+DD5A</string>
+	<string>U+1F55A (U+D83D U+DD5A)</string>
 	<key>🕛</key>
-	<string>U+D83D U+DD5B</string>
+	<string>U+1F55B (U+D83D U+DD5B)</string>
 	<key>🕜</key>
-	<string>U+D83D U+DD5C</string>
+	<string>U+1F55C (U+D83D U+DD5C)</string>
 	<key>🕝</key>
-	<string>U+D83D U+DD5D</string>
+	<string>U+1F55D (U+D83D U+DD5D)</string>
 	<key>🕞</key>
-	<string>U+D83D U+DD5E</string>
+	<string>U+1F55E (U+D83D U+DD5E)</string>
 	<key>🕟</key>
-	<string>U+D83D U+DD5F</string>
+	<string>U+1F55F (U+D83D U+DD5F)</string>
 	<key>🕠</key>
-	<string>U+D83D U+DD60</string>
+	<string>U+1F560 (U+D83D U+DD60)</string>
 	<key>🕡</key>
-	<string>U+D83D U+DD61</string>
+	<string>U+1F561 (U+D83D U+DD61)</string>
 	<key>🕢</key>
-	<string>U+D83D U+DD62</string>
+	<string>U+1F562 (U+D83D U+DD62)</string>
 	<key>🕣</key>
-	<string>U+D83D U+DD63</string>
+	<string>U+1F563 (U+D83D U+DD63)</string>
 	<key>🕤</key>
-	<string>U+D83D U+DD64</string>
+	<string>U+1F564 (U+D83D U+DD64)</string>
 	<key>🕥</key>
-	<string>U+D83D U+DD65</string>
+	<string>U+1F565 (U+D83D U+DD65)</string>
 	<key>🕦</key>
-	<string>U+D83D U+DD66</string>
+	<string>U+1F566 (U+D83D U+DD66)</string>
 	<key>🕧</key>
-	<string>U+D83D U+DD67</string>
+	<string>U+1F567 (U+D83D U+DD67)</string>
 	<key>🗻</key>
-	<string>U+D83D U+DDFB</string>
+	<string>U+1F5FB (U+D83D U+DDFB)</string>
 	<key>🗼</key>
-	<string>U+D83D U+DDFC</string>
+	<string>U+1F5FC (U+D83D U+DDFC)</string>
 	<key>🗽</key>
-	<string>U+D83D U+DDFD</string>
+	<string>U+1F5FD (U+D83D U+DDFD)</string>
 	<key>🗾</key>
-	<string>U+D83D U+DDFE</string>
+	<string>U+1F5FE (U+D83D U+DDFE)</string>
 	<key>🗿</key>
-	<string>U+D83D U+DDFF</string>
+	<string>U+1F5FF (U+D83D U+DDFF)</string>
 	<key>😀</key>
-	<string>U+D83D U+DE00</string>
+	<string>U+1F600 (U+D83D U+DE00)</string>
 	<key>😁</key>
-	<string>U+D83D U+DE01</string>
+	<string>U+1F601 (U+D83D U+DE01)</string>
 	<key>😂</key>
-	<string>U+D83D U+DE02</string>
+	<string>U+1F602 (U+D83D U+DE02)</string>
 	<key>😃</key>
-	<string>U+D83D U+DE03</string>
+	<string>U+1F603 (U+D83D U+DE03)</string>
 	<key>😄</key>
-	<string>U+D83D U+DE04</string>
+	<string>U+1F604 (U+D83D U+DE04)</string>
 	<key>😅</key>
-	<string>U+D83D U+DE05</string>
+	<string>U+1F605 (U+D83D U+DE05)</string>
 	<key>😆</key>
-	<string>U+D83D U+DE06</string>
+	<string>U+1F606 (U+D83D U+DE06)</string>
 	<key>😇</key>
-	<string>U+D83D U+DE07</string>
+	<string>U+1F607 (U+D83D U+DE07)</string>
 	<key>😈</key>
-	<string>U+D83D U+DE08</string>
+	<string>U+1F608 (U+D83D U+DE08)</string>
 	<key>😉</key>
-	<string>U+D83D U+DE09</string>
+	<string>U+1F609 (U+D83D U+DE09)</string>
 	<key>😊</key>
-	<string>U+D83D U+DE0A</string>
+	<string>U+1F60A (U+D83D U+DE0A)</string>
 	<key>😋</key>
-	<string>U+D83D U+DE0B</string>
+	<string>U+1F60B (U+D83D U+DE0B)</string>
 	<key>😌</key>
-	<string>U+D83D U+DE0C</string>
+	<string>U+1F60C (U+D83D U+DE0C)</string>
 	<key>😍</key>
-	<string>U+D83D U+DE0D</string>
+	<string>U+1F60D (U+D83D U+DE0D)</string>
 	<key>😎</key>
-	<string>U+D83D U+DE0E</string>
+	<string>U+1F60E (U+D83D U+DE0E)</string>
 	<key>😏</key>
-	<string>U+D83D U+DE0F</string>
+	<string>U+1F60F (U+D83D U+DE0F)</string>
 	<key>😐</key>
-	<string>U+D83D U+DE10</string>
+	<string>U+1F610 (U+D83D U+DE10)</string>
 	<key>😑</key>
-	<string>U+D83D U+DE11</string>
+	<string>U+1F611 (U+D83D U+DE11)</string>
 	<key>😒</key>
-	<string>U+D83D U+DE12</string>
+	<string>U+1F612 (U+D83D U+DE12)</string>
 	<key>😓</key>
-	<string>U+D83D U+DE13</string>
+	<string>U+1F613 (U+D83D U+DE13)</string>
 	<key>😔</key>
-	<string>U+D83D U+DE14</string>
+	<string>U+1F614 (U+D83D U+DE14)</string>
 	<key>😕</key>
-	<string>U+D83D U+DE15</string>
+	<string>U+1F615 (U+D83D U+DE15)</string>
 	<key>😖</key>
-	<string>U+D83D U+DE16</string>
+	<string>U+1F616 (U+D83D U+DE16)</string>
 	<key>😗</key>
-	<string>U+D83D U+DE17</string>
+	<string>U+1F617 (U+D83D U+DE17)</string>
 	<key>😘</key>
-	<string>U+D83D U+DE18</string>
+	<string>U+1F618 (U+D83D U+DE18)</string>
 	<key>😙</key>
-	<string>U+D83D U+DE19</string>
+	<string>U+1F619 (U+D83D U+DE19)</string>
 	<key>😚</key>
-	<string>U+D83D U+DE1A</string>
+	<string>U+1F61A (U+D83D U+DE1A)</string>
 	<key>😛</key>
-	<string>U+D83D U+DE1B</string>
+	<string>U+1F61B (U+D83D U+DE1B)</string>
 	<key>😜</key>
-	<string>U+D83D U+DE1C</string>
+	<string>U+1F61C (U+D83D U+DE1C)</string>
 	<key>😝</key>
-	<string>U+D83D U+DE1D</string>
+	<string>U+1F61D (U+D83D U+DE1D)</string>
 	<key>😞</key>
-	<string>U+D83D U+DE1E</string>
+	<string>U+1F61E (U+D83D U+DE1E)</string>
 	<key>😟</key>
-	<string>U+D83D U+DE1F</string>
+	<string>U+1F61F (U+D83D U+DE1F)</string>
 	<key>😠</key>
-	<string>U+D83D U+DE20</string>
+	<string>U+1F620 (U+D83D U+DE20)</string>
 	<key>😡</key>
-	<string>U+D83D U+DE21</string>
+	<string>U+1F621 (U+D83D U+DE21)</string>
 	<key>😢</key>
-	<string>U+D83D U+DE22</string>
+	<string>U+1F622 (U+D83D U+DE22)</string>
 	<key>😣</key>
-	<string>U+D83D U+DE23</string>
+	<string>U+1F623 (U+D83D U+DE23)</string>
 	<key>😤</key>
-	<string>U+D83D U+DE24</string>
+	<string>U+1F624 (U+D83D U+DE24)</string>
 	<key>😥</key>
-	<string>U+D83D U+DE25</string>
+	<string>U+1F625 (U+D83D U+DE25)</string>
 	<key>😦</key>
-	<string>U+D83D U+DE26</string>
+	<string>U+1F626 (U+D83D U+DE26)</string>
 	<key>😧</key>
-	<string>U+D83D U+DE27</string>
+	<string>U+1F627 (U+D83D U+DE27)</string>
 	<key>😨</key>
-	<string>U+D83D U+DE28</string>
+	<string>U+1F628 (U+D83D U+DE28)</string>
 	<key>😩</key>
-	<string>U+D83D U+DE29</string>
+	<string>U+1F629 (U+D83D U+DE29)</string>
 	<key>😪</key>
-	<string>U+D83D U+DE2A</string>
+	<string>U+1F62A (U+D83D U+DE2A)</string>
 	<key>😫</key>
-	<string>U+D83D U+DE2B</string>
+	<string>U+1F62B (U+D83D U+DE2B)</string>
 	<key>😬</key>
-	<string>U+D83D U+DE2C</string>
+	<string>U+1F62C (U+D83D U+DE2C)</string>
 	<key>😭</key>
-	<string>U+D83D U+DE2D</string>
+	<string>U+1F62D (U+D83D U+DE2D)</string>
 	<key>😮</key>
-	<string>U+D83D U+DE2E</string>
+	<string>U+1F62E (U+D83D U+DE2E)</string>
 	<key>😯</key>
-	<string>U+D83D U+DE2F</string>
+	<string>U+1F62F (U+D83D U+DE2F)</string>
 	<key>😰</key>
-	<string>U+D83D U+DE30</string>
+	<string>U+1F630 (U+D83D U+DE30)</string>
 	<key>😱</key>
-	<string>U+D83D U+DE31</string>
+	<string>U+1F631 (U+D83D U+DE31)</string>
 	<key>😲</key>
-	<string>U+D83D U+DE32</string>
+	<string>U+1F632 (U+D83D U+DE32)</string>
 	<key>😳</key>
-	<string>U+D83D U+DE33</string>
+	<string>U+1F633 (U+D83D U+DE33)</string>
 	<key>😴</key>
-	<string>U+D83D U+DE34</string>
+	<string>U+1F634 (U+D83D U+DE34)</string>
 	<key>😵</key>
-	<string>U+D83D U+DE35</string>
+	<string>U+1F635 (U+D83D U+DE35)</string>
 	<key>😶</key>
-	<string>U+D83D U+DE36</string>
+	<string>U+1F636 (U+D83D U+DE36)</string>
 	<key>😷</key>
-	<string>U+D83D U+DE37</string>
+	<string>U+1F637 (U+D83D U+DE37)</string>
 	<key>😸</key>
-	<string>U+D83D U+DE38</string>
+	<string>U+1F638 (U+D83D U+DE38)</string>
 	<key>😹</key>
-	<string>U+D83D U+DE39</string>
+	<string>U+1F639 (U+D83D U+DE39)</string>
 	<key>😺</key>
-	<string>U+D83D U+DE3A</string>
+	<string>U+1F63A (U+D83D U+DE3A)</string>
 	<key>😻</key>
-	<string>U+D83D U+DE3B</string>
+	<string>U+1F63B (U+D83D U+DE3B)</string>
 	<key>😼</key>
-	<string>U+D83D U+DE3C</string>
+	<string>U+1F63C (U+D83D U+DE3C)</string>
 	<key>😽</key>
-	<string>U+D83D U+DE3D</string>
+	<string>U+1F63D (U+D83D U+DE3D)</string>
 	<key>😾</key>
-	<string>U+D83D U+DE3E</string>
+	<string>U+1F63E (U+D83D U+DE3E)</string>
 	<key>😿</key>
-	<string>U+D83D U+DE3F</string>
+	<string>U+1F63F (U+D83D U+DE3F)</string>
 	<key>🙀</key>
-	<string>U+D83D U+DE40</string>
+	<string>U+1F640 (U+D83D U+DE40)</string>
 	<key>🙅</key>
-	<string>U+D83D U+DE45</string>
+	<string>U+1F645 (U+D83D U+DE45)</string>
 	<key>🙅🏻</key>
-	<string>U+D83D U+DE45 U+D83C U+DFFB</string>
+	<string>U+1F645 U+1F3FB (U+D83D U+DE45 U+D83C U+DFFB)</string>
 	<key>🙅🏼</key>
-	<string>U+D83D U+DE45 U+D83C U+DFFC</string>
+	<string>U+1F645 U+1F3FC (U+D83D U+DE45 U+D83C U+DFFC)</string>
 	<key>🙅🏽</key>
-	<string>U+D83D U+DE45 U+D83C U+DFFD</string>
+	<string>U+1F645 U+1F3FD (U+D83D U+DE45 U+D83C U+DFFD)</string>
 	<key>🙅🏾</key>
-	<string>U+D83D U+DE45 U+D83C U+DFFE</string>
+	<string>U+1F645 U+1F3FE (U+D83D U+DE45 U+D83C U+DFFE)</string>
 	<key>🙅🏿</key>
-	<string>U+D83D U+DE45 U+D83C U+DFFF</string>
+	<string>U+1F645 U+1F3FF (U+D83D U+DE45 U+D83C U+DFFF)</string>
 	<key>🙆</key>
-	<string>U+D83D U+DE46</string>
+	<string>U+1F646 (U+D83D U+DE46)</string>
 	<key>🙆🏻</key>
-	<string>U+D83D U+DE46 U+D83C U+DFFB</string>
+	<string>U+1F646 U+1F3FB (U+D83D U+DE46 U+D83C U+DFFB)</string>
 	<key>🙆🏼</key>
-	<string>U+D83D U+DE46 U+D83C U+DFFC</string>
+	<string>U+1F646 U+1F3FC (U+D83D U+DE46 U+D83C U+DFFC)</string>
 	<key>🙆🏽</key>
-	<string>U+D83D U+DE46 U+D83C U+DFFD</string>
+	<string>U+1F646 U+1F3FD (U+D83D U+DE46 U+D83C U+DFFD)</string>
 	<key>🙆🏾</key>
-	<string>U+D83D U+DE46 U+D83C U+DFFE</string>
+	<string>U+1F646 U+1F3FE (U+D83D U+DE46 U+D83C U+DFFE)</string>
 	<key>🙆🏿</key>
-	<string>U+D83D U+DE46 U+D83C U+DFFF</string>
+	<string>U+1F646 U+1F3FF (U+D83D U+DE46 U+D83C U+DFFF)</string>
 	<key>🙇</key>
-	<string>U+D83D U+DE47</string>
+	<string>U+1F647 (U+D83D U+DE47)</string>
 	<key>🙇🏻</key>
-	<string>U+D83D U+DE47 U+D83C U+DFFB</string>
+	<string>U+1F647 U+1F3FB (U+D83D U+DE47 U+D83C U+DFFB)</string>
 	<key>🙇🏼</key>
-	<string>U+D83D U+DE47 U+D83C U+DFFC</string>
+	<string>U+1F647 U+1F3FC (U+D83D U+DE47 U+D83C U+DFFC)</string>
 	<key>🙇🏽</key>
-	<string>U+D83D U+DE47 U+D83C U+DFFD</string>
+	<string>U+1F647 U+1F3FD (U+D83D U+DE47 U+D83C U+DFFD)</string>
 	<key>🙇🏾</key>
-	<string>U+D83D U+DE47 U+D83C U+DFFE</string>
+	<string>U+1F647 U+1F3FE (U+D83D U+DE47 U+D83C U+DFFE)</string>
 	<key>🙇🏿</key>
-	<string>U+D83D U+DE47 U+D83C U+DFFF</string>
+	<string>U+1F647 U+1F3FF (U+D83D U+DE47 U+D83C U+DFFF)</string>
 	<key>🙈</key>
-	<string>U+D83D U+DE48</string>
+	<string>U+1F648 (U+D83D U+DE48)</string>
 	<key>🙉</key>
-	<string>U+D83D U+DE49</string>
+	<string>U+1F649 (U+D83D U+DE49)</string>
 	<key>🙊</key>
-	<string>U+D83D U+DE4A</string>
+	<string>U+1F64A (U+D83D U+DE4A)</string>
 	<key>🙋</key>
-	<string>U+D83D U+DE4B</string>
+	<string>U+1F64B (U+D83D U+DE4B)</string>
 	<key>🙋🏻</key>
-	<string>U+D83D U+DE4B U+D83C U+DFFB</string>
+	<string>U+1F64B U+1F3FB (U+D83D U+DE4B U+D83C U+DFFB)</string>
 	<key>🙋🏼</key>
-	<string>U+D83D U+DE4B U+D83C U+DFFC</string>
+	<string>U+1F64B U+1F3FC (U+D83D U+DE4B U+D83C U+DFFC)</string>
 	<key>🙋🏽</key>
-	<string>U+D83D U+DE4B U+D83C U+DFFD</string>
+	<string>U+1F64B U+1F3FD (U+D83D U+DE4B U+D83C U+DFFD)</string>
 	<key>🙋🏾</key>
-	<string>U+D83D U+DE4B U+D83C U+DFFE</string>
+	<string>U+1F64B U+1F3FE (U+D83D U+DE4B U+D83C U+DFFE)</string>
 	<key>🙋🏿</key>
-	<string>U+D83D U+DE4B U+D83C U+DFFF</string>
+	<string>U+1F64B U+1F3FF (U+D83D U+DE4B U+D83C U+DFFF)</string>
 	<key>🙌</key>
-	<string>U+D83D U+DE4C</string>
+	<string>U+1F64C (U+D83D U+DE4C)</string>
 	<key>🙌🏻</key>
-	<string>U+D83D U+DE4C U+D83C U+DFFB</string>
+	<string>U+1F64C U+1F3FB (U+D83D U+DE4C U+D83C U+DFFB)</string>
 	<key>🙌🏼</key>
-	<string>U+D83D U+DE4C U+D83C U+DFFC</string>
+	<string>U+1F64C U+1F3FC (U+D83D U+DE4C U+D83C U+DFFC)</string>
 	<key>🙌🏽</key>
-	<string>U+D83D U+DE4C U+D83C U+DFFD</string>
+	<string>U+1F64C U+1F3FD (U+D83D U+DE4C U+D83C U+DFFD)</string>
 	<key>🙌🏾</key>
-	<string>U+D83D U+DE4C U+D83C U+DFFE</string>
+	<string>U+1F64C U+1F3FE (U+D83D U+DE4C U+D83C U+DFFE)</string>
 	<key>🙌🏿</key>
-	<string>U+D83D U+DE4C U+D83C U+DFFF</string>
+	<string>U+1F64C U+1F3FF (U+D83D U+DE4C U+D83C U+DFFF)</string>
 	<key>🙍</key>
-	<string>U+D83D U+DE4D</string>
+	<string>U+1F64D (U+D83D U+DE4D)</string>
 	<key>🙍🏻</key>
-	<string>U+D83D U+DE4D U+D83C U+DFFB</string>
+	<string>U+1F64D U+1F3FB (U+D83D U+DE4D U+D83C U+DFFB)</string>
 	<key>🙍🏼</key>
-	<string>U+D83D U+DE4D U+D83C U+DFFC</string>
+	<string>U+1F64D U+1F3FC (U+D83D U+DE4D U+D83C U+DFFC)</string>
 	<key>🙍🏽</key>
-	<string>U+D83D U+DE4D U+D83C U+DFFD</string>
+	<string>U+1F64D U+1F3FD (U+D83D U+DE4D U+D83C U+DFFD)</string>
 	<key>🙍🏾</key>
-	<string>U+D83D U+DE4D U+D83C U+DFFE</string>
+	<string>U+1F64D U+1F3FE (U+D83D U+DE4D U+D83C U+DFFE)</string>
 	<key>🙍🏿</key>
-	<string>U+D83D U+DE4D U+D83C U+DFFF</string>
+	<string>U+1F64D U+1F3FF (U+D83D U+DE4D U+D83C U+DFFF)</string>
 	<key>🙎</key>
-	<string>U+D83D U+DE4E</string>
+	<string>U+1F64E (U+D83D U+DE4E)</string>
 	<key>🙎🏻</key>
-	<string>U+D83D U+DE4E U+D83C U+DFFB</string>
+	<string>U+1F64E U+1F3FB (U+D83D U+DE4E U+D83C U+DFFB)</string>
 	<key>🙎🏼</key>
-	<string>U+D83D U+DE4E U+D83C U+DFFC</string>
+	<string>U+1F64E U+1F3FC (U+D83D U+DE4E U+D83C U+DFFC)</string>
 	<key>🙎🏽</key>
-	<string>U+D83D U+DE4E U+D83C U+DFFD</string>
+	<string>U+1F64E U+1F3FD (U+D83D U+DE4E U+D83C U+DFFD)</string>
 	<key>🙎🏾</key>
-	<string>U+D83D U+DE4E U+D83C U+DFFE</string>
+	<string>U+1F64E U+1F3FE (U+D83D U+DE4E U+D83C U+DFFE)</string>
 	<key>🙎🏿</key>
-	<string>U+D83D U+DE4E U+D83C U+DFFF</string>
+	<string>U+1F64E U+1F3FF (U+D83D U+DE4E U+D83C U+DFFF)</string>
 	<key>🙏</key>
-	<string>U+D83D U+DE4F</string>
+	<string>U+1F64F (U+D83D U+DE4F)</string>
 	<key>🙏🏻</key>
-	<string>U+D83D U+DE4F U+D83C U+DFFB</string>
+	<string>U+1F64F U+1F3FB (U+D83D U+DE4F U+D83C U+DFFB)</string>
 	<key>🙏🏼</key>
-	<string>U+D83D U+DE4F U+D83C U+DFFC</string>
+	<string>U+1F64F U+1F3FC (U+D83D U+DE4F U+D83C U+DFFC)</string>
 	<key>🙏🏽</key>
-	<string>U+D83D U+DE4F U+D83C U+DFFD</string>
+	<string>U+1F64F U+1F3FD (U+D83D U+DE4F U+D83C U+DFFD)</string>
 	<key>🙏🏾</key>
-	<string>U+D83D U+DE4F U+D83C U+DFFE</string>
+	<string>U+1F64F U+1F3FE (U+D83D U+DE4F U+D83C U+DFFE)</string>
 	<key>🙏🏿</key>
-	<string>U+D83D U+DE4F U+D83C U+DFFF</string>
+	<string>U+1F64F U+1F3FF (U+D83D U+DE4F U+D83C U+DFFF)</string>
 	<key>🚀</key>
-	<string>U+D83D U+DE80</string>
+	<string>U+1F680 (U+D83D U+DE80)</string>
 	<key>🚁</key>
-	<string>U+D83D U+DE81</string>
+	<string>U+1F681 (U+D83D U+DE81)</string>
 	<key>🚂</key>
-	<string>U+D83D U+DE82</string>
+	<string>U+1F682 (U+D83D U+DE82)</string>
 	<key>🚃</key>
-	<string>U+D83D U+DE83</string>
+	<string>U+1F683 (U+D83D U+DE83)</string>
 	<key>🚄</key>
-	<string>U+D83D U+DE84</string>
+	<string>U+1F684 (U+D83D U+DE84)</string>
 	<key>🚅</key>
-	<string>U+D83D U+DE85</string>
+	<string>U+1F685 (U+D83D U+DE85)</string>
 	<key>🚆</key>
-	<string>U+D83D U+DE86</string>
+	<string>U+1F686 (U+D83D U+DE86)</string>
 	<key>🚇</key>
-	<string>U+D83D U+DE87</string>
+	<string>U+1F687 (U+D83D U+DE87)</string>
 	<key>🚈</key>
-	<string>U+D83D U+DE88</string>
+	<string>U+1F688 (U+D83D U+DE88)</string>
 	<key>🚉</key>
-	<string>U+D83D U+DE89</string>
+	<string>U+1F689 (U+D83D U+DE89)</string>
 	<key>🚊</key>
-	<string>U+D83D U+DE8A</string>
+	<string>U+1F68A (U+D83D U+DE8A)</string>
 	<key>🚋</key>
-	<string>U+D83D U+DE8B</string>
+	<string>U+1F68B (U+D83D U+DE8B)</string>
 	<key>🚌</key>
-	<string>U+D83D U+DE8C</string>
+	<string>U+1F68C (U+D83D U+DE8C)</string>
 	<key>🚍</key>
-	<string>U+D83D U+DE8D</string>
+	<string>U+1F68D (U+D83D U+DE8D)</string>
 	<key>🚎</key>
-	<string>U+D83D U+DE8E</string>
+	<string>U+1F68E (U+D83D U+DE8E)</string>
 	<key>🚏</key>
-	<string>U+D83D U+DE8F</string>
+	<string>U+1F68F (U+D83D U+DE8F)</string>
 	<key>🚐</key>
-	<string>U+D83D U+DE90</string>
+	<string>U+1F690 (U+D83D U+DE90)</string>
 	<key>🚑</key>
-	<string>U+D83D U+DE91</string>
+	<string>U+1F691 (U+D83D U+DE91)</string>
 	<key>🚒</key>
-	<string>U+D83D U+DE92</string>
+	<string>U+1F692 (U+D83D U+DE92)</string>
 	<key>🚓</key>
-	<string>U+D83D U+DE93</string>
+	<string>U+1F693 (U+D83D U+DE93)</string>
 	<key>🚔</key>
-	<string>U+D83D U+DE94</string>
+	<string>U+1F694 (U+D83D U+DE94)</string>
 	<key>🚕</key>
-	<string>U+D83D U+DE95</string>
+	<string>U+1F695 (U+D83D U+DE95)</string>
 	<key>🚖</key>
-	<string>U+D83D U+DE96</string>
+	<string>U+1F696 (U+D83D U+DE96)</string>
 	<key>🚗</key>
-	<string>U+D83D U+DE97</string>
+	<string>U+1F697 (U+D83D U+DE97)</string>
 	<key>🚘</key>
-	<string>U+D83D U+DE98</string>
+	<string>U+1F698 (U+D83D U+DE98)</string>
 	<key>🚙</key>
-	<string>U+D83D U+DE99</string>
+	<string>U+1F699 (U+D83D U+DE99)</string>
 	<key>🚚</key>
-	<string>U+D83D U+DE9A</string>
+	<string>U+1F69A (U+D83D U+DE9A)</string>
 	<key>🚛</key>
-	<string>U+D83D U+DE9B</string>
+	<string>U+1F69B (U+D83D U+DE9B)</string>
 	<key>🚜</key>
-	<string>U+D83D U+DE9C</string>
+	<string>U+1F69C (U+D83D U+DE9C)</string>
 	<key>🚝</key>
-	<string>U+D83D U+DE9D</string>
+	<string>U+1F69D (U+D83D U+DE9D)</string>
 	<key>🚞</key>
-	<string>U+D83D U+DE9E</string>
+	<string>U+1F69E (U+D83D U+DE9E)</string>
 	<key>🚟</key>
-	<string>U+D83D U+DE9F</string>
+	<string>U+1F69F (U+D83D U+DE9F)</string>
 	<key>🚠</key>
-	<string>U+D83D U+DEA0</string>
+	<string>U+1F6A0 (U+D83D U+DEA0)</string>
 	<key>🚡</key>
-	<string>U+D83D U+DEA1</string>
+	<string>U+1F6A1 (U+D83D U+DEA1)</string>
 	<key>🚢</key>
-	<string>U+D83D U+DEA2</string>
+	<string>U+1F6A2 (U+D83D U+DEA2)</string>
 	<key>🚣</key>
-	<string>U+D83D U+DEA3</string>
+	<string>U+1F6A3 (U+D83D U+DEA3)</string>
 	<key>🚣🏻</key>
-	<string>U+D83D U+DEA3 U+D83C U+DFFB</string>
+	<string>U+1F6A3 U+1F3FB (U+D83D U+DEA3 U+D83C U+DFFB)</string>
 	<key>🚣🏼</key>
-	<string>U+D83D U+DEA3 U+D83C U+DFFC</string>
+	<string>U+1F6A3 U+1F3FC (U+D83D U+DEA3 U+D83C U+DFFC)</string>
 	<key>🚣🏽</key>
-	<string>U+D83D U+DEA3 U+D83C U+DFFD</string>
+	<string>U+1F6A3 U+1F3FD (U+D83D U+DEA3 U+D83C U+DFFD)</string>
 	<key>🚣🏾</key>
-	<string>U+D83D U+DEA3 U+D83C U+DFFE</string>
+	<string>U+1F6A3 U+1F3FE (U+D83D U+DEA3 U+D83C U+DFFE)</string>
 	<key>🚣🏿</key>
-	<string>U+D83D U+DEA3 U+D83C U+DFFF</string>
+	<string>U+1F6A3 U+1F3FF (U+D83D U+DEA3 U+D83C U+DFFF)</string>
 	<key>🚤</key>
-	<string>U+D83D U+DEA4</string>
+	<string>U+1F6A4 (U+D83D U+DEA4)</string>
 	<key>🚥</key>
-	<string>U+D83D U+DEA5</string>
+	<string>U+1F6A5 (U+D83D U+DEA5)</string>
 	<key>🚦</key>
-	<string>U+D83D U+DEA6</string>
+	<string>U+1F6A6 (U+D83D U+DEA6)</string>
 	<key>🚧</key>
-	<string>U+D83D U+DEA7</string>
+	<string>U+1F6A7 (U+D83D U+DEA7)</string>
 	<key>🚨</key>
-	<string>U+D83D U+DEA8</string>
+	<string>U+1F6A8 (U+D83D U+DEA8)</string>
 	<key>🚩</key>
-	<string>U+D83D U+DEA9</string>
+	<string>U+1F6A9 (U+D83D U+DEA9)</string>
 	<key>🚪</key>
-	<string>U+D83D U+DEAA</string>
+	<string>U+1F6AA (U+D83D U+DEAA)</string>
 	<key>🚫</key>
-	<string>U+D83D U+DEAB</string>
+	<string>U+1F6AB (U+D83D U+DEAB)</string>
 	<key>🚬</key>
-	<string>U+D83D U+DEAC</string>
+	<string>U+1F6AC (U+D83D U+DEAC)</string>
 	<key>🚭</key>
-	<string>U+D83D U+DEAD</string>
+	<string>U+1F6AD (U+D83D U+DEAD)</string>
 	<key>🚮</key>
-	<string>U+D83D U+DEAE</string>
+	<string>U+1F6AE (U+D83D U+DEAE)</string>
 	<key>🚯</key>
-	<string>U+D83D U+DEAF</string>
+	<string>U+1F6AF (U+D83D U+DEAF)</string>
 	<key>🚰</key>
-	<string>U+D83D U+DEB0</string>
+	<string>U+1F6B0 (U+D83D U+DEB0)</string>
 	<key>🚱</key>
-	<string>U+D83D U+DEB1</string>
+	<string>U+1F6B1 (U+D83D U+DEB1)</string>
 	<key>🚲</key>
-	<string>U+D83D U+DEB2</string>
+	<string>U+1F6B2 (U+D83D U+DEB2)</string>
 	<key>🚳</key>
-	<string>U+D83D U+DEB3</string>
+	<string>U+1F6B3 (U+D83D U+DEB3)</string>
 	<key>🚴</key>
-	<string>U+D83D U+DEB4</string>
+	<string>U+1F6B4 (U+D83D U+DEB4)</string>
 	<key>🚴🏻</key>
-	<string>U+D83D U+DEB4 U+D83C U+DFFB</string>
+	<string>U+1F6B4 U+1F3FB (U+D83D U+DEB4 U+D83C U+DFFB)</string>
 	<key>🚴🏼</key>
-	<string>U+D83D U+DEB4 U+D83C U+DFFC</string>
+	<string>U+1F6B4 U+1F3FC (U+D83D U+DEB4 U+D83C U+DFFC)</string>
 	<key>🚴🏽</key>
-	<string>U+D83D U+DEB4 U+D83C U+DFFD</string>
+	<string>U+1F6B4 U+1F3FD (U+D83D U+DEB4 U+D83C U+DFFD)</string>
 	<key>🚴🏾</key>
-	<string>U+D83D U+DEB4 U+D83C U+DFFE</string>
+	<string>U+1F6B4 U+1F3FE (U+D83D U+DEB4 U+D83C U+DFFE)</string>
 	<key>🚴🏿</key>
-	<string>U+D83D U+DEB4 U+D83C U+DFFF</string>
+	<string>U+1F6B4 U+1F3FF (U+D83D U+DEB4 U+D83C U+DFFF)</string>
 	<key>🚵</key>
-	<string>U+D83D U+DEB5</string>
+	<string>U+1F6B5 (U+D83D U+DEB5)</string>
 	<key>🚵🏻</key>
-	<string>U+D83D U+DEB5 U+D83C U+DFFB</string>
+	<string>U+1F6B5 U+1F3FB (U+D83D U+DEB5 U+D83C U+DFFB)</string>
 	<key>🚵🏼</key>
-	<string>U+D83D U+DEB5 U+D83C U+DFFC</string>
+	<string>U+1F6B5 U+1F3FC (U+D83D U+DEB5 U+D83C U+DFFC)</string>
 	<key>🚵🏽</key>
-	<string>U+D83D U+DEB5 U+D83C U+DFFD</string>
+	<string>U+1F6B5 U+1F3FD (U+D83D U+DEB5 U+D83C U+DFFD)</string>
 	<key>🚵🏾</key>
-	<string>U+D83D U+DEB5 U+D83C U+DFFE</string>
+	<string>U+1F6B5 U+1F3FE (U+D83D U+DEB5 U+D83C U+DFFE)</string>
 	<key>🚵🏿</key>
-	<string>U+D83D U+DEB5 U+D83C U+DFFF</string>
+	<string>U+1F6B5 U+1F3FF (U+D83D U+DEB5 U+D83C U+DFFF)</string>
 	<key>🚶</key>
-	<string>U+D83D U+DEB6</string>
+	<string>U+1F6B6 (U+D83D U+DEB6)</string>
 	<key>🚶🏻</key>
-	<string>U+D83D U+DEB6 U+D83C U+DFFB</string>
+	<string>U+1F6B6 U+1F3FB (U+D83D U+DEB6 U+D83C U+DFFB)</string>
 	<key>🚶🏼</key>
-	<string>U+D83D U+DEB6 U+D83C U+DFFC</string>
+	<string>U+1F6B6 U+1F3FC (U+D83D U+DEB6 U+D83C U+DFFC)</string>
 	<key>🚶🏽</key>
-	<string>U+D83D U+DEB6 U+D83C U+DFFD</string>
+	<string>U+1F6B6 U+1F3FD (U+D83D U+DEB6 U+D83C U+DFFD)</string>
 	<key>🚶🏾</key>
-	<string>U+D83D U+DEB6 U+D83C U+DFFE</string>
+	<string>U+1F6B6 U+1F3FE (U+D83D U+DEB6 U+D83C U+DFFE)</string>
 	<key>🚶🏿</key>
-	<string>U+D83D U+DEB6 U+D83C U+DFFF</string>
+	<string>U+1F6B6 U+1F3FF (U+D83D U+DEB6 U+D83C U+DFFF)</string>
 	<key>🚷</key>
-	<string>U+D83D U+DEB7</string>
+	<string>U+1F6B7 (U+D83D U+DEB7)</string>
 	<key>🚸</key>
-	<string>U+D83D U+DEB8</string>
+	<string>U+1F6B8 (U+D83D U+DEB8)</string>
 	<key>🚹</key>
-	<string>U+D83D U+DEB9</string>
+	<string>U+1F6B9 (U+D83D U+DEB9)</string>
 	<key>🚺</key>
-	<string>U+D83D U+DEBA</string>
+	<string>U+1F6BA (U+D83D U+DEBA)</string>
 	<key>🚻</key>
-	<string>U+D83D U+DEBB</string>
+	<string>U+1F6BB (U+D83D U+DEBB)</string>
 	<key>🚼</key>
-	<string>U+D83D U+DEBC</string>
+	<string>U+1F6BC (U+D83D U+DEBC)</string>
 	<key>🚽</key>
-	<string>U+D83D U+DEBD</string>
+	<string>U+1F6BD (U+D83D U+DEBD)</string>
 	<key>🚾</key>
-	<string>U+D83D U+DEBE</string>
+	<string>U+1F6BE (U+D83D U+DEBE)</string>
 	<key>🚿</key>
-	<string>U+D83D U+DEBF</string>
+	<string>U+1F6BF (U+D83D U+DEBF)</string>
 	<key>🛀</key>
-	<string>U+D83D U+DEC0</string>
+	<string>U+1F6C0 (U+D83D U+DEC0)</string>
 	<key>🛀🏻</key>
-	<string>U+D83D U+DEC0 U+D83C U+DFFB</string>
+	<string>U+1F6C0 U+1F3FB (U+D83D U+DEC0 U+D83C U+DFFB)</string>
 	<key>🛀🏼</key>
-	<string>U+D83D U+DEC0 U+D83C U+DFFC</string>
+	<string>U+1F6C0 U+1F3FC (U+D83D U+DEC0 U+D83C U+DFFC)</string>
 	<key>🛀🏽</key>
-	<string>U+D83D U+DEC0 U+D83C U+DFFD</string>
+	<string>U+1F6C0 U+1F3FD (U+D83D U+DEC0 U+D83C U+DFFD)</string>
 	<key>🛀🏾</key>
-	<string>U+D83D U+DEC0 U+D83C U+DFFE</string>
+	<string>U+1F6C0 U+1F3FE (U+D83D U+DEC0 U+D83C U+DFFE)</string>
 	<key>🛀🏿</key>
-	<string>U+D83D U+DEC0 U+D83C U+DFFF</string>
+	<string>U+1F6C0 U+1F3FF (U+D83D U+DEC0 U+D83C U+DFFF)</string>
 	<key>🛁</key>
-	<string>U+D83D U+DEC1</string>
+	<string>U+1F6C1 (U+D83D U+DEC1)</string>
 	<key>🛂</key>
-	<string>U+D83D U+DEC2</string>
+	<string>U+1F6C2 (U+D83D U+DEC2)</string>
 	<key>🛃</key>
-	<string>U+D83D U+DEC3</string>
+	<string>U+1F6C3 (U+D83D U+DEC3)</string>
 	<key>🛄</key>
-	<string>U+D83D U+DEC4</string>
+	<string>U+1F6C4 (U+D83D U+DEC4)</string>
 	<key>🛅</key>
-	<string>U+D83D U+DEC5</string>
+	<string>U+1F6C5 (U+D83D U+DEC5)</string>
 </dict>
 </plist>
