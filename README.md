@@ -1,7 +1,7 @@
-# DumpEmoji
+# DumpEmoji(EmojiDump)
 😀Dump Emoji from iOS😀 iOS8, iOS9 and iOS10
 
-All the Emoji Categories and Code. Also unicode hex string.
+All Emoji Categories and Code. Also unicode hex string.
 
 * By Using Simulator save the file in User's root dir.
 * By Using iOS device save the file in documents dir, and using iTunes sharing doc to export.
