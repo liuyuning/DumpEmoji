@@ -1,4 +1,4 @@
-# DumpEmoji(EmojiDump)
+# DumpEmoji
 😀Dump Emoji from iOS😀 iOS8, iOS9 and iOS10
 
 All Emoji Categories and Code. Also unicode hex string.
