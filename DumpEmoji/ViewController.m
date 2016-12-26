@@ -115,11 +115,11 @@
     return emojis;
 }
 
-//Variant 6 (iOS10.0)
+//Variant 6 (iOS10.0 PeopleEmoji and ActivityEmoji)
 //👱‍♀️ 金发女子 Unicode: U+1F471 U+200D U+2640 U+FE0F，UTF-8: F0 9F 91 B1 E2 80 8D E2 99 80 EF B8 8F
 //👱🏿‍♀️ 金发女子 Unicode: U+1F471 U+1F3FF U+200D U+2640 U+FE0F，UTF-8: F0 9F 91 B1 F0 9F 8F BF E2 80 8D E2 99 80 EF B8 8F
 
-//Variant 10 (iOS10.2)
+//Variant 10 (iOS10.2 ProfessionEmoji)
 //👨‍🍳 厨师（男） Unicode: U+1F468 U+200D U+1F373，UTF-8: F0 9F 91 A8 E2 80 8D F0 9F 8D B3
 //👨🏿‍🍳 厨师（男） Unicode: U+1F468 U+1F3FF U+200D U+1F373，UTF-8: F0 9F 91 A8 F0 9F 8F BF E2 80 8D F0 9F 8D B3
 - (NSArray *)skinedEmojisForBaseEmoji_6:(NSString *)baseEmoji{
@@ -267,10 +267,10 @@
                 hasSkined = NO;
                 [arraySkinedToNoSkin addObject:key];
             }
-            else if (hasVariants == 6) {//iOS10.0 👱🏿‍♀️👳🏿‍♀️👮🏿‍♀️...
+            else if (hasVariants == 6) {//Variant 6 (iOS10.0 PeopleEmoji and ActivityEmoji) 👱‍♀️👳‍♀️👮‍♀️... and 🚶‍♀️🏃‍♀️🏋️‍♀️...
                 hasSkined = YES;
             }
-            else if (hasVariants == 10) {//iOS10.2 👨‍🍳👨🏿‍🍳...
+            else if (hasVariants == 10) {//Variant 10 (iOS10.2 ProfessionEmoji) 👩‍⚕️👨‍⚕️👩‍🌾👨‍🍳...
                 hasSkined = YES;
             }
             else {
