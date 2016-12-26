@@ -4,48 +4,36 @@
 <dict>
 	<key>UIKeyboardEmojiCategoryActivity</key>
 	<array>
-		<string>⚽️</string>
+		<string>⚽</string>
 		<string>🏀</string>
 		<string>🏈</string>
-		<string>⚾️</string>
+		<string>⚾</string>
 		<string>🎾</string>
 		<string>🏐</string>
 		<string>🏉</string>
 		<string>🎱</string>
 		<string>🏓</string>
 		<string>🏸</string>
-		<string>🥅</string>
 		<string>🏒</string>
 		<string>🏑</string>
 		<string>🏏</string>
-		<string>⛳️</string>
 		<string>🏹</string>
+		<string>⛳</string>
 		<string>🎣</string>
-		<string>🥊</string>
-		<string>🥋</string>
 		<string>⛸</string>
 		<string>🎿</string>
 		<string>⛷</string>
 		<string>🏂</string>
 		<string>🏋️‍♀️</string>
 		<string>🏋</string>
-		<string>🤺</string>
-		<string>🤼‍♀️</string>
-		<string>🤼‍♂️</string>
-		<string>🤸‍♀️</string>
-		<string>🤸‍♂️</string>
 		<string>⛹️‍♀️</string>
 		<string>⛹</string>
-		<string>🤾‍♀️</string>
-		<string>🤾‍♂️</string>
 		<string>🏌️‍♀️</string>
-		<string>🏌️</string>
+		<string>🏌</string>
 		<string>🏄‍♀️</string>
 		<string>🏄</string>
 		<string>🏊‍♀️</string>
 		<string>🏊</string>
-		<string>🤽‍♀️</string>
-		<string>🤽‍♂️</string>
 		<string>🚣‍♀️</string>
 		<string>🚣</string>
 		<string>🏇</string>
@@ -53,45 +41,36 @@
 		<string>🚴</string>
 		<string>🚵‍♀️</string>
 		<string>🚵</string>
+		<string>🛀</string>
+		<string>🕴</string>
+		<string>🎗</string>
 		<string>🎽</string>
 		<string>🏅</string>
 		<string>🎖</string>
-		<string>🥇</string>
-		<string>🥈</string>
-		<string>🥉</string>
 		<string>🏆</string>
 		<string>🏵</string>
-		<string>🎗</string>
+		<string>🎯</string>
 		<string>🎫</string>
 		<string>🎟</string>
-		<string>🎪</string>
-		<string>🤹‍♀️</string>
-		<string>🤹‍♂️</string>
 		<string>🎭</string>
 		<string>🎨</string>
+		<string>🎪</string>
 		<string>🎬</string>
 		<string>🎤</string>
 		<string>🎧</string>
 		<string>🎼</string>
 		<string>🎹</string>
-		<string>🥁</string>
 		<string>🎷</string>
 		<string>🎺</string>
 		<string>🎸</string>
 		<string>🎻</string>
-		<string>🎲</string>
-		<string>🎯</string>
-		<string>🎳</string>
 		<string>🎮</string>
 		<string>🎰</string>
+		<string>🎲</string>
+		<string>🎳</string>
 	</array>
 	<key>UIKeyboardEmojiCategoryFlags</key>
 	<array>
-		<string>🏳</string>
-		<string>🏴</string>
-		<string>🏁</string>
-		<string>🚩</string>
-		<string>🏳️‍🌈</string>
 		<string>🇦🇫</string>
 		<string>🇦🇽</string>
 		<string>🇦🇱</string>
@@ -204,7 +183,6 @@
 		<string>🇮🇹</string>
 		<string>🇯🇲</string>
 		<string>🇯🇵</string>
-		<string>🎌</string>
 		<string>🇯🇪</string>
 		<string>🇯🇴</string>
 		<string>🇰🇿</string>
@@ -356,40 +334,25 @@
 		<string>🍒</string>
 		<string>🍑</string>
 		<string>🍍</string>
-		<string>🥝</string>
-		<string>🥑</string>
 		<string>🍅</string>
 		<string>🍆</string>
-		<string>🥒</string>
-		<string>🥕</string>
-		<string>🌽</string>
 		<string>🌶</string>
-		<string>🥔</string>
+		<string>🌽</string>
 		<string>🍠</string>
-		<string>🌰</string>
-		<string>🥜</string>
 		<string>🍯</string>
-		<string>🥐</string>
 		<string>🍞</string>
-		<string>🥖</string>
 		<string>🧀</string>
-		<string>🥚</string>
-		<string>🍳</string>
-		<string>🥓</string>
-		<string>🥞</string>
-		<string>🍤</string>
 		<string>🍗</string>
 		<string>🍖</string>
-		<string>🍕</string>
-		<string>🌭</string>
+		<string>🍤</string>
+		<string>🍳</string>
 		<string>🍔</string>
 		<string>🍟</string>
-		<string>🥙</string>
+		<string>🌭</string>
+		<string>🍕</string>
+		<string>🍝</string>
 		<string>🌮</string>
 		<string>🌯</string>
-		<string>🥗</string>
-		<string>🥘</string>
-		<string>🍝</string>
 		<string>🍜</string>
 		<string>🍲</string>
 		<string>🍥</string>
@@ -407,26 +370,22 @@
 		<string>🍰</string>
 		<string>🎂</string>
 		<string>🍮</string>
-		<string>🍭</string>
 		<string>🍬</string>
+		<string>🍭</string>
 		<string>🍫</string>
 		<string>🍿</string>
 		<string>🍩</string>
 		<string>🍪</string>
-		<string>🥛</string>
-		<string>🍼</string>
-		<string>☕️</string>
-		<string>🍵</string>
-		<string>🍶</string>
 		<string>🍺</string>
 		<string>🍻</string>
-		<string>🥂</string>
 		<string>🍷</string>
-		<string>🥃</string>
 		<string>🍸</string>
 		<string>🍹</string>
 		<string>🍾</string>
-		<string>🥄</string>
+		<string>🍶</string>
+		<string>🍵</string>
+		<string>☕</string>
+		<string>🍼</string>
 		<string>🍴</string>
 		<string>🍽</string>
 	</array>
@@ -437,7 +396,6 @@
 		<string>🐭</string>
 		<string>🐹</string>
 		<string>🐰</string>
-		<string>🦊</string>
 		<string>🐻</string>
 		<string>🐼</string>
 		<string>🐨</string>
@@ -447,6 +405,7 @@
 		<string>🐷</string>
 		<string>🐽</string>
 		<string>🐸</string>
+		<string>🐙</string>
 		<string>🐵</string>
 		<string>🙈</string>
 		<string>🙉</string>
@@ -458,36 +417,24 @@
 		<string>🐤</string>
 		<string>🐣</string>
 		<string>🐥</string>
-		<string>🦆</string>
-		<string>🦅</string>
-		<string>🦉</string>
-		<string>🦇</string>
 		<string>🐺</string>
 		<string>🐗</string>
 		<string>🐴</string>
 		<string>🦄</string>
 		<string>🐝</string>
 		<string>🐛</string>
-		<string>🦋</string>
 		<string>🐌</string>
-		<string>🐚</string>
 		<string>🐞</string>
 		<string>🐜</string>
 		<string>🕷</string>
-		<string>🕸</string>
-		<string>🐢</string>
-		<string>🐍</string>
-		<string>🦎</string>
 		<string>🦂</string>
 		<string>🦀</string>
-		<string>🦑</string>
-		<string>🐙</string>
-		<string>🦐</string>
+		<string>🐍</string>
+		<string>🐢</string>
 		<string>🐠</string>
 		<string>🐟</string>
 		<string>🐡</string>
 		<string>🐬</string>
-		<string>🦈</string>
 		<string>🐳</string>
 		<string>🐋</string>
 		<string>🐊</string>
@@ -496,26 +443,23 @@
 		<string>🐃</string>
 		<string>🐂</string>
 		<string>🐄</string>
-		<string>🦌</string>
 		<string>🐪</string>
 		<string>🐫</string>
 		<string>🐘</string>
-		<string>🦏</string>
-		<string>🦍</string>
-		<string>🐎</string>
-		<string>🐖</string>
 		<string>🐐</string>
 		<string>🐏</string>
 		<string>🐑</string>
-		<string>🐕</string>
-		<string>🐩</string>
-		<string>🐈</string>
+		<string>🐎</string>
+		<string>🐖</string>
+		<string>🐀</string>
+		<string>🐁</string>
 		<string>🐓</string>
 		<string>🦃</string>
 		<string>🕊</string>
+		<string>🐕</string>
+		<string>🐩</string>
+		<string>🐈</string>
 		<string>🐇</string>
-		<string>🐁</string>
-		<string>🐀</string>
 		<string>🐿</string>
 		<string>🐾</string>
 		<string>🐉</string>
@@ -527,23 +471,26 @@
 		<string>🌴</string>
 		<string>🌱</string>
 		<string>🌿</string>
-		<string>☘️</string>
+		<string>☘</string>
 		<string>🍀</string>
 		<string>🎍</string>
 		<string>🎋</string>
 		<string>🍃</string>
 		<string>🍂</string>
 		<string>🍁</string>
-		<string>🍄</string>
 		<string>🌾</string>
-		<string>💐</string>
-		<string>🌷</string>
-		<string>🌹</string>
-		<string>🥀</string>
+		<string>🌺</string>
 		<string>🌻</string>
+		<string>🌹</string>
+		<string>🌷</string>
 		<string>🌼</string>
 		<string>🌸</string>
-		<string>🌺</string>
+		<string>💐</string>
+		<string>🍄</string>
+		<string>🌰</string>
+		<string>🎃</string>
+		<string>🐚</string>
+		<string>🕸</string>
 		<string>🌎</string>
 		<string>🌍</string>
 		<string>🌏</string>
@@ -557,48 +504,48 @@
 		<string>🌔</string>
 		<string>🌚</string>
 		<string>🌝</string>
-		<string>🌞</string>
 		<string>🌛</string>
 		<string>🌜</string>
+		<string>🌞</string>
 		<string>🌙</string>
-		<string>💫</string>
-		<string>⭐️</string>
+		<string>⭐</string>
 		<string>🌟</string>
+		<string>💫</string>
 		<string>✨</string>
-		<string>⚡️</string>
-		<string>🔥</string>
-		<string>💥</string>
-		<string>☄️</string>
-		<string>☀️</string>
+		<string>☄</string>
+		<string>☀</string>
 		<string>🌤</string>
-		<string>⛅️</string>
+		<string>⛅</string>
 		<string>🌥</string>
 		<string>🌦</string>
-		<string>🌈</string>
-		<string>☁️</string>
+		<string>☁</string>
 		<string>🌧</string>
 		<string>⛈</string>
 		<string>🌩</string>
+		<string>⚡</string>
+		<string>🔥</string>
+		<string>💥</string>
+		<string>❄</string>
 		<string>🌨</string>
-		<string>☃️</string>
-		<string>⛄️</string>
-		<string>❄️</string>
+		<string>☃</string>
+		<string>⛄</string>
 		<string>🌬</string>
 		<string>💨</string>
 		<string>🌪</string>
 		<string>🌫</string>
-		<string>🌊</string>
+		<string>☂</string>
+		<string>☔</string>
 		<string>💧</string>
 		<string>💦</string>
-		<string>☔️</string>
+		<string>🌊</string>
 	</array>
 	<key>UIKeyboardEmojiCategoryObjects</key>
 	<array>
-		<string>⌚️</string>
+		<string>⌚</string>
 		<string>📱</string>
 		<string>📲</string>
 		<string>💻</string>
-		<string>⌨️</string>
+		<string>⌨</string>
 		<string>🖥</string>
 		<string>🖨</string>
 		<string>🖱</string>
@@ -617,7 +564,7 @@
 		<string>📽</string>
 		<string>🎞</string>
 		<string>📞</string>
-		<string>☎️</string>
+		<string>☎</string>
 		<string>📟</string>
 		<string>📠</string>
 		<string>📺</string>
@@ -629,8 +576,8 @@
 		<string>⏲</string>
 		<string>⏰</string>
 		<string>🕰</string>
-		<string>⌛️</string>
 		<string>⏳</string>
+		<string>⌛</string>
 		<string>📡</string>
 		<string>🔋</string>
 		<string>🔌</string>
@@ -647,29 +594,29 @@
 		<string>💰</string>
 		<string>💳</string>
 		<string>💎</string>
-		<string>⚖️</string>
+		<string>⚖</string>
 		<string>🔧</string>
 		<string>🔨</string>
 		<string>⚒</string>
 		<string>🛠</string>
 		<string>⛏</string>
 		<string>🔩</string>
-		<string>⚙️</string>
+		<string>⚙</string>
 		<string>⛓</string>
 		<string>🔫</string>
 		<string>💣</string>
 		<string>🔪</string>
 		<string>🗡</string>
-		<string>⚔️</string>
+		<string>⚔</string>
 		<string>🛡</string>
 		<string>🚬</string>
-		<string>⚰️</string>
-		<string>⚱️</string>
+		<string>⚰</string>
+		<string>⚱</string>
 		<string>🏺</string>
 		<string>🔮</string>
 		<string>📿</string>
 		<string>💈</string>
-		<string>⚗️</string>
+		<string>⚗</string>
 		<string>🔭</string>
 		<string>🔬</string>
 		<string>🕳</string>
@@ -677,30 +624,29 @@
 		<string>💉</string>
 		<string>🌡</string>
 		<string>🚽</string>
-		<string>🚰</string>
 		<string>🚿</string>
 		<string>🛁</string>
-		<string>🛀</string>
 		<string>🛎</string>
 		<string>🔑</string>
 		<string>🗝</string>
 		<string>🚪</string>
 		<string>🛋</string>
-		<string>🛏</string>
 		<string>🛌</string>
+		<string>🛏</string>
 		<string>🖼</string>
+		<string>⛱</string>
+		<string>🗿</string>
 		<string>🛍</string>
-		<string>🛒</string>
 		<string>🎁</string>
 		<string>🎈</string>
 		<string>🎏</string>
 		<string>🎀</string>
 		<string>🎊</string>
 		<string>🎉</string>
-		<string>🎎</string>
-		<string>🏮</string>
 		<string>🎐</string>
-		<string>✉️</string>
+		<string>🏮</string>
+		<string>🎎</string>
+		<string>✉</string>
 		<string>📩</string>
 		<string>📨</string>
 		<string>📧</string>
@@ -709,6 +655,7 @@
 		<string>📤</string>
 		<string>📦</string>
 		<string>🏷</string>
+		<string>🔖</string>
 		<string>📪</string>
 		<string>📫</string>
 		<string>📬</string>
@@ -745,118 +692,116 @@
 		<string>📙</string>
 		<string>📚</string>
 		<string>📖</string>
-		<string>🔖</string>
 		<string>🔗</string>
 		<string>📎</string>
 		<string>🖇</string>
 		<string>📐</string>
 		<string>📏</string>
+		<string>✂</string>
 		<string>📌</string>
 		<string>📍</string>
-		<string>✂️</string>
-		<string>🖊</string>
-		<string>🖋</string>
-		<string>✒️</string>
+		<string>🚩</string>
+		<string>🎌</string>
+		<string>🏳</string>
+		<string>🏴</string>
+		<string>🏁</string>
+		<string>🏳️‍🌈</string>
 		<string>🖌</string>
 		<string>🖍</string>
+		<string>🖊</string>
+		<string>🖋</string>
+		<string>✒</string>
 		<string>📝</string>
-		<string>✏️</string>
-		<string>🔍</string>
-		<string>🔎</string>
+		<string>✏</string>
 		<string>🔏</string>
 		<string>🔐</string>
 		<string>🔒</string>
 		<string>🔓</string>
+		<string>🔍</string>
+		<string>🔎</string>
 	</array>
 	<key>UIKeyboardEmojiCategoryPeople</key>
 	<array>
 		<string>😀</string>
+		<string>😬</string>
+		<string>😁</string>
+		<string>😂</string>
 		<string>😃</string>
 		<string>😄</string>
-		<string>😁</string>
-		<string>😆</string>
 		<string>😅</string>
-		<string>😂</string>
-		<string>🤣</string>
-		<string>☺️</string>
-		<string>😊</string>
+		<string>😆</string>
 		<string>😇</string>
+		<string>😉</string>
+		<string>😊</string>
 		<string>🙂</string>
 		<string>🙃</string>
-		<string>😉</string>
+		<string>☺</string>
+		<string>😋</string>
 		<string>😌</string>
 		<string>😍</string>
 		<string>😘</string>
 		<string>😗</string>
 		<string>😙</string>
 		<string>😚</string>
-		<string>😋</string>
 		<string>😜</string>
 		<string>😝</string>
 		<string>😛</string>
 		<string>🤑</string>
-		<string>🤗</string>
 		<string>🤓</string>
 		<string>😎</string>
-		<string>🤡</string>
-		<string>🤠</string>
+		<string>🤗</string>
 		<string>😏</string>
+		<string>😶</string>
+		<string>😐</string>
+		<string>😑</string>
 		<string>😒</string>
+		<string>🙄</string>
+		<string>🤔</string>
+		<string>😳</string>
 		<string>😞</string>
-		<string>😔</string>
 		<string>😟</string>
+		<string>😠</string>
+		<string>😡</string>
+		<string>😔</string>
 		<string>😕</string>
 		<string>🙁</string>
-		<string>☹️</string>
+		<string>☹</string>
 		<string>😣</string>
 		<string>😖</string>
 		<string>😫</string>
 		<string>😩</string>
 		<string>😤</string>
-		<string>😠</string>
-		<string>😡</string>
-		<string>😶</string>
-		<string>😐</string>
-		<string>😑</string>
-		<string>😯</string>
-		<string>😦</string>
-		<string>😧</string>
 		<string>😮</string>
-		<string>😲</string>
-		<string>😵</string>
-		<string>😳</string>
 		<string>😱</string>
 		<string>😨</string>
 		<string>😰</string>
+		<string>😯</string>
+		<string>😦</string>
+		<string>😧</string>
 		<string>😢</string>
 		<string>😥</string>
-		<string>🤤</string>
-		<string>😭</string>
-		<string>😓</string>
 		<string>😪</string>
-		<string>😴</string>
-		<string>🙄</string>
-		<string>🤔</string>
-		<string>🤥</string>
-		<string>😬</string>
+		<string>😓</string>
+		<string>😭</string>
+		<string>😵</string>
+		<string>😲</string>
 		<string>🤐</string>
-		<string>🤢</string>
-		<string>🤧</string>
 		<string>😷</string>
 		<string>🤒</string>
 		<string>🤕</string>
+		<string>😴</string>
+		<string>💤</string>
+		<string>💩</string>
 		<string>😈</string>
 		<string>👿</string>
 		<string>👹</string>
 		<string>👺</string>
-		<string>💩</string>
 		<string>👻</string>
 		<string>💀</string>
-		<string>☠️</string>
+		<string>☠</string>
 		<string>👽</string>
 		<string>👾</string>
 		<string>🤖</string>
-		<string>🎃</string>
 		<string>😺</string>
 		<string>😸</string>
 		<string>😹</string>
@@ -866,45 +811,34 @@
 		<string>🙀</string>
 		<string>😿</string>
 		<string>😾</string>
-		<string>👐</string>
 		<string>🙌</string>
 		<string>👏</string>
-		<string>🙏</string>
-		<string>🤝</string>
 		<string>👍</string>
 		<string>👎</string>
 		<string>👊</string>
-		<string>✊️</string>
-		<string>🤛</string>
-		<string>🤜</string>
-		<string>🤞</string>
-		<string>✌️</string>
-		<string>🤘</string>
-		<string>👌</string>
+		<string>✊</string>
+		<string>👋</string>
 		<string>👈</string>
 		<string>👉</string>
 		<string>👆</string>
 		<string>👇</string>
-		<string>☝️</string>
-		<string>✋️</string>
-		<string>🤚</string>
+		<string>👌</string>
+		<string>☝</string>
+		<string>✌</string>
+		<string>✋</string>
 		<string>🖐</string>
-		<string>🖖</string>
-		<string>👋</string>
-		<string>🤙</string>
+		<string>👐</string>
 		<string>💪</string>
+		<string>🙏</string>
+		<string>🖖</string>
+		<string>🤘</string>
 		<string>🖕</string>
-		<string>✍️</string>
-		<string>🤳</string>
+		<string>✍</string>
 		<string>💅</string>
-		<string>💍</string>
-		<string>💄</string>
-		<string>💋</string>
 		<string>👄</string>
 		<string>👅</string>
 		<string>👂</string>
 		<string>👃</string>
-		<string>👣</string>
 		<string>👁</string>
 		<string>👀</string>
 		<string>🗣</string>
@@ -929,47 +863,11 @@
 		<string>💂‍♀️</string>
 		<string>💂</string>
 		<string>🕵️‍♀️</string>
-		<string>🕵️</string>
-		<string>👩‍⚕️</string>
-		<string>👨‍⚕️</string>
-		<string>👩‍🌾</string>
-		<string>👨‍🌾</string>
-		<string>👩‍🍳</string>
-		<string>👨‍🍳</string>
-		<string>👩‍🎓</string>
-		<string>👨‍🎓</string>
-		<string>👩‍🎤</string>
-		<string>👨‍🎤</string>
-		<string>👩‍🏫</string>
-		<string>👨‍🏫</string>
-		<string>👩‍🏭</string>
-		<string>👨‍🏭</string>
-		<string>👩‍💻</string>
-		<string>👨‍💻</string>
-		<string>👩‍💼</string>
-		<string>👨‍💼</string>
-		<string>👩‍🔧</string>
-		<string>👨‍🔧</string>
-		<string>👩‍🔬</string>
-		<string>👨‍🔬</string>
-		<string>👩‍🎨</string>
-		<string>👨‍🎨</string>
-		<string>👩‍🚒</string>
-		<string>👨‍🚒</string>
-		<string>👩‍✈️</string>
-		<string>👨‍✈️</string>
-		<string>👩‍🚀</string>
-		<string>👨‍🚀</string>
-		<string>👩‍⚖️</string>
-		<string>👨‍⚖️</string>
-		<string>🤶</string>
+		<string>🕵</string>
 		<string>🎅</string>
 		<string>👸</string>
-		<string>🤴</string>
 		<string>👰</string>
-		<string>🤵</string>
 		<string>👼</string>
-		<string>🤰</string>
 		<string>🙇‍♀️</string>
 		<string>🙇</string>
 		<string>💁</string>
@@ -980,10 +878,6 @@
 		<string>🙆‍♂️</string>
 		<string>🙋</string>
 		<string>🙋‍♂️</string>
-		<string>🤦‍♀️</string>
-		<string>🤦‍♂️</string>
-		<string>🤷‍♀️</string>
-		<string>🤷‍♂️</string>
 		<string>🙎</string>
 		<string>🙎‍♂️</string>
 		<string>🙍</string>
@@ -992,9 +886,7 @@
 		<string>💇‍♂️</string>
 		<string>💆</string>
 		<string>💆‍♂️</string>
-		<string>🕴</string>
 		<string>💃</string>
-		<string>🕺</string>
 		<string>👯</string>
 		<string>👯‍♂️</string>
 		<string>🚶‍♀️</string>
@@ -1042,6 +934,9 @@
 		<string>👗</string>
 		<string>👙</string>
 		<string>👘</string>
+		<string>💄</string>
+		<string>💋</string>
+		<string>👣</string>
 		<string>👠</string>
 		<string>👡</string>
 		<string>👢</string>
@@ -1059,19 +954,18 @@
 		<string>💼</string>
 		<string>👓</string>
 		<string>🕶</string>
+		<string>💍</string>
 		<string>🌂</string>
-		<string>☂️</string>
 	</array>
 	<key>UIKeyboardEmojiCategorySymbols</key>
 	<array>
-		<string>❤️</string>
+		<string>❤</string>
 		<string>💛</string>
 		<string>💚</string>
 		<string>💙</string>
 		<string>💜</string>
-		<string>🖤</string>
 		<string>💔</string>
-		<string>❣️</string>
+		<string>❣</string>
 		<string>💕</string>
 		<string>💞</string>
 		<string>💓</string>
@@ -1080,110 +974,110 @@
 		<string>💘</string>
 		<string>💝</string>
 		<string>💟</string>
-		<string>☮️</string>
-		<string>✝️</string>
-		<string>☪️</string>
+		<string>☮</string>
+		<string>✝</string>
+		<string>☪</string>
 		<string>🕉</string>
-		<string>☸️</string>
-		<string>✡️</string>
+		<string>☸</string>
+		<string>✡</string>
 		<string>🔯</string>
 		<string>🕎</string>
-		<string>☯️</string>
-		<string>☦️</string>
+		<string>☯</string>
+		<string>☦</string>
 		<string>🛐</string>
 		<string>⛎</string>
-		<string>♈️</string>
-		<string>♉️</string>
-		<string>♊️</string>
-		<string>♋️</string>
-		<string>♌️</string>
-		<string>♍️</string>
-		<string>♎️</string>
-		<string>♏️</string>
-		<string>♐️</string>
-		<string>♑️</string>
-		<string>♒️</string>
-		<string>♓️</string>
+		<string>♈</string>
+		<string>♉</string>
+		<string>♊</string>
+		<string>♋</string>
+		<string>♌</string>
+		<string>♍</string>
+		<string>♎</string>
+		<string>♏</string>
+		<string>♐</string>
+		<string>♑</string>
+		<string>♒</string>
+		<string>♓</string>
 		<string>🆔</string>
-		<string>⚛️</string>
-		<string>🉑</string>
-		<string>☢️</string>
-		<string>☣️</string>
+		<string>⚛</string>
+		<string>🈳</string>
+		<string>🈹</string>
+		<string>☢</string>
+		<string>☣</string>
 		<string>📴</string>
 		<string>📳</string>
 		<string>🈶</string>
-		<string>🈚️</string>
+		<string>🈚</string>
 		<string>🈸</string>
 		<string>🈺</string>
 		<string>🈷</string>
-		<string>✴️</string>
+		<string>✴</string>
 		<string>🆚</string>
+		<string>🉑</string>
 		<string>💮</string>
 		<string>🉐</string>
-		<string>㊙️</string>
-		<string>㊗️</string>
+		<string>㊙</string>
+		<string>㊗</string>
 		<string>🈴</string>
 		<string>🈵</string>
-		<string>🈹</string>
 		<string>🈲</string>
-		<string>🅰️</string>
-		<string>🅱️</string>
+		<string>🅰</string>
+		<string>🅱</string>
 		<string>🆎</string>
 		<string>🆑</string>
-		<string>🅾️</string>
+		<string>🅾</string>
 		<string>🆘</string>
-		<string>❌</string>
-		<string>⭕️</string>
-		<string>🛑</string>
-		<string>⛔️</string>
+		<string>⛔</string>
 		<string>📛</string>
 		<string>🚫</string>
-		<string>💯</string>
+		<string>❌</string>
+		<string>⭕</string>
 		<string>💢</string>
-		<string>♨️</string>
+		<string>♨</string>
 		<string>🚷</string>
 		<string>🚯</string>
 		<string>🚳</string>
 		<string>🚱</string>
 		<string>🔞</string>
 		<string>📵</string>
-		<string>🚭</string>
-		<string>❗️</string>
+		<string>❗</string>
 		<string>❕</string>
 		<string>❓</string>
 		<string>❔</string>
-		<string>‼️</string>
-		<string>⁉️</string>
+		<string>‼</string>
+		<string>⁉</string>
+		<string>💯</string>
 		<string>🔅</string>
 		<string>🔆</string>
-		<string>〽️</string>
-		<string>⚠️</string>
-		<string>🚸</string>
 		<string>🔱</string>
-		<string>⚜️</string>
+		<string>⚜</string>
+		<string>〽</string>
+		<string>⚠</string>
+		<string>🚸</string>
 		<string>🔰</string>
-		<string>♻️</string>
-		<string>✅</string>
-		<string>🈯️</string>
+		<string>♻</string>
+		<string>🈯</string>
 		<string>💹</string>
-		<string>❇️</string>
-		<string>✳️</string>
+		<string>❇</string>
+		<string>✳</string>
 		<string>❎</string>
+		<string>✅</string>
 		<string>🌐</string>
+		<string>Ⓜ</string>
 		<string>💠</string>
-		<string>Ⓜ️</string>
 		<string>🌀</string>
-		<string>💤</string>
+		<string>➿</string>
 		<string>🏧</string>
-		<string>🚾</string>
-		<string>♿️</string>
-		<string>🅿️</string>
-		<string>🈳</string>
 		<string>🈂</string>
 		<string>🛂</string>
 		<string>🛃</string>
 		<string>🛄</string>
 		<string>🛅</string>
+		<string>♿</string>
+		<string>🚭</string>
+		<string>🚾</string>
+		<string>🅿</string>
+		<string>🚰</string>
 		<string>🚹</string>
 		<string>🚺</string>
 		<string>🚼</string>
@@ -1192,11 +1086,11 @@
 		<string>🎦</string>
 		<string>📶</string>
 		<string>🈁</string>
-		<string>🔣</string>
-		<string>ℹ️</string>
 		<string>🔤</string>
 		<string>🔡</string>
 		<string>🔠</string>
+		<string>🔣</string>
+		<string>ℹ</string>
 		<string>🆖</string>
 		<string>🆗</string>
 		<string>🆙</string>
@@ -1217,7 +1111,7 @@
 		<string>🔢</string>
 		<string>#️⃣</string>
 		<string>*️⃣</string>
-		<string>▶️</string>
+		<string>▶</string>
 		<string>⏸</string>
 		<string>⏯</string>
 		<string>⏹</string>
@@ -1228,23 +1122,23 @@
 		<string>⏪</string>
 		<string>⏫</string>
 		<string>⏬</string>
-		<string>◀️</string>
+		<string>◀</string>
 		<string>🔼</string>
 		<string>🔽</string>
-		<string>➡️</string>
-		<string>⬅️</string>
-		<string>⬆️</string>
-		<string>⬇️</string>
-		<string>↗️</string>
-		<string>↘️</string>
-		<string>↙️</string>
-		<string>↖️</string>
-		<string>↕️</string>
-		<string>↔️</string>
-		<string>↪️</string>
-		<string>↩️</string>
-		<string>⤴️</string>
-		<string>⤵️</string>
+		<string>➡</string>
+		<string>⬅</string>
+		<string>⬆</string>
+		<string>⬇</string>
+		<string>↗</string>
+		<string>↘</string>
+		<string>↙</string>
+		<string>↖</string>
+		<string>↕</string>
+		<string>↔</string>
+		<string>↪</string>
+		<string>↩</string>
+		<string>⤴</string>
+		<string>⤵</string>
 		<string>🔀</string>
 		<string>🔁</string>
 		<string>🔂</string>
@@ -1252,28 +1146,27 @@
 		<string>🔃</string>
 		<string>🎵</string>
 		<string>🎶</string>
+		<string>〰</string>
+		<string>➰</string>
+		<string>✔</string>
 		<string>➕</string>
 		<string>➖</string>
 		<string>➗</string>
-		<string>✖️</string>
+		<string>✖</string>
 		<string>💲</string>
 		<string>💱</string>
 		<string>™</string>
 		<string>©</string>
 		<string>®</string>
-		<string>〰</string>
-		<string>➰</string>
-		<string>➿</string>
 		<string>🔚</string>
 		<string>🔙</string>
 		<string>🔛</string>
 		<string>🔝</string>
 		<string>🔜</string>
-		<string>✔️</string>
-		<string>☑️</string>
+		<string>☑</string>
 		<string>🔘</string>
-		<string>⚪️</string>
-		<string>⚫️</string>
+		<string>⚪</string>
+		<string>⚫</string>
 		<string>🔴</string>
 		<string>🔵</string>
 		<string>🔺</string>
@@ -1284,33 +1177,33 @@
 		<string>🔷</string>
 		<string>🔳</string>
 		<string>🔲</string>
-		<string>▪️</string>
-		<string>▫️</string>
-		<string>◾️</string>
-		<string>◽️</string>
-		<string>◼️</string>
-		<string>◻️</string>
-		<string>⬛️</string>
-		<string>⬜️</string>
-		<string>🔈</string>
+		<string>▪</string>
+		<string>▫</string>
+		<string>◾</string>
+		<string>◽</string>
+		<string>◼</string>
+		<string>◻</string>
+		<string>⬛</string>
+		<string>⬜</string>
 		<string>🔇</string>
+		<string>🔈</string>
 		<string>🔉</string>
 		<string>🔊</string>
-		<string>🔔</string>
 		<string>🔕</string>
+		<string>🔔</string>
 		<string>📣</string>
 		<string>📢</string>
 		<string>👁‍🗨</string>
 		<string>💬</string>
 		<string>💭</string>
 		<string>🗯</string>
-		<string>♠️</string>
-		<string>♣️</string>
-		<string>♥️</string>
-		<string>♦️</string>
 		<string>🃏</string>
+		<string>🀄</string>
 		<string>🎴</string>
-		<string>🀄️</string>
+		<string>♠</string>
+		<string>♣</string>
+		<string>♥</string>
+		<string>♦</string>
 		<string>🕐</string>
 		<string>🕑</string>
 		<string>🕒</string>
@@ -1351,10 +1244,8 @@
 		<string>🚚</string>
 		<string>🚛</string>
 		<string>🚜</string>
-		<string>🛴</string>
-		<string>🚲</string>
-		<string>🛵</string>
 		<string>🏍</string>
+		<string>🚲</string>
 		<string>🚨</string>
 		<string>🚔</string>
 		<string>🚍</string>
@@ -1365,11 +1256,11 @@
 		<string>🚟</string>
 		<string>🚃</string>
 		<string>🚋</string>
-		<string>🚞</string>
 		<string>🚝</string>
 		<string>🚄</string>
 		<string>🚅</string>
 		<string>🚈</string>
+		<string>🚞</string>
 		<string>🚂</string>
 		<string>🚆</string>
 		<string>🚇</string>
@@ -1377,53 +1268,66 @@
 		<string>🚉</string>
 		<string>🚁</string>
 		<string>🛩</string>
-		<string>✈️</string>
+		<string>✈</string>
 		<string>🛫</string>
 		<string>🛬</string>
+		<string>⛵</string>
+		<string>🛥</string>
+		<string>🚤</string>
+		<string>⛴</string>
+		<string>🛳</string>
 		<string>🚀</string>
 		<string>🛰</string>
 		<string>💺</string>
-		<string>🛶</string>
-		<string>⛵️</string>
-		<string>🛥</string>
-		<string>🚤</string>
-		<string>🛳</string>
-		<string>⛴</string>
-		<string>🚢</string>
-		<string>⚓️</string>
+		<string>⚓</string>
 		<string>🚧</string>
-		<string>⛽️</string>
+		<string>⛽</string>
 		<string>🚏</string>
 		<string>🚦</string>
 		<string>🚥</string>
 		<string>🗺</string>
-		<string>🗿</string>
-		<string>🗽</string>
-		<string>⛲️</string>
-		<string>🗼</string>
-		<string>🏰</string>
-		<string>🏯</string>
-		<string>🏟</string>
+		<string>🚢</string>
 		<string>🎡</string>
 		<string>🎢</string>
 		<string>🎠</string>
-		<string>⛱</string>
-		<string>🏖</string>
-		<string>🏝</string>
+		<string>🏗</string>
+		<string>🌁</string>
+		<string>🗼</string>
+		<string>🏭</string>
+		<string>⛲</string>
+		<string>🎑</string>
 		<string>⛰</string>
 		<string>🏔</string>
 		<string>🗻</string>
 		<string>🌋</string>
-		<string>🏜</string>
+		<string>🗾</string>
 		<string>🏕</string>
-		<string>⛺️</string>
-		<string>🛤</string>
+		<string>⛺</string>
+		<string>🏞</string>
 		<string>🛣</string>
-		<string>🏗</string>
-		<string>🏭</string>
+		<string>🛤</string>
+		<string>🌅</string>
+		<string>🌄</string>
+		<string>🏜</string>
+		<string>🏖</string>
+		<string>🏝</string>
+		<string>🌇</string>
+		<string>🌆</string>
+		<string>🏙</string>
+		<string>🌃</string>
+		<string>🌉</string>
+		<string>🌌</string>
+		<string>🌠</string>
+		<string>🎇</string>
+		<string>🎆</string>
+		<string>🌈</string>
+		<string>🏘</string>
+		<string>🏰</string>
+		<string>🏯</string>
+		<string>🏟</string>
+		<string>🗽</string>
 		<string>🏠</string>
 		<string>🏡</string>
-		<string>🏘</string>
 		<string>🏚</string>
 		<string>🏢</string>
 		<string>🏬</string>
@@ -1437,26 +1341,11 @@
 		<string>🏩</string>
 		<string>💒</string>
 		<string>🏛</string>
-		<string>⛪️</string>
+		<string>⛪</string>
 		<string>🕌</string>
 		<string>🕍</string>
 		<string>🕋</string>
 		<string>⛩</string>
-		<string>🗾</string>
-		<string>🎑</string>
-		<string>🏞</string>
-		<string>🌅</string>
-		<string>🌄</string>
-		<string>🌠</string>
-		<string>🎇</string>
-		<string>🎆</string>
-		<string>🌇</string>
-		<string>🌆</string>
-		<string>🏙</string>
-		<string>🌃</string>
-		<string>🌌</string>
-		<string>🌉</string>
-		<string>🌁</string>
 	</array>
 </dict>
 </plist>
