@@ -8,12 +8,12 @@ All Emoji Categories and Code. Also unicode hex string.
 * Emoji of shake hands  "🤝" can't display skin toned type on iOS 10.2, I had report this bug to Apple.
 
 
-The Chinese name of Emoji charactors in dir Chinese-Emoji(Emoji的中文对应名称). Converted bin plist to XML.
+The Chinese description of Emoji charactors in dir Chinese-Emoji(Emoji的中文对应名称). Converted bin plist to XML.
 
 * iOS8.1.0  emoji_8.1.0.plist  /usr/share/mecabra/zh/common/emoji.plist
 * iOS9.0.2  emoji_9.0.2.plist  /System/Library/LinguisticData/RequiredAssets_zh.bundle/AssetData/emoji.plist
 
-## Dumped emojis file in dir Emojis/
+## Dumped Emoji files in dir Emojis/
 iOS8.1, 8.2, 8.3 8.4, 9.0, 9.1, 9.2, 9.2.1, 9.3, 9.3.5, 10.0, 10.1, 10.1.1, 10.2
 
 ![DumpEmoji](ExportedEmojiFiles.png)
