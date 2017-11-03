@@ -401,30 +401,31 @@
     NSString *basePath = [NSString stringWithFormat:@"%@/Documents/Emoji_iOS%@_iPhone",NSHomeDirectory(),[UIDevice currentDevice].systemVersion];
 #endif
     
-    NSString *pathEmojiInCate =     [NSString stringWithFormat:@"%@_EmojisInCate_%lu.plist", basePath,(unsigned long)emojiCountInCate];
-    NSString *pathEmojiSkined =     [NSString stringWithFormat:@"%@_Skined_%lu.plist",       basePath,(unsigned long)dictEmojiSkined.allKeys.count];
-    NSString *pathEmojiUnicode =    [NSString stringWithFormat:@"%@_Unicode_%lu.plist",      basePath,(unsigned long)dictEmojiUnicode.allKeys.count];
-    NSString *pathEmojiVariant1 =    [NSString stringWithFormat:@"%@_Variant1_%lu.plist",      basePath,(unsigned long)dictEmojiVariant1.allKeys.count];
+    NSString *pathEmojiAllArray =   [NSString stringWithFormat:@"%@_%lu_Emojis.plist",       basePath,(unsigned long)arrayAllEmojis.count];
+    NSString *pathEmojiAllString =  [NSString stringWithFormat:@"%@_%lu_Emojis.txt",         basePath,(unsigned long)arrayAllEmojis.count];
+    NSString *pathEmojiUnicode =    [NSString stringWithFormat:@"%@_%lu_Unicode.plist",      basePath,(unsigned long)dictEmojiUnicode.allKeys.count];
     
-    NSString *pathEmojiCategories = [NSString stringWithFormat:@"%@_Categories_%lu.plist",   basePath,(unsigned long)arrayCateNames.count];
-    NSString *pathEmojiAllArray =   [NSString stringWithFormat:@"%@_Emojis_%lu.plist",       basePath,(unsigned long)arrayAllEmojis.count];
-    NSString *pathSkinedToNoSkin =  [NSString stringWithFormat:@"%@_SkinedToNoSkin_%lu.plist",basePath,(unsigned long)arraySkinedToNoSkin.count];
+    NSString *pathEmojiCategories = [NSString stringWithFormat:@"%@__%lu_Categories.plist",   basePath,(unsigned long)arrayCateNames.count];
+    NSString *pathEmojiInCate =     [NSString stringWithFormat:@"%@__%lu_EmojisInCate.plist", basePath,(unsigned long)emojiCountInCate];
     
-    NSString *pathEmojiAllString =  [NSString stringWithFormat:@"%@_Emojis_%lu.txt",         basePath,(unsigned long)arrayAllEmojis.count];
+    NSString *pathEmojiSkined =     [NSString stringWithFormat:@"%@__%lu_Skined.plist",       basePath,(unsigned long)dictEmojiSkined.allKeys.count];
+    NSString *pathSkinedToNoSkin =  [NSString stringWithFormat:@"%@__%lu_SkinedToNoSkin.plist",basePath,(unsigned long)arraySkinedToNoSkin.count];
+    
+    NSString *pathEmojiVariant1 =    [NSString stringWithFormat:@"%@__%lu_Variant1.plist",      basePath,(unsigned long)dictEmojiVariant1.allKeys.count];
     
     
-    [dictEmojiInCate writeToFile:pathEmojiInCate atomically:YES];//Emoji may dumped in diff category
-    [dictEmojiSkined writeToFile:pathEmojiSkined atomically:YES];
-    [dictEmojiUnicode writeToFile:pathEmojiUnicode atomically:YES];
-    [dictEmojiVariant1 writeToFile:pathEmojiVariant1 atomically:YES];
-    
-    [arrayCateNames writeToFile:pathEmojiCategories atomically:YES];//Some category not display in keyboard
     [arrayAllEmojis writeToFile:pathEmojiAllArray atomically:YES];
-    [arraySkinedToNoSkin writeToFile:pathSkinedToNoSkin atomically:YES];
-    
     NSString *stringAllEmojis = [arrayAllEmojis componentsJoinedByString:@","];
     [stringAllEmojis writeToFile:pathEmojiAllString atomically:YES encoding:NSUTF8StringEncoding error:NULL];
+    [dictEmojiUnicode writeToFile:pathEmojiUnicode atomically:YES];
     
+    [arrayCateNames writeToFile:pathEmojiCategories atomically:YES];//Some category not display in keyboard
+    [dictEmojiInCate writeToFile:pathEmojiInCate atomically:YES];//Emoji may dumped in diff category
+    
+    [dictEmojiSkined writeToFile:pathEmojiSkined atomically:YES];
+    [arraySkinedToNoSkin writeToFile:pathSkinedToNoSkin atomically:YES];
+    
+    [dictEmojiVariant1 writeToFile:pathEmojiVariant1 atomically:YES];
 }
 
 
