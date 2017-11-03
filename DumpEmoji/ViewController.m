@@ -403,14 +403,14 @@
     
     NSString *pathEmojiInCate =     [NSString stringWithFormat:@"%@_EmojisInCate_%lu.plist", basePath,(unsigned long)emojiCountInCate];
     NSString *pathEmojiSkined =     [NSString stringWithFormat:@"%@_Skined_%lu.plist",       basePath,(unsigned long)dictEmojiSkined.allKeys.count];
-    NSString *pathEmojiUnicode =    [NSString stringWithFormat:@"%@_Unicode_%lu.plist",      basePath,(unsigned long)dictEmojiUnicode.allKeys.count];
+    NSString *pathEmojiUnicode =    [NSString stringWithFormat:@"%@_%lu_Unicode.plist",      basePath,(unsigned long)dictEmojiUnicode.allKeys.count];
     NSString *pathEmojiVariant1 =    [NSString stringWithFormat:@"%@_Variant1_%lu.plist",      basePath,(unsigned long)dictEmojiVariant1.allKeys.count];
     
     NSString *pathEmojiCategories = [NSString stringWithFormat:@"%@_Categories_%lu.plist",   basePath,(unsigned long)arrayCateNames.count];
-    NSString *pathEmojiAllArray =   [NSString stringWithFormat:@"%@_Emojis_%lu.plist",       basePath,(unsigned long)arrayAllEmojis.count];
+    NSString *pathEmojiAllArray =   [NSString stringWithFormat:@"%@_%lu_Emojis.plist",       basePath,(unsigned long)arrayAllEmojis.count];
     NSString *pathSkinedToNoSkin =  [NSString stringWithFormat:@"%@_SkinedToNoSkin_%lu.plist",basePath,(unsigned long)arraySkinedToNoSkin.count];
     
-    NSString *pathEmojiAllString =  [NSString stringWithFormat:@"%@_Emojis_%lu.txt",         basePath,(unsigned long)arrayAllEmojis.count];
+    NSString *pathEmojiAllString =  [NSString stringWithFormat:@"%@_%lu_Emojis.txt",         basePath,(unsigned long)arrayAllEmojis.count];
     
     
     [dictEmojiInCate writeToFile:pathEmojiInCate atomically:YES];//Emoji may dumped in diff category
