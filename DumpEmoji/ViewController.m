@@ -40,12 +40,19 @@
 }
 
 - (void)actionUnicode {
+    NSMutableString *unicodeText = [NSMutableString string];
     NSString *text = _textField.text;
     [text enumerateSubstringsInRange:NSMakeRange(0, text.length)
                              options:NSStringEnumerationByComposedCharacterSequences
                           usingBlock:^(NSString * _Nullable substring, NSRange substringRange, NSRange enclosingRange, BOOL * _Nonnull stop) {
-                              NSLog(@"%@:%@", substring, [self getEmojiUnicodeStringUCS4:substring]);
+                              NSString *string = [NSString stringWithFormat:@"%@:%@", substring, [self getEmojiUnicodeStringUCS4:substring]];
+                              NSLog(@"%@", string);
+                              
+                              [unicodeText appendString:string];
+                              [unicodeText appendString:@"\r"];
                           }];
+    
+    self.textLabel.text = unicodeText;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -126,6 +133,13 @@
     }
     
     return unicodeString;
+}
+
+
+- (NSString *)variantEmojisForBaseEmoji:(NSString *)baseEmoji{
+    NSString *variantEmoji = [baseEmoji stringByAppendingString:@"\uFE0F"];
+    NSAssert([self isValidComposedEmoji:variantEmoji], @"%@->%@ composed emoji error!", baseEmoji, variantEmoji);
+    return variantEmoji;
 }
 
 //🏿 Unicode: U+1F3FF (U+D83C U+DFFF)，UTF-8: F0 9F 8F BF，GB: 9439C933
@@ -225,6 +239,7 @@
     NSMutableDictionary *dictEmojiInCate = [NSMutableDictionary dictionary];
     NSMutableDictionary *dictEmojiSkined = [NSMutableDictionary dictionary];
     NSMutableDictionary *dictEmojiUnicode = [NSMutableDictionary dictionary];
+    NSMutableDictionary *dictEmojiVariant1 = [NSMutableDictionary dictionary];
     
     NSMutableArray *arrayCateNames = [NSMutableArray array];
     NSMutableArray *arrayAllEmojis = [NSMutableArray array];
@@ -279,25 +294,16 @@
             
             emojiCountInCate ++;
             
-            [emojisInCate addObject:key];
-            [arrayAllEmojis addObject:key];
-            
-            //unicode
-            NSString *unicodeString = [self getEmojiUnicodeString:key];
-            NSString *unicodeStringUCS4 = [self getEmojiUnicodeStringUCS4:key];
-            if (![unicodeString isEqualToString:unicodeStringUCS4]) {
-                unicodeString = [NSString stringWithFormat:@"%@ (%@)", unicodeStringUCS4, unicodeString];
-            }
-            [dictEmojiUnicode setObject:unicodeString forKey:key];
-            
             //Skin Variant
-            NSArray *skinToneEmojis = nil;
-            
             //iOS7~iOS8.2 //+ (BOOL)hasVariantsForEmoji:(id)arg1;
             //iOS8.3+     //+ (unsigned int)hasVariantsForEmoji:(id)arg1; or + (unsigned long long)hasVariantsForEmoji:(id)arg1;
             unsigned long long hasVariants = (unsigned long long)[UIKeyboardEmojiCategory_Class hasVariantsForEmoji:key];
-            NSLog(@"%lu:%llu:%@:'%@'",(unsigned long)emojiCountInCate, hasVariants, key, unicodeString);
+            if ([UIDevice currentDevice].systemVersion.floatValue < 8.3) {
+                BOOL hasVariants_ = (BOOL)(unsigned char)[UIKeyboardEmojiCategory_Class hasVariantsForEmoji:key];
+                hasVariants = hasVariants_ ? 1 : 0;
+            }
             
+            NSArray *skinToneEmojis = nil;
             //iOS10.0 and later added PrivateFrameworks/EmojiFoundation.framework
             //iOS10.2 and later added @property(readonly, copy, nonatomic) NSArray *_skinToneVariantStrings;
             //🤝 should not have variants, but hasVariants == 6
@@ -321,6 +327,9 @@
                 }
                 else if (hasVariants == 1) {//☺⭐☀⛄...
                     //NSLog(@"有变体，有普通字体和emoji");//Diff from AppleColorEmoji font from other font
+                    NSString *variant1 = [self variantEmojisForBaseEmoji:key];
+                    dictEmojiVariant1[key] = variant1;
+                    key = variant1;
                 }
                 else if (hasVariants == 2) {//👍👦👧🏊🚵...
                     //NSLog(@"有变体，emoji的肤色");
@@ -345,6 +354,18 @@
                     NSAssert(0, @"Other variants:[%@:%llu]", key, hasVariants);
                 }
             }
+            
+            [emojisInCate addObject:key];
+            [arrayAllEmojis addObject:key];
+            
+            //unicode
+            NSString *unicodeString = [self getEmojiUnicodeString:key];
+            NSString *unicodeStringUCS4 = [self getEmojiUnicodeStringUCS4:key];
+            if (![unicodeString isEqualToString:unicodeStringUCS4]) {
+                unicodeString = [NSString stringWithFormat:@"%@ (%@)", unicodeStringUCS4, unicodeString];
+            }
+            [dictEmojiUnicode setObject:unicodeString forKey:key];
+            NSLog(@"%lu:%llu:%@:'%@'",(unsigned long)emojiCountInCate, hasVariants, key, unicodeString);
             
             //skined
             if (skinToneEmojis.count) {
@@ -380,20 +401,22 @@
     NSString *basePath = [NSString stringWithFormat:@"%@/Documents/Emoji_iOS%@_iPhone",NSHomeDirectory(),[UIDevice currentDevice].systemVersion];
 #endif
     
-    NSString *pathEmojiInCate =     [NSString stringWithFormat:@"%@_%luEmojisInCate.plist", basePath,(unsigned long)emojiCountInCate];
-    NSString *pathEmojiSkined =     [NSString stringWithFormat:@"%@_%luSkined.plist",       basePath,(unsigned long)dictEmojiSkined.allKeys.count];
-    NSString *pathEmojiUnicode =    [NSString stringWithFormat:@"%@_%luUnicode.plist",      basePath,(unsigned long)dictEmojiUnicode.allKeys.count];
+    NSString *pathEmojiInCate =     [NSString stringWithFormat:@"%@_EmojisInCate_%lu.plist", basePath,(unsigned long)emojiCountInCate];
+    NSString *pathEmojiSkined =     [NSString stringWithFormat:@"%@_Skined_%lu.plist",       basePath,(unsigned long)dictEmojiSkined.allKeys.count];
+    NSString *pathEmojiUnicode =    [NSString stringWithFormat:@"%@_Unicode_%lu.plist",      basePath,(unsigned long)dictEmojiUnicode.allKeys.count];
+    NSString *pathEmojiVariant1 =    [NSString stringWithFormat:@"%@_Variant1_%lu.plist",      basePath,(unsigned long)dictEmojiVariant1.allKeys.count];
     
-    NSString *pathEmojiCategories = [NSString stringWithFormat:@"%@_%luCategories.plist",   basePath,(unsigned long)arrayCateNames.count];
-    NSString *pathEmojiAllArray =   [NSString stringWithFormat:@"%@_%luEmojis.plist",       basePath,(unsigned long)arrayAllEmojis.count];
-    NSString *pathSkinedToNoSkin =  [NSString stringWithFormat:@"%@_%luSkinedToNoSkin.plist",basePath,(unsigned long)arraySkinedToNoSkin.count];
+    NSString *pathEmojiCategories = [NSString stringWithFormat:@"%@_Categories_%lu.plist",   basePath,(unsigned long)arrayCateNames.count];
+    NSString *pathEmojiAllArray =   [NSString stringWithFormat:@"%@_Emojis_%lu.plist",       basePath,(unsigned long)arrayAllEmojis.count];
+    NSString *pathSkinedToNoSkin =  [NSString stringWithFormat:@"%@_SkinedToNoSkin_%lu.plist",basePath,(unsigned long)arraySkinedToNoSkin.count];
     
-    NSString *pathEmojiAllString =  [NSString stringWithFormat:@"%@_%luEmojis.txt",         basePath,(unsigned long)arrayAllEmojis.count];
+    NSString *pathEmojiAllString =  [NSString stringWithFormat:@"%@_Emojis_%lu.txt",         basePath,(unsigned long)arrayAllEmojis.count];
     
     
     [dictEmojiInCate writeToFile:pathEmojiInCate atomically:YES];//Emoji may dumped in diff category
     [dictEmojiSkined writeToFile:pathEmojiSkined atomically:YES];
     [dictEmojiUnicode writeToFile:pathEmojiUnicode atomically:YES];
+    [dictEmojiVariant1 writeToFile:pathEmojiVariant1 atomically:YES];
     
     [arrayCateNames writeToFile:pathEmojiCategories atomically:YES];//Some category not display in keyboard
     [arrayAllEmojis writeToFile:pathEmojiAllArray atomically:YES];
