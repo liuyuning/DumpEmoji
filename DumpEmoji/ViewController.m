@@ -11,9 +11,11 @@
 #import "UIKeyboardEmoji.h"
 #import "UIKeyboardEmojiCategory.h"
 
+#import "EmojiFoundation/EMFEmojiToken.h"
 
 @interface ViewController ()
 @property (nonatomic,strong)IBOutlet UILabel *textLabel;
+@property (nonatomic,strong)UITextField *textField;
 @end
 
 @implementation ViewController
@@ -21,6 +23,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    for (UIView *subView in self.view.subviews) {
+        if ([subView isKindOfClass:[UITextField class]]) {
+            _textField = (UITextField *)subView;
+            break;
+        }
+    }
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+    button.frame = CGRectMake(CGRectGetMaxX(_textField.frame) + 5, CGRectGetMinY(_textField.frame) - 8, 70, 44);
+    button.backgroundColor = [UIColor lightGrayColor];
+    [button setTitle:@"Unicode" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(actionUnicode) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)actionUnicode {
+    NSString *text = _textField.text;
+    [text enumerateSubstringsInRange:NSMakeRange(0, text.length)
+                             options:NSStringEnumerationByComposedCharacterSequences
+                          usingBlock:^(NSString * _Nullable substring, NSRange substringRange, NSRange enclosingRange, BOOL * _Nonnull stop) {
+                              NSLog(@"%@:%@", substring, [self getEmojiUnicodeStringUCS4:substring]);
+                          }];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -56,9 +81,20 @@
     
 }
 
+- (BOOL)isValidComposedEmoji:(NSString *)emoji {
+    __block NSUInteger count = 0;
+    [emoji enumerateSubstringsInRange:NSMakeRange(0, emoji.length)
+                              options:NSStringEnumerationByComposedCharacterSequences
+                           usingBlock:^(NSString * _Nullable substring, NSRange substringRange, NSRange enclosingRange, BOOL * _Nonnull stop) {
+                               count ++;
+                               //NSLog(@"%@%@%@:%@", substring ,NSStringFromRange(substringRange), NSStringFromRange(enclosingRange), [self getEmojiUnicodeStringUCS4:substring]);
+                           }];
+    return (1 == count) ? YES : NO;
+}
+
 - (NSString *)getEmojiUnicodeString:(NSString*)emoji{
     
-    unichar uniBuff[16] = {0};
+    unichar uniBuff[64] = {0};
     [emoji getCharacters:uniBuff range:NSMakeRange(0, emoji.length)];
     
     NSMutableString *unicodeString = [NSMutableString string];
@@ -76,7 +112,7 @@
 
 - (NSString *)getEmojiUnicodeStringUCS4:(NSString*)emoji{
     
-    uint32_t uniBuff[16] = {0};
+    uint32_t uniBuff[64] = {0};
     [emoji getCString:(char *)uniBuff maxLength:sizeof(uint32_t)*16 encoding:NSUTF32StringEncoding];
     
     NSMutableString *unicodeString = [NSMutableString string];
@@ -99,7 +135,7 @@
 //🕵🏿 侦探（男） Unicode: U+1F575 U+1F3FF，UTF-8: F0 9F 95 B5 F0 9F 8F BF
 - (NSArray *)skinedEmojisForBaseEmoji:(NSString *)baseEmoji{
     
-    NSString *skin[]= {@"🏻",@"🏼",@"🏽",@"🏾",@"🏿"};
+    NSString *skin[]= {@"🏻",@"🏼",@"🏽",@"🏾",@"🏿"};//U+1F3FB, U+1F3FC, U+1F3FD, U+1F3FE, U+1F3FF
     NSArray *skins = [NSArray arrayWithObjects:skin count:5];//Just like iOS sys build
     
     NSRange range = [baseEmoji rangeOfString:@"\uFE0F" options:NSLiteralSearch];//🕵️🏌️
@@ -110,6 +146,9 @@
     NSMutableArray *emojis = [NSMutableArray array];
     for (NSString *skinCode in skins) {
         NSString *skinedEmoji = [NSString stringWithFormat:@"%@%@",baseEmoji,skinCode];
+        
+        NSAssert([self isValidComposedEmoji:skinedEmoji], @"%@->%@ composed emoji error!", baseEmoji, skinedEmoji);
+        
         [emojis addObject:skinedEmoji];
     }
     return emojis;
@@ -123,8 +162,7 @@
 //👨‍🍳 厨师（男） Unicode: U+1F468 U+200D U+1F373，UTF-8: F0 9F 91 A8 E2 80 8D F0 9F 8D B3
 //👨🏿‍🍳 厨师（男） Unicode: U+1F468 U+1F3FF U+200D U+1F373，UTF-8: F0 9F 91 A8 F0 9F 8F BF E2 80 8D F0 9F 8D B3
 - (NSArray *)skinedEmojisForBaseEmoji_6:(NSString *)baseEmoji{
-    
-    NSString *skin[]= {@"🏻",@"🏼",@"🏽",@"🏾",@"🏿"};
+    NSString *skin[]= {@"🏻",@"🏼",@"🏽",@"🏾",@"🏿"};//U+1F3FB, U+1F3FC, U+1F3FD, U+1F3FE, U+1F3FF
     NSArray *skins = [NSArray arrayWithObjects:skin count:5];
     
     NSMutableArray *emojis = [NSMutableArray array];
@@ -132,9 +170,21 @@
         
         NSRange range = [baseEmoji rangeOfString:@"\u200D" options:NSLiteralSearch];
         if (range.location != NSNotFound) {
-            NSMutableString *text = [NSMutableString stringWithString:baseEmoji];
-            [text insertString:skinCode atIndex:range.location];
-            [emojis addObject:text];
+            NSMutableString *skinedEmoji = [NSMutableString stringWithString:baseEmoji];
+            [skinedEmoji insertString:skinCode atIndex:range.location];
+            
+            //⛹️‍♀️🏋️‍♀️🏌️‍♀️🕵️‍♀️
+            //⛹️‍♀️U+26F9 U+FE0F U+200D U+2640 U+FE0F
+            //⛹🏿‍♀️U+26F9 U+1F3FF U+200D U+2640 U+FE0F (✅)
+            //⛹️🏿‍♀️U+26F9 U+FE0F U+1F3FF U+200D U+2640 U+FE0F (❎)
+            NSString *part1 = [baseEmoji substringToIndex:range.location];
+            if ([part1 hasSuffix:@"\uFE0F"]) {
+                [skinedEmoji deleteCharactersInRange:NSMakeRange(range.location - 1, 1)];
+            }
+            
+            NSAssert([self isValidComposedEmoji:skinedEmoji], @"%@->%@ composed emoji error!", baseEmoji, skinedEmoji);
+            
+            [emojis addObject:skinedEmoji];
         }
     }
     return emojis;
@@ -180,8 +230,6 @@
     NSMutableArray *arrayAllEmojis = [NSMutableArray array];
     NSMutableArray *arraySkinedToNoSkin = [NSMutableArray array];
     
-    NSMutableString *stringAllEmojis = [NSMutableString string];
-    
     //read catetory
     //Anther method to read all category using "NSArray *list = [NSClassFromString(@"UIKeyboardEmojiCategory") categories];", should call "categoryForType:" first.
     Class UIKeyboardEmojiCategory_Class = NSClassFromString(@"UIKeyboardEmojiCategory");
@@ -206,6 +254,7 @@
     
     for (NSNumber *index in categoryIndexes) {
         
+        //iOS10.2 and later, +[UIKeyboardEmojiCategory categoryForType:] called +[EMFEmojiCategory _emojiSetForIdentifier:]
         id UIKeyboardEmojiCategory_inst = [UIKeyboardEmojiCategory_Class categoryForType:index.intValue];
         
         //name
@@ -232,7 +281,6 @@
             
             [emojisInCate addObject:key];
             [arrayAllEmojis addObject:key];
-            [stringAllEmojis appendString:key];
             
             //unicode
             NSString *unicodeString = [self getEmojiUnicodeString:key];
@@ -242,54 +290,70 @@
             }
             [dictEmojiUnicode setObject:unicodeString forKey:key];
             
-            BOOL hasSkined = NO;
+            //Skin Variant
+            NSArray *skinToneEmojis = nil;
             
-            //Variant
-            unsigned int hasVariants = [UIKeyboardEmojiCategory_Class hasVariantsForEmoji:key];
-            NSLog(@"%lu:%u:%@:'%@'",(unsigned long)emojiCountInCate,hasVariants, key, unicodeString);
+            //iOS7~iOS8.2 //+ (BOOL)hasVariantsForEmoji:(id)arg1;
+            //iOS8.3+     //+ (unsigned int)hasVariantsForEmoji:(id)arg1; or + (unsigned long long)hasVariantsForEmoji:(id)arg1;
+            unsigned long long hasVariants = (unsigned long long)[UIKeyboardEmojiCategory_Class hasVariantsForEmoji:key];
+            NSLog(@"%lu:%llu:%@:'%@'",(unsigned long)emojiCountInCate, hasVariants, key, unicodeString);
             
-            if (hasVariants == 0) {
-                //NSLog(@"没有变体");
-            }
-            else if (hasVariants == 1) {//☺⭐☀⛄...
-                //NSLog(@"有变体，有普通字体和emoji");//Diff from AppleColorEmoji font from other font
-            }
-            else if (hasVariants == 2) {//👍👦👧🏊🚵...
-                //NSLog(@"有变体，emoji的肤色");
-                hasSkined = YES;
-            }
-            else if (hasVariants == 3) {//✌☝
-                //NSLog(@"有变体，普通字体的肤色");
-                hasSkined = YES;
-            }
-            else if (hasVariants == 4) {//Changed to No Skin Tone. 👯‍♂️🏌️‍♀️
-                NSLog(@"Changed to No Skin Tone:[%@]", key);
-                hasSkined = NO;
-                [arraySkinedToNoSkin addObject:key];
-            }
-            else if (hasVariants == 6) {//Variant 6 (iOS10.0 PeopleEmoji and ActivityEmoji) 👱‍♀️👳‍♀️👮‍♀️... and 🚶‍♀️🏃‍♀️🏋️‍♀️...
-                hasSkined = YES;
-            }
-            else if (hasVariants == 10) {//Variant 10 (iOS10.2 ProfessionEmoji) 👩‍⚕️👨‍⚕️👩‍🌾👨‍🍳...
-                hasSkined = YES;
-            }
-            else {
-                NSLog(@"Other variants:[%@:%d]", key, hasVariants);
-                NSAssert(0, @"Other variants:[%@:%d]", key, hasVariants);
+            //iOS10.0 and later added PrivateFrameworks/EmojiFoundation.framework
+            //iOS10.2 and later added @property(readonly, copy, nonatomic) NSArray *_skinToneVariantStrings;
+            //🤝 should not have variants, but hasVariants == 6
+            //🤹‍♀️🤹‍♂️ should have variants, but hasVariants == 0
+            //check using class EMFEmojiToken
+            Class emojiTokenClass = NSClassFromString(@"EMFEmojiToken");
+            if (emojiTokenClass && [emojiTokenClass instancesRespondToSelector:@selector(_skinToneVariantStrings)]) {
+                EMFEmojiToken *emojiToken = [emojiTokenClass emojiTokenWithString:key localeData:nil];
+                if (emojiToken && emojiToken.supportsSkinToneVariants) {
+                    skinToneEmojis = [emojiToken._skinToneVariantStrings subarrayWithRange:NSMakeRange(1, 5)];
+                }
+                
+                if (hasVariants == 4) {//Changed to No Skin Tone. 👯‍♀️👯‍♂️🏌️‍♀️
+                    NSLog(@"Changed to No Skin Tone:[%@]", key);
+                    [arraySkinedToNoSkin addObject:key];
+                }
+                
+            } else {
+                if (hasVariants == 0) {
+                    //NSLog(@"没有变体");
+                }
+                else if (hasVariants == 1) {//☺⭐☀⛄...
+                    //NSLog(@"有变体，有普通字体和emoji");//Diff from AppleColorEmoji font from other font
+                }
+                else if (hasVariants == 2) {//👍👦👧🏊🚵...
+                    //NSLog(@"有变体，emoji的肤色");
+                    skinToneEmojis = [self skinedEmojisForBaseEmoji:key];
+                }
+                else if (hasVariants == 3) {//✌☝
+                    //NSLog(@"有变体，普通字体的肤色");
+                    skinToneEmojis = [self skinedEmojisForBaseEmoji:key];
+                }
+                else if (hasVariants == 4) {//Changed to No Skin Tone. 👯‍♀️👯‍♂️🏌️‍♀️
+                    NSLog(@"Changed to No Skin Tone:[%@]", key);
+                    [arraySkinedToNoSkin addObject:key];
+                }
+                else if (hasVariants == 6) {//Variant 6 (iOS10.0 PeopleEmoji and ActivityEmoji) 👱‍♀️👳‍♀️👮‍♀️... and 🚶‍♀️🏃‍♀️🏋️‍♀️...
+                    skinToneEmojis = [self skinedEmojisForBaseEmoji_6:key];
+                }
+                else if (hasVariants == 10) {//Variant 10 (iOS10.2 ProfessionEmoji) 👩‍⚕️👨‍⚕️👩‍🌾👨‍🍳...
+                    skinToneEmojis = [self skinedEmojisForBaseEmoji_6:key];
+                }
+                else {
+                    NSLog(@"Other variants:[%@:%llu]", key, hasVariants);
+                    NSAssert(0, @"Other variants:[%@:%llu]", key, hasVariants);
+                }
             }
             
             //skined
-            if (hasSkined) {
-                NSArray *skinToneEmojis = [self skinedEmojisForBaseEmoji:key];
-                if (6 == hasVariants || 10 == hasVariants) {
-                    skinToneEmojis = [self skinedEmojisForBaseEmoji_6:key];
-                }
+            if (skinToneEmojis.count) {
+                
                 [dictEmojiSkined setObject:skinToneEmojis forKey:key];
                 
                 for (NSString *skinedKey in skinToneEmojis) {
                     
                     [arrayAllEmojis addObject:skinedKey];
-                    [stringAllEmojis appendString:skinedKey];
                     
                     //uncode
                     NSString *unicodeString = [self getEmojiUnicodeString:skinedKey];
@@ -335,6 +399,7 @@
     [arrayAllEmojis writeToFile:pathEmojiAllArray atomically:YES];
     [arraySkinedToNoSkin writeToFile:pathSkinedToNoSkin atomically:YES];
     
+    NSString *stringAllEmojis = [arrayAllEmojis componentsJoinedByString:@","];
     [stringAllEmojis writeToFile:pathEmojiAllString atomically:YES encoding:NSUTF8StringEncoding error:NULL];
     
 }

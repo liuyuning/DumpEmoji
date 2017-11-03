@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6157F9051FA9B0E400F5D2D0 /* EmojiFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EmojiFoundation.framework; sourceTree = "<group>"; };
 		617DAA431BDE357500485C7A /* DumpEmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DumpEmoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		617DAA471BDE357500485C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		617DAA481BDE357500485C7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 			children = (
 				617DAA451BDE357500485C7A /* DumpEmoji */,
 				617DAA441BDE357500485C7A /* Products */,
+				61900CC81FAAFEC0005509E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +66,7 @@
 				617DAA4B1BDE357500485C7A /* AppDelegate.m */,
 				617DAA4D1BDE357500485C7A /* ViewController.h */,
 				617DAA4E1BDE357500485C7A /* ViewController.m */,
+				6157F9051FA9B0E400F5D2D0 /* EmojiFoundation.framework */,
 				617DAA6C1BDE36C100485C7A /* UIKeyboardEmoji.h */,
 				617DAA6D1BDE36C100485C7A /* UIKeyboardEmojiCategory.h */,
 				617DAA501BDE357600485C7A /* Main.storyboard */,
@@ -81,6 +84,13 @@
 				617DAA481BDE357500485C7A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61900CC81FAAFEC0005509E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/DumpEmoji";
 				INFOPLIST_FILE = DumpEmoji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/DumpEmoji";
 				INFOPLIST_FILE = DumpEmoji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
