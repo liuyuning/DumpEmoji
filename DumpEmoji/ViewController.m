@@ -120,7 +120,7 @@
 - (NSString *)getEmojiUnicodeStringUCS4:(NSString*)emoji{
     
     uint32_t uniBuff[64] = {0};
-    [emoji getCString:(char *)uniBuff maxLength:sizeof(uint32_t)*16 encoding:NSUTF32StringEncoding];
+    [emoji getCString:(char *)uniBuff maxLength:sizeof(uint32_t)*64 encoding:NSUTF32StringEncoding];
     
     NSMutableString *unicodeString = [NSMutableString string];
     int i = 0;
