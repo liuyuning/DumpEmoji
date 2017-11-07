@@ -17,7 +17,10 @@
 }
 
 + (id)emojiWithString:(id)arg1 withVariantMask:(unsigned int)arg2;
-@property unsigned int variantMask; // @synthesize variantMask=_variantMask;
+//iOS 8.0-8.2
+@property BOOL hasDingbat;
+//iOS 8.3 and later
+@property NSUInteger variantMask; // @synthesize variantMask=_variantMask;
 - (id)initWithString:(id)arg1 withVariantMask:(unsigned int)arg2;
 @property(retain, nonatomic) NSString *emojiString; // @synthesize emojiString=_emojiString;
 - (id)key;

@@ -221,7 +221,7 @@
 + (_Bool)emojiString:(id)arg1 inGroup:(id)arg2;
 + (id)enabledCategoryIndexes;
 + (id)fallbackDisplayName:(int)arg1;
-+ (unsigned int)hasVariantsForEmoji:(id)arg1;
++ (NSUInteger)hasVariantsForEmoji:(id)arg1;
 + (id)loadPrecomputedEmojiFlagCategory;
 + (id)localizedStringForKey:(id)arg1;
 + (int)numberOfCategories;
