@@ -1,10 +1,10 @@
 # DumpEmoji
 😀Dump Emoji from iOS😀 iOS8, iOS9, iOS10 and iOS11
 
-All Emoji Categories and Code. Also unicode hex string.
+All Emoji Categories and Characters. Also unicode hex string.
 
-* By Using Simulator save the file in User's root dir.
-* By Using iOS device save the file in documents dir, and using iTunes sharing doc to export.
+* The Emoji files in User's root dir when using a Simulator.
+* The Emoji files in documents dir when Using a iOS device, and you can export files by "iTunes sharing documemts".
 * Emoji of shake hands"🤝" should not display as skined, just like 👫.
 
 
@@ -21,7 +21,7 @@ Simulator: iOS 8.1, 8.2, 8.3, 8.4, 9.0, 9.1, 9.2, 9.3, 10.0, 10.1, 10.2, 10.3.1,
 
 
 
-Not all emoji character can display in browser, you can copy emoji text to TextEdit.app and select the font of "Apple Color Emoji".
+Not all emoji characters can display in browser, you can copy emoji text to TextEdit.app and select the font of "Apple Color Emoji".
 
 2357 Emojis on iOS 11.1
 
