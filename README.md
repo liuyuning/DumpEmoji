@@ -15,9 +15,9 @@ The Chinese description of Emoji charactors in dir Chinese-Emoji(Emoji的中文�
 
 ## Dumped Emoji files in dir Emojis/
 
-iPhone: iOS 9.0.2, 9.3, 10.2.1, 11.1
+iPhone: iOS 9.0.2, 9.3, 10.2.1, 11.1, 11.3, 12.0
 
-Simulator: iOS 8.1, 8.2, 8.3, 8.4, 9.0, 9.1, 9.2, 9.3, 10.0, 10.1, 10.2, 10.3.1, 11.0.1, 11.1, 11.2
+Simulator: iOS 8.1, 8.2, 8.3, 8.4, 9.0, 9.1, 9.2, 9.3, 10.0, 10.1, 10.2, 10.3.1, 11.0.1, 11.1, 11.2, 11.3, 11.4, 12.0
 
 ![DumpEmoji](ExportedEmojiFiles.png)
 
