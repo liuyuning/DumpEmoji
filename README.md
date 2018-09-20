@@ -1,5 +1,5 @@
 # DumpEmoji
-😀Dump Emoji from iOS😀 iOS8, iOS9, iOS10 and iOS11
+😀Dump Emoji from iOS😀 iOS8, iOS9, iOS10 iOS11 and iOS12
 
 All Emoji Categories and Characters. Also unicode hex string.
 
@@ -23,7 +23,7 @@ Simulator: iOS 8.1, 8.2, 8.3, 8.4, 9.0, 9.1, 9.2, 9.3, 10.0, 10.1, 10.2, 10.3.1,
 
 
 
-Not all emoji characters can display in browser, you can copy emoji text to TextEdit.app and select the font of "Apple Color Emoji".
+Not all emoji characters can display in Chrome, latest Safari works well, or you can copy emoji text to TextEdit.app and select the font of "Apple Color Emoji".
 
 
 **2357 Emojis on iOS 11.1 - 12.0**
